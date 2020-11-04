@@ -1,13 +1,7 @@
 ---
 cloud: document-cloud
-solution-title: Document Cloud Mobile
-solution-hub-url: https://helpx.adobe.com/support/document-cloud.html
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/acrobat/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/acrobat/tutorials.html
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/document-cloud-mobile.en
+git-repo: https://github.com/AdobeDocs/document-services.en
 index: yes
 ---
 
