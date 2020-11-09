@@ -23,7 +23,7 @@ Within the PDF Tools API, there are several available services to create and man
 * Linearize to optimize a PDF for quick viewing on the web
 * Organize PDF pages with insert, replace, reorder, delete, and rotate services
 
-Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. Here’s how:
+Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. Here’s how to start.
 
 ## Obtaining credentials and downloading sample files
 
