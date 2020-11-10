@@ -30,7 +30,7 @@ Developers can get started in just a few minutes with the ready to run sample fi
 
 The first step is to obtain a credential (API Key) to unlock use. [Sign up for the free trial here](https://www.adobe.com/go/dcsdks_credentials) and click on ‘Get Started’ to create your new credentials.
 
-!![API Key](../assets/apikey.png)
+![API Key](../assets/apikey.png)
 
 It’s important to choose a ‘Personal Account’ to sign up for the free trial:
 
