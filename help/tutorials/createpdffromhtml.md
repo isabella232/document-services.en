@@ -78,7 +78,7 @@ C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples>node src/createpdf/creat
 
 Example output:
 
-[Example Output](exampleoutput.png)
+[Example Output](../assets/exampleoutput.png)
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
