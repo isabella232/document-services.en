@@ -36,7 +36,7 @@ Find tutorials from novice to expert to help you expand your skills.
   </td>
   <td>
    <a href="gettingstartedjava.md">
-      <img alt="Getting Started with Adobe PDF Tools API and Java" src="../assets/GettingJava_hero.jpg" />
+      <img alt="Getting Started with Adobe PDF Tools API and Java" src="../assets/GettingStartedJava_hero.jpg" />
    </a>
     <div>
    <a href="gettingstartedjava.md"><strong>Getting Started with Adobe PDF Tools API and Java</strong></a>
@@ -48,7 +48,7 @@ Find tutorials from novice to expert to help you expand your skills.
 <tr>
  <td>
    <a href="gettingstartednet.md">
-      <img alt="Getting Started with Adobe PDF Tools API and .Net" src="../assets/GettingJava_hero.jpg" />
+      <img alt="Getting Started with Adobe PDF Tools API and .Net" src="../assets/GettingStartedJava_hero.jpg" />
    </a>
     <div>
    <a href="gettingstartednet.md"><strong>Getting Started with Adobe PDF Tools API and .Net</strong></a>
