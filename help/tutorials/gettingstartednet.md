@@ -15,7 +15,7 @@ Developers can get started in just a few minutes with the ready to run sample fi
 
 ## Step 1: Obtaining credentials and downloading sample files
 
-The first step is to obtain a credential (API Key) to unlock use. Sign up for the free trial here and click on ‘Get Started’ to create your new credentials.
+The first step is to obtain a credential (API Key) to unlock use. [Sign up for the free trial here](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and click on ‘Get Started’ to create your new credentials.
 
 ![Step 1](../assets/GettingStartedJava_step1.png)
 
@@ -35,24 +35,24 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 
 ## Step 2: Setup your .Net environment and Run the sample code
 
-1. Download and install the .Net SDK
-1. Extract the downloaded PDFToolsSDK-.NetSamples.zip and unzip the contents
-1. cd to the samples root directory adobe-DC.PDFTools.SDK.NET.Samples
-1. From the samples root directory, run dotnet build
+1. Download and install the [.Net SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
+1. Extract the downloaded **PDFToolsSDK-.NetSamples.zip** and unzip the contents
+1. cd to the samples root directory **adobe-DC.PDFTools.SDK.NET.Samples**
+1. From the samples root directory, run **dotnet build**
 
-C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>dotnet build
+    C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>dotnet build
 
-Now you’re ready to run the sample files!
+    Now you’re ready to run the sample files!
 
-These final steps show you how to run your first sample with Create PDF from Word operation:
+    These final steps show you how to run your first sample with Create PDF from Word operation:
 
 1. From the samples root directory change directory to CreatePDFFromDocx folder, cd CreatePDFFromDocx/
 
-C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>cd CreatePDFFromDocx/
+    C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>cd CreatePDFFromDocx/
 
-1. run dotnet run CreatePDFFromDocx.csproj
+1. run **dotnet run CreatePDFFromDocx.csproj**
 
-C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples\CreatePDFFromDocx>dotnet run CreatePDFFromDocx.csproj
+    C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples\CreatePDFFromDocx>dotnet run CreatePDFFromDocx.csproj
 
 Your PDF will be created in the location designated in the output, which by default is the same folder.
 
