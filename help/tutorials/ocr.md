@@ -27,7 +27,7 @@ Use the getting started tutorials below to create your API credentials, download
 
 ## Run the OCR example provided in the sample files
 
-Our OCR operation allows for English locale by default, but also provides support for German, French, Danish, and other languages. The default is en-us locale.
+Our OCR operation allows for English locale by default, but also provides support for German, French, Danish, and [other languages](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/options/ocr/OCRSupportedLocale.html). The default is en-us locale.
 
 When you pass in options with OCR operation including specific locale, the method also accepts the ‘type’ parameter which has two options:
 
@@ -41,11 +41,11 @@ When you pass in options with OCR operation including specific locale, the metho
 
 1. Change directories into your sample code directory
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
 
 1. Run the following command:
 
-mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF
+    mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF
 
 Your PDF will be created in the src/main/resources directory.
 
@@ -55,13 +55,13 @@ Your PDF will be created in the src/main/resources directory.
 
 1. Change directories into your sample code directory
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
 
 1. Change directories again into the OcrPDF directory
 
 1. Run the following command:
 
-dotnet run OcrPDF.csproj
+    dotnet run OcrPDF.csproj
 
 Your PDF will be created in the same directory.
 
@@ -71,11 +71,11 @@ Your PDF will be created in the same directory.
 
 1. Change directories into your sample code directory. 
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples
 
 1. Run the following command:
 
-node src/ocr/ocr-pdf.js
+    **node src/ocr/ocr-pdf.js**
 
 Your PDF will be created in the location designated in the output, which by default is the output directory.
 

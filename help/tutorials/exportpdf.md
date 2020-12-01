@@ -39,11 +39,11 @@ Use the getting started tutorials below to create your API credentials, download
 
 1. Change directories into your sample code directory
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
 
 1. Run the following command:
 
-mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToDOCX
+    mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToDOCX    
 
 Your PDF will be created in the src/main/resources directory.
 
@@ -53,13 +53,13 @@ Your PDF will be created in the src/main/resources directory.
 
 1. Change directories into your sample code directory
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
 
 1. Change directories again into the ExportPDFtoDocx directory
 
 1. Run the following command:
 
-dotnet run ExportPDFToDocx.csproj
+    dotnet run ExportPDFToDocx.csproj
 
 Your PDF will be created in the same directory.
 
@@ -69,11 +69,11 @@ Your PDF will be created in the same directory.
 
 1. Change directories into your sample code directory.
 
-E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples>
 
 1. Run the following command:
 
-node src/ocr/ocr-pdf.js
+    **node src/ocr/ocr-pdf.js**
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
