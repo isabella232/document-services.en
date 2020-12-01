@@ -35,7 +35,7 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 
 ## Step 2: Setup your .Net environment and Run the sample code
 
-1. Download and install the [].Net SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
+1. Download and install the [.Net SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 1. Extract the downloaded **PDFToolsSDK-.NetSamples.zip** and unzip the contents
 1. cd to the samples root directory **adobe-DC.PDFTools.SDK.NET.Samples**
 1. From the samples root directory, run **dotnet build**
