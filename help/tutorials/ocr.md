@@ -43,7 +43,7 @@ When you pass in options with OCR operation including specific locale, the metho
 
 E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
 
-1.	Run the following command:
+1. Run the following command:
 
 mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF
 
@@ -51,15 +51,15 @@ Your PDF will be created in the src/main/resources directory.
 
 ### .Net
 
-1.	Open a command prompt
+1. Open a command prompt
 
-1.	Change directories into your sample code directory
+1. Change directories into your sample code directory
 
 E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
 
-1.	Change directories again into the OcrPDF directory
+1. Change directories again into the OcrPDF directory
 
-1.	Run the following command:
+1. Run the following command:
 
 dotnet run OcrPDF.csproj
 
@@ -67,13 +67,13 @@ Your PDF will be created in the same directory.
 
 ### Node.js
 
-1.	Open a command prompt
+1. Open a command prompt
 
-1.	Change directories into your sample code directory. 
+1. Change directories into your sample code directory. 
 
 E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples
 
-1.	Run the following command:
+1. Run the following command:
 
 node src/ocr/ocr-pdf.js
 

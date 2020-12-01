@@ -71,5 +71,6 @@ PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
 
 ## Related articles:
+
 [New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 [July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
