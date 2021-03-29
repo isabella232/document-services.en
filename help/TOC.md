@@ -2,7 +2,7 @@
 user-guide-title: Adobe Document Services
 breadcrumb-title: Document Services
 user-guide-description: Learn more about Adobe Document Services.
-solution: Experience Platform,Document Services
+solution: Experience Platform, Document Services
 ---
 
 # Adobe Document Services {#document-services}
