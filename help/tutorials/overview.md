@@ -14,7 +14,7 @@ Find tutorials from novice to expert to help you expand your skills.
 
 ## Browse Topics
 
-<table>
+<table style="table-layout:fixed">
 <tr>
  <td>
    <a href="createpdffromhtml.md">
