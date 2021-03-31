@@ -3,7 +3,7 @@ title: Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More
 description: Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs
 feature: tutorial
 topics: Export PDF
-audience: Developer
+role: Developer
 skill: Beginner
 ---
 

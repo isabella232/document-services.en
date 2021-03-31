@@ -3,8 +3,9 @@ title: Getting Started with Adobe PDF Tools API and .Net
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services.
 feature: tutorial
 topics: .Net
-audience: Developer
+role: Developer
 skill: Beginner
+tag: Featured
 ---
 
 # Getting Started with Adobe PDF Tools API and .Net
