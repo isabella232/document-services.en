@@ -3,7 +3,7 @@ title: Getting Started with Adobe PDF Tools API and Java
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
 feature: tutorial
 topics: Java
-audience: Developer
+role: Developer
 skill: Beginner
 ---
 

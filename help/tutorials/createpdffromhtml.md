@@ -3,7 +3,7 @@ title: Create a PDF from HTML or MS Office in a few minutes with PDF Tools API a
 description: Within the PDF Tools API, there are several available services to create and manipulate PDFs, or export from PDF to MS Office and other formats.
 feature: tutorial
 topics: Export PDF
-audience: Developer
+role: Developer
 skill: Beginner
 ---
 
