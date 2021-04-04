@@ -5,8 +5,8 @@ feature: tutorial
 topics: Java
 role: Developer
 skill: Beginner
+exl-id: 5c6301ae-469a-480b-b49d-3c2dcae41bfa
 ---
-
 # Getting Started with Adobe PDF Tools API and Java
 
 ![Create PDF Hero Image](../assets/GettingStartedJava_hero.jpg)

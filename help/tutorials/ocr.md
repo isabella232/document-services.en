@@ -6,8 +6,8 @@ topics: OCR PDF
 role: Developer
 skill: Beginner
 tag: Hero
+exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
 ---
-
 # Using Adobe PDF Tools API to OCR PDF Files
 
 ![Create PDF Hero Image](../assets/OCR_hero.jpg)

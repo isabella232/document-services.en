@@ -6,8 +6,8 @@ topics: .Net
 role: Developer
 skill: Beginner
 tag: Featured
+exl-id: 866b9eb5-66c2-423f-b912-af48f905f5c9
 ---
-
 # Getting Started with Adobe PDF Tools API and .Net
 
 ![Create PDF Hero Image](../assets/GettingStartedJava_hero.jpg)
