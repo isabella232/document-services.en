@@ -5,7 +5,7 @@ feature: tutorial
 topics: Export PDF
 role: Developer
 skill: Beginner
-exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
+exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8,f16f6964-23f4-4205-b4e9-c724551ca529
 ---
 # Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More
 

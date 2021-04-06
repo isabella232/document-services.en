@@ -6,6 +6,7 @@ topics: Adobe Document Generation Tagger
 role: Developer
 skill: Beginner
 thumbnail: 332115.jpg
+exl-id: 1e03fc0e-aca6-45e5-98f8-314d67e8d4ab
 ---
 # Adding tables and list tags with the Adobe Document Generation Tagger
 

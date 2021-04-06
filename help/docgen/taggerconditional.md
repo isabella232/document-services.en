@@ -6,6 +6,7 @@ topics: Adobe Document Generation Tagger
 role: Developer
 skill: Beginner
 thumbnail: 332117.jpg
+exl-id: 8004ce57-d0a8-4663-95d5-aab1c2f44e3b
 ---
 # Setting conditional content with the Adobe Document Generation Tagger
 

@@ -6,7 +6,7 @@ topics: OCR PDF
 role: Developer
 skill: Beginner
 tag: Hero
-exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
+exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245,e971e8cf-fe71-42c7-89ea-079bef7a7fba
 ---
 # Using Adobe PDF Tools API to OCR PDF Files
 

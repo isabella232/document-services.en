@@ -6,7 +6,7 @@ topics: .Net
 role: Developer
 skill: Beginner
 tag: Featured
-exl-id: 866b9eb5-66c2-423f-b912-af48f905f5c9
+exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a,866b9eb5-66c2-423f-b912-af48f905f5c9
 ---
 # Getting Started with Adobe PDF Tools API and .Net
 

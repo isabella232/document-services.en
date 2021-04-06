@@ -6,6 +6,7 @@ topics: Adobe Document Generation Tagger
 role: Developer
 skill: Beginner
 thumbnail: 332114.jpg
+exl-id: 65c5088e-bcc5-485d-9811-221daaec1cd5
 ---
 # Adding image tags with the Adobe Document Generation Tagger
 
