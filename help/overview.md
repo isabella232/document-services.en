@@ -63,7 +63,7 @@ Adobe Document Services offers three APIs: the Adobe PDF Tools API , the A
       <img alt="Using Adobe PDF Tools API to OCR PDF Files" src="assets/OCR_hero.jpg" />
    </a>
     <div>
-   <a href="ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF Files</strong></a>
+   <a href="pdfservices/ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF Files</strong></a>
     </div>
     <em>With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files</em>
     <br>
@@ -137,7 +137,7 @@ Adobe Document Services offers three APIs: the Adobe PDF Tools API , the A
       <img alt="Setting conditional content with the Adobe Document Generation Tagger" src="assets/Taggerconditional.jpg" />
    </a>
     <div>
-   <a href="docgentaggerconditional.md"><strong>Setting conditional content with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggerconditional.md"><strong>Setting conditional content with the Adobe Document Generation Tagger</strong></a>
     </div>
     <em>In this video, you will learn how to set sections in Microsoft Word templates using Adobe Document Generation Tagger to dynamically include or exclude sections of a document based on data using Adobe Document Generation API</em>
     <br>
