@@ -11,7 +11,7 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1,e3862c3b-8bb5-4f95-93f0-dd3d4e9e0af
 
 ![Document Services Banner](assets/DS_Hero.jpg)
 
-Adobe Document Services offers three APIs: the Adobe PDF Tools API , the Adobe PDF Embed API and the Adobe Document Generation API. Whether you’re developing a web app or web site, these APIs automate the generation, manipulation, and transformation of PDF content via a set of modern cloud-based web services. These tutorials can help you get up-to-speed on how to deliver simpler, faster, branded experiences with the Adobe Document Services APIs.
+Adobe Document Services offers three APIs: the Adobe PDF Tools API , the Adobe PDF Embed API and the Adobe Document Generation API. Whether you’re developing a web app or web site, these APIs automate the generation, manipulation, and transformation of PDF content via a set of modern cloud-based web services. These tutorials can help you get up-to-speed delivering simpler, faster, branded experiences with the Adobe Document Services APIs.
 
 ## PDF Services API
 
