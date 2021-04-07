@@ -8,6 +8,7 @@ skill: Beginner
 thumbnail: KT-6676.jpg
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bfa
 ---
+
 # Getting Started with Adobe PDF Tools API and Java
 
 ![Create PDF Hero Image](../assets/GettingStartedJava_hero.jpg)
