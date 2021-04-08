@@ -283,7 +283,7 @@ The last bit of code you need is a function that displays the document once the 
 
 [Adobe PDF Embed API demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) enables you to preview the various other options for embedding PDF documents.
 
-![Image of embedding PDF options ](assests/AWNjs_7.png)
+![Image of embedding PDF options ](assets/AWNjs_7.png)
 
 You can turn various options on and off and immediately see how they render. When you find a combination you like, click the *\</\> Generate Code* button to generate the actual HTML code using those options.
 
