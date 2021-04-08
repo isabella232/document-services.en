@@ -1,8 +1,7 @@
 ---
 title: Getting Started with Adobe PDF Tools API and Java
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
-feature: tutorial
-topics: Java
+type: tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6676.jpg
@@ -11,7 +10,7 @@ exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bf
 
 # Getting Started with Adobe PDF Tools API and Java
 
-![Create PDF Hero Image](../assets/GettingStartedJava_hero.jpg)
+![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
 Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial will walk you through all the steps to start running the samples using the PDF Tools Java SDK:
 
@@ -19,11 +18,11 @@ Developers can get started in just a few minutes with the ready to run sample fi
 
 The first step is to obtain a credential (API Key) to unlock use. [Sign up for the free trial here](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and click on ‘Get Started’ to create your new credentials.
 
-![Step 1](../assets/GettingStartedJava_step1.png)
+![Step 1](assets/GettingStartedJava_step1.png)
 
 It’s important to choose a ‘Personal Account’ to sign up for the free trial:
 
-![Personal](../assets/GettingStartedJava_personal.png)
+![Personal](assets/GettingStartedJava_personal.png)
 
 In the next step you’ll choose the PDF Tools API Service, then add a name and description for your credentials.
 
@@ -31,7 +30,7 @@ There is a checkbox to ‘Create personalized code sample’. Choose this option
 
 Next, choose Java as your language to receive the Java specific samples then click on the ‘Create Credentials’ button.
 
-![Credentials](../assets/GettingStartedJava_credentials.png)
+![Credentials](assets/GettingStartedJava_credentials.png)
 
 You’ll receive a .zip file to download called PDFToolsSDK-JavaSamples.zip which can be saved to your local file system. 
 

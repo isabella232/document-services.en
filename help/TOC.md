@@ -21,3 +21,5 @@ solution: Document Cloud, Document Services
   + [Adding tables and list tags with the Adobe Document Generation Tagger](docgen/taggertables.md)
   + [Setting numerical calculation tags with the Adobe Document Generation Tagger](docgen/taggercalculations.md)
   + [Setting conditional content with the Adobe Document Generation Tagger](docgen/taggerconditional.md)
++ Use Cases {#usecases}
+  + [Agreement Workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
