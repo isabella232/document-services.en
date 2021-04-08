@@ -17,9 +17,7 @@ We previously stepped through a high-level example of the [APIs](https://www.ado
 
 To get started, set up credentials to use Adobe Document Services. We can register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify our credentials work before integrating the functionality into a larger application.
 
-First, you'll need an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)
-page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be
-used over 6 months.
+First, you'll need an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over 6 months.
 
 ![Image of Create New Credentials](assets/AWNjs_1.png)
 
@@ -31,8 +29,7 @@ Enter a name for the application and check the box labeled *Create personalized 
 
 Select *Node.js* for the application type and click *Create Credentials*.
 
-A few moments later, a .zip file will begin to download with a sample project including your credentials. The Node.js package for document services is already
-included as part of the sample project code.
+A few moments later, a .zip file will begin to download with a sample project including your credentials. The Node.js package for document services is already included as part of the sample project code.
 
 ![Image of Selecting PDF Tools API Credentials](assets/AWNjs_2.png)
 
@@ -66,8 +63,7 @@ npm install --save @adobe/documentservices-pdftools-node-sdk
 
 ## Setting up Logging
 
-The samples here use Express for the application framework. They also use log4js for application logging. With log4js, you can easily direct logging to the
-console or out to a file:
+The samples here use Express for the application framework. They also use log4js for application logging. With log4js, you can easily direct logging to the console or out to a file:
 
 ```
 const log4js = require('log4js');
