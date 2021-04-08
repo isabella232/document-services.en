@@ -279,7 +279,7 @@ The last bit of code you need is a function that displays the document once the 
 
 ![Image of API Client Key](assets/AWNjs_6.png)
 
-##  Other PDF Options
+## Other PDF Options
 
 [Adobe PDF Embed API demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) enables you to preview the various other options for embedding PDF documents.
 
