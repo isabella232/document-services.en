@@ -1,8 +1,7 @@
 ---
 title: Create a PDF from HTML or MS Office in a few minutes with PDF Tools API and Node.js
 description: Within the PDF Tools API, there are several available services to create and manipulate PDFs, or export from PDF to MS Office and other formats.
-feature: tutorial
-topics: Export PDF
+type: tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6673.jpg
@@ -11,7 +10,7 @@ exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51,c2942b2f-5cde-485a-b3b7-ab83000165f
 
 # Create a PDF from HTML or MS Office in a few minutes with PDF Tools API and Node.js
 
-![Create PDF Hero Image](../assets/createpdffromhtml_hero.jpg)
+![Create PDF Hero Image](assets/createpdffromhtml_hero.jpg)
 
 Digitizing document workflows has never been easier with the new Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows. Complicated architectures, implementation strategies, and technology ramp up can be streamlined with these readily available cloud-based web services.
 
@@ -32,11 +31,11 @@ Developers can get started in just a few minutes with the ready to run sample fi
 
 The first step is to obtain a credential (API Key) to unlock use. [Sign up for the free trial here](https://www.adobe.com/go/dcsdks_credentials) and click on ‘Get Started’ to create your new credentials.
 
-![API Key](../assets/apikey.png)
+![API Key](assets/apikey.png)
 
 It’s important to choose a ‘Personal Account’ to sign up for the free trial:
 
-![Personal Account](../assets/personalaccount.png)
+![Personal Account](assets/personalaccount.png)
 
 In the next step you’ll choose the PDF Tools API Service, then add a name and description for your credentials.
 
@@ -44,7 +43,7 @@ There is a checkbox to ‘Create personalized code sample’. Choose this option
 
 Next, choose Node.js as your language to receive the Node.js specific samples and click on the ‘Create Credentials’ button.
 
-![Create Credentials](../assets/createcredentials.png)
+![Create Credentials](assets/createcredentials.png)
 
 You’ll receive a .zip file to download called PDFToolsSDK-Node.jsSamples.zip which can be saved to your local file system. 
 
@@ -54,7 +53,7 @@ If you chose the option for ‘Create personalized code sample’ then you do no
 
 If you did not choose the option for ‘Create personalized code sample’, then you will need to copy the client ID (API Key) from the Adobe.io Console:
 
-![Code Sample](../assets/codesample.png)
+![Code Sample](assets/codesample.png)
 
 Unzip the contents of PDFToolsSDK-Node.jsSamples.zip.
 
@@ -90,7 +89,7 @@ C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples>node src/createpdf/creat
 
 Example output:
 
-![Example Output](../assets/exampleoutput.png)
+![Example Output](assets/exampleoutput.png)
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
