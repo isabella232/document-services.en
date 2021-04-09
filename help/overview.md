@@ -3,8 +3,9 @@ title: Adobe Document Services Tutorials
 description: Overview page for Adobe Document Services
 type: tutorial
 role: Developer
-skill: Beginner, Intermediate
+skill: Beginner, Intermediate, Advanced
 thumbnail: KT-7463.jpg
+kt: 7463.jpg
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1,e3862c3b-8bb5-4f95-93f0-dd3d4e9e0afa
 ---
 

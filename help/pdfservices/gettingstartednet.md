@@ -5,6 +5,7 @@ type: tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6675.jpg
+kt: 6675.jpg
 keyword: Featured
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a,866b9eb5-66c2-423f-b912-af48f905f5c9
 ---
