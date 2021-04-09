@@ -16,7 +16,7 @@ solution: Document Cloud, Document Services
   + [Using Adobe PDF Tools API to OCR PDF files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
   + [Overview](docgen/overview-docgen.md)
-  + Creating Templates {#docgentemplates}
+  + Creating templates {#docgentemplates}
     + [Overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
     + [Adding text tags](docgen/taggeraddtexttags.md)
     + [Adding image tags](docgen/taggeraddimagetags.md)
