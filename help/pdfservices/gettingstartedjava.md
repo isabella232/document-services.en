@@ -5,7 +5,7 @@ type: tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6676.jpg
-kt: 6676.jpg
+kt: 6676
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bfa
 ---
 

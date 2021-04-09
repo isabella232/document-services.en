@@ -5,7 +5,7 @@ type: tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6677.jpg
-kt: 6677.jpg
+kt: 6677
 keyword: Hero
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245,e971e8cf-fe71-42c7-89ea-079bef7a7fba
 ---
