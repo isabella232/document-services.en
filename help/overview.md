@@ -9,7 +9,7 @@ kt: 7463.jpg
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1,e3862c3b-8bb5-4f95-93f0-dd3d4e9e0afa
 ---
 
-# Adobe Document Services Tutorials
+# Adobe Document Services tutorials
 
 ![Document Services Banner](assets/DS_Hero.jpg)
 
