@@ -19,31 +19,31 @@ Document Generation API accepts a document template (with template tags) along w
 <table style="table-layout:fixed">
 <tr>
  <td>
-   <a href="docgen/taggeroverview.md">
+   <a href="taggeroverview.md">
       <img alt="Overview of the Adobe Document Generation Tagger" src="assets/Taggeroverview_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggeroverview.md"><strong>Overview of the Adobe Document Generation Tagger</strong></a>
+   <a href="taggeroverview.md"><strong>Overview of the Adobe Document Generation Tagger</strong></a>
     </div>
     <em>Get an overview of the Adobe Document Generation Tagger that's designed for use with the Adobe Document Generation API</em>
     <br>
   </td>
   <td>
-   <a href="docgen/taggeraddtexttags.md">
+   <a href="taggeraddtexttags.md">
       <img alt="Adding text tags" src="assets/Taggertexttags_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggeraddtexttags.md"><strong>Adding text tags</strong></a>
+   <a href="taggeraddtexttags.md"><strong>Adding text tags</strong></a>
     </div>
     <em>Learn how to add text tags to Microsoft Word templates using Adobe Document Generation Tagger for use with Adobe Document Generation API</em>
     <br>
   </td>
   <td>
-   <a href="docgen/taggeraddimagetags.md">
+   <a href="taggeraddimagetags.md">
       <img alt="Adding image tags" src="assets/Taggerimagetags_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggeraddimagetags.md"><strong>Adding image tags</strong></a>
+   <a href="taggeraddimagetags.md"><strong>Adding image tags</strong></a>
     </div>
     <em>Learn how to add image tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically push images into documents using Adobe Document Generation API</em>
     <br>
@@ -51,31 +51,31 @@ Document Generation API accepts a document template (with template tags) along w
 </tr>
 <tr>
  <td>
-   <a href="docgen/taggertables.md">
+   <a href="taggertables.md">
       <img alt="Adding tables and list tags" src="assets/Taggertables_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggertables.md"><strong>Adding tables and list tags</strong></a>
+   <a href="taggertables.md"><strong>Adding tables and list tags</strong></a>
     </div>
     <em>Learn how to add tables and list tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically add table or list rows based on data using Adobe Document Generation API</em>
     <br>
   </td>
   <td>
-   <a href="docgen/taggercalculations.md">
+   <a href="taggercalculations.md">
       <img alt="Setting numerical calculation tags" src="assets/Taggercalculations_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggercalculations.md"><strong>Setting numerical calculation tags</strong></a>
+   <a href="taggercalculations.md"><strong>Setting numerical calculation tags</strong></a>
     </div>
     <em>Learn how to set numerical calculation tags in Microsoft Word templates using Adobe Document Generation Tagger to calculate aggregations or arithmetic of data values using Adobe Document Generation API</em>
     <br>
   </td>
   <td>
-   <a href="docgen/taggerconditional.md">
+   <a href="taggerconditional.md">
       <img alt="Setting conditional content" src="assets/Taggerconditional_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggerconditional.md"><strong>Setting conditional content</strong></a>
+   <a href="taggerconditional.md"><strong>Setting conditional content</strong></a>
     </div>
     <em>Learn how to set sections in Microsoft Word templates using Adobe Document Generation Tagger to dynamically include or exclude sections of a document based on data using Adobe Document Generation API</em>
     <br>
