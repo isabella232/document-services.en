@@ -31,20 +31,20 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="pdfservices/exportpdf.md">
-      <img alt="Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More" src="assets/PDFServices_ExportPDF_thumb.jpg" />
+      <img alt="Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more" src="assets/PDFServices_ExportPDF_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/exportpdf.md"><strong>Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More</strong></a>
+   <a href="pdfservices/exportpdf.md"><strong>Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more</strong></a>
     </div>
     <em>Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs</em>
     <br>
   </td>
   <td>
    <a href="pdfservices/gettingstartedjava.md">
-      <img alt="Getting Started with Adobe PDF Tools API and Java" src="assets/PDFServices_GettingStartedJAVA_thumb.jpg" />
+      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFServices_GettingStartedJAVA_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/gettingstartedjava.md"><strong>Getting Started with Adobe PDF Tools API and Java</strong></a>
+   <a href="pdfservices/gettingstartedjava.md"><strong>Getting started with Adobe PDF Tools API and Java</strong></a>
     </div>
     <em>Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services</em>
     <br>
@@ -53,20 +53,20 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="pdfservices/gettingstartednet.md">
-      <img alt="Getting Started with Adobe PDF Tools API and .Net" src="assets/PDFServices_GettingStartedNET_thumb.jpg" />
+      <img alt="Getting started with Adobe PDF Tools API and .Net" src="assets/PDFServices_GettingStartedNET_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/gettingstartednet.md"><strong>Getting Started with Adobe PDF Tools API and .Net</strong></a>
+   <a href="pdfservices/gettingstartednet.md"><strong>Getting started with Adobe PDF Tools API and .Net</strong></a>
     </div>
     <em>Digitizing document workflows has never been easier with the new Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows</em>
     <br>
   </td>
   <td>
    <a href="pdfservices/ocr.md">
-      <img alt="Using Adobe PDF Tools API to OCR PDF Files" src="assets/PDFServices_OCR_Thumb.jpg" />
+      <img alt="Using Adobe PDF Tools API to OCR PDF files" src="assets/PDFServices_OCR_Thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF Files</strong></a>
+   <a href="pdfservices/ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF files</strong></a>
     </div>
     <em>With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files</em>
     <br>
@@ -95,20 +95,20 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="docgen/taggeraddtexttags.md">
-      <img alt="Adding text tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggertexttags_thumb.jpg" />
+      <img alt="Adding text tags" src="docgen/assets/Taggertexttags_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggeraddtexttags.md"><strong>Adding text tags with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggeraddtexttags.md"><strong>Adding text tags</strong></a>
     </div>
     <em>Learn how to add text tags to Microsoft Word templates using Adobe Document Generation Tagger for use with Adobe Document Generation API</em>
     <br>
   </td>
   <td>
    <a href="docgen/taggeraddimagetags.md">
-      <img alt="Adding image tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggerimagetags_thumb.jpg" />
+      <img alt="Adding image tags" src="docgen/assets/Taggerimagetags_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggeraddimagetags.md"><strong>Adding image tags with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggeraddimagetags.md"><strong>Adding image tags</strong></a>
     </div>
     <em>Learn how to add image tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically push images into documents using Adobe Document Generation API</em>
     <br>
@@ -117,30 +117,30 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="docgen/taggertables.md">
-      <img alt="Adding tables and list tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggertables_thumb.jpg" />
+      <img alt="Adding tables and list tags" src="docgen/assets/Taggertables_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggertables.md"><strong>Adding tables and list tags with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggertables.md"><strong>Adding tables and list tags</strong></a>
     </div>
     <em>Learn how to add tables and list tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically add table or list rows based on data using Adobe Document Generation API</em>
     <br>
   </td>
   <td>
    <a href="docgen/taggercalculations.md">
-      <img alt="Setting numerical calculation tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggercalculations_thumb.jpg" />
+      <img alt="Setting numerical calculation tags" src="docgen/assets/Taggercalculations_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggercalculations.md"><strong>Setting numerical calculation tags with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggercalculations.md"><strong>Setting numerical calculation tags</strong></a>
     </div>
     <em>Learn how to set numerical calculation tags in Microsoft Word templates using Adobe Document Generation Tagger to calculate aggregations or arithmetic of data values using Adobe Document Generation API</em>
     <br>
   </td>
   <td>
    <a href="docgen/taggerconditional.md">
-      <img alt="Setting conditional content with the Adobe Document Generation Tagger" src="docgen/assets/Taggerconditional_thumb.jpg" />
+      <img alt="Setting conditional content" src="docgen/assets/Taggerconditional_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/taggerconditional.md"><strong>Setting conditional content with the Adobe Document Generation Tagger</strong></a>
+   <a href="docgen/taggerconditional.md"><strong>Setting conditional content</strong></a>
     </div>
     <em>Learn how to set sections in Microsoft Word templates using Adobe Document Generation Tagger to dynamically include or exclude sections of a document based on data using Adobe Document Generation API</em>
     <br>
@@ -154,10 +154,10 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="usecases/AgreementWorkflowsNodejs.md">
-      <img alt="Agreement Workflows with Adobe Document Services APIs in Node.js" src="assets/AWNjs_thumb.png" />
+      <img alt="Agreement workflows with Adobe Document Services APIs in Node.js" src="assets/AWNjs_thumb.png" />
    </a>
     <div>
-   <a href="usecases/AgreementWorkflowsNodejs.md"><strong>Agreement Workflows with Adobe Document Services APIs in Node.js</strong></a>
+   <a href="usecases/AgreementWorkflowsNodejs.md"><strong>Agreement workflows with Adobe Document Services APIs in Node.js</strong></a>
     </div>
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your web applications</em>
     <br>
