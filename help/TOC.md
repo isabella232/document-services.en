@@ -15,7 +15,7 @@ solution: Document Cloud, Document Services
   + [Getting Started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
   + [Using Adobe PDF Tools API to OCR PDF Files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
-  + [Overview](overview-docgen.md)
+  + [Overview](docgen/overview-docgen.md)
   + Creating Templates {#docgentemplates}
     + [Overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
     + [Adding text tags](docgen/taggeraddtexttags.md)
