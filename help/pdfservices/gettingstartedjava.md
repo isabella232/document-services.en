@@ -9,7 +9,7 @@ kt: 6676.jpg
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bfa
 ---
 
-# Getting Started with Adobe PDF Tools API and Java
+# Getting started with Adobe PDF Tools API and Java
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
@@ -48,11 +48,11 @@ The personalized samples provide everything from ready-to-run sample code, an em
 1. Build the sample project with Maven: mvn clean install.
 1. Test the sample code on the command line or in your preferred IDE.
 
-## Final Thoughts:
+## Final thoughts:
 
 The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
 
-## Resources and Next Steps
+## Resources and next steps
 
 For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
