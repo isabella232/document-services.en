@@ -8,7 +8,7 @@ thumbnail: KT-7473.jpg
 kt: 7473.jpg
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 ---
-# Agreement Workflows with Adobe Document Services APIs in Node.js
+# Agreement workflows with Adobe Document Services APIs in Node.js
 
 Many business applications and processes require documentation like proposals and agreements. PDF documents ensure files are more secure and less modifiable. They also provide digital signature support so your clients can quickly and easily complete their documents. Adobe Document Services APIs easily incorporate PDF capabilities into your web applications.
 
@@ -34,7 +34,7 @@ A few moments later, a .zip file will begin to download with a sample project in
 
 ![Image of Selecting PDF Tools API Credentials](assets/AWNjs_2.png)
 
-## Configuring the Sample Project Manually
+## Configuring the sample project manually
 
 If you choose to not download a sample project from the Create New Credentials page, you can also set up the project manually.
 
@@ -62,7 +62,7 @@ You must also install the Node.js package for document services. To install the 
 npm install --save @adobe/documentservices-pdftools-node-sdk
 ```
 
-## Setting up Logging
+## Setting up logging
 
 The samples here use Express for the application framework. They also use log4js for application logging. With log4js, you can easily direct logging to the console or out to a file:
 
@@ -80,7 +80,7 @@ logger.info('Application started')
 
 The above code writes logged data to a file in ./logs/applicationlog.txt. If we want it to write to the console instead, we can comment out the call to log4js.configure.
 
-## Converting Word Files to PDF
+## Converting Word files to PDF
 
 Agreements and proposals are often written in a productivity application, like Microsoft Word. We can add functionality for your application to accept documents in this format and convert the document to PDF. Let’s look at how to upload and save a document in an Express application and save it to the file system.
 
@@ -187,7 +187,7 @@ logger.info('converting to ${destinationName}')
   convertDocumentToPDF(uploadPath, destinationName);
 ```
 
-## Converting Other File Types to PDF
+## Converting other file types to PDF
 
 The document toolkit converts other formats to PDF, such as static HTML, another common document type. The toolkit accepts HTML documents packaged as a .zip file with all resources referenced by the document (CSS files, images, and other files) in the same .zip file. The HTML document itself must be named index.html and placed in the root of the .zip file.
 
@@ -238,7 +238,7 @@ After processing the HTML file, we have the same text in PDF format:
 
 ![PDF file of Computer Terms](assets/AWNjs_5.png)
 
-## Appending Pages
+## Appending pages
 
 Another common operation with PDF files is appending pages to the end that may have standard text, such as a list of terms. The document toolkit can combine several PDF documents into a single document. If we have a list of document paths (here in `sourceFileList`), we can add each file’s file references to an object for a combine operation.
 
@@ -262,7 +262,7 @@ combineOperation.execute(executionContext)
 });	
 ```
 
-## Displaying PDF Documents
+## Displaying PDF documents
 
 We’ve performed several operations on PDF files, but ultimately, your user needs to view the documents. You can easily embed the document into a webpage using Adobe’s PDF Embed API.
 
@@ -276,7 +276,7 @@ The last bit of code you need is a function that displays the document once the 
 
 ![Image of API Client Key](assets/AWNjs_6.png)
 
-## Other PDF Options
+## Other PDF options
 
 [Adobe PDF Embed API demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) enables you to preview the various other options for embedding PDF documents.
 
@@ -286,7 +286,7 @@ You can turn various options on and off and immediately see how they render. Whe
 
 ![Image of Code Preview](assets/AWNjs_8.png)
 
-## Adding Digital Signatures and Security
+## Adding digital signatures and security
 
 Once a document is ready, you can add in digital signatures for approval using Adobe Sign. This functionality works a bit differently than the functionality we have used thus far. For digital signatures, an application must be configured to use OAuth for user authentication.
 
@@ -491,7 +491,7 @@ request(createWebFormRequest, function (error, response) {
 
 You can now embed or link to your document.
 
-## Next Steps
+## Next steps
 
 As you can see from the quick starts and the provided code, it is easy to implement PDF and digital document approval processes using Node with the Adobe Document Services APIs. Adobe’s APIs integrate into your existing client applications seamlessly.
 
