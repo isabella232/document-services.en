@@ -8,7 +8,7 @@ thumbnail: KT-7480.jpg
 kt: 7480
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
 ---
-# Document Generation API Tutorials
+# Document Generation API tutorials
 
 ![Document Generation API Banner](../assets/DocGen_hero.png)
 
