@@ -10,7 +10,7 @@ keyword: Hero
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245,e971e8cf-fe71-42c7-89ea-079bef7a7fba
 ---
 
-# Using Adobe PDF Tools API to OCR PDF Files
+# Using Adobe PDF Tools API to OCR PDF files
 
 ![Create PDF Hero Image](assets/OCR_hero.jpg)
 
@@ -82,7 +82,7 @@ Your PDF will be created in the same directory.
 
 Your PDF will be created in the location designated in the output, which by default is the output directory.
 
-## Final Thoughts:
+## Final thoughts:
 
 With these simple steps using the sample files, you should have a working example that you can build on. In addition to the OCR example that we used in this tutorial, there is another example to OCR using the supported type and locale options discussed earlier. 
 
@@ -90,7 +90,7 @@ From here you can simply replace your input and output files located in the samp
 
 ![Proof of Concept](assets/OCR_poc.png)
 
-## Resources and Next Steps
+## Resources and next steps
 
 For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
