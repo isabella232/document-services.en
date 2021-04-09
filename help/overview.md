@@ -85,7 +85,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="docgen/taggeroverview.md">
-      <img alt="Brief overview of the Adobe Document Generation Tagger" src="assets/Taggeroverview_thumb.jpg" />
+      <img alt="Brief overview of the Adobe Document Generation Tagger" src="docgen/assets/Taggeroverview_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggeroverview.md"><strong>Brief overview of the Adobe Document Generation Tagger</strong></a>
@@ -95,7 +95,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="docgen/taggeraddtexttags.md">
-      <img alt="Adding text tags with the Adobe Document Generation Tagger" src="assets/Taggertexttags_thumb.jpg" />
+      <img alt="Adding text tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggertexttags_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggeraddtexttags.md"><strong>Adding text tags with the Adobe Document Generation Tagger</strong></a>
@@ -105,7 +105,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="docgen/taggeraddimagetags.md">
-      <img alt="Adding image tags with the Adobe Document Generation Tagger" src="assets/Taggerimagetags_thumb.jpg" />
+      <img alt="Adding image tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggerimagetags_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggeraddimagetags.md"><strong>Adding image tags with the Adobe Document Generation Tagger</strong></a>
@@ -117,7 +117,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="docgen/taggertables.md">
-      <img alt="Adding tables and list tags with the Adobe Document Generation Tagger" src="assets/Taggertables_thumb.jpg" />
+      <img alt="Adding tables and list tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggertables_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggertables.md"><strong>Adding tables and list tags with the Adobe Document Generation Tagger</strong></a>
@@ -127,7 +127,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="docgen/taggercalculations.md">
-      <img alt="Setting numerical calculation tags with the Adobe Document Generation Tagger" src="assets/Taggercalculations_thumb.jpg" />
+      <img alt="Setting numerical calculation tags with the Adobe Document Generation Tagger" src="docgen/assets/Taggercalculations_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggercalculations.md"><strong>Setting numerical calculation tags with the Adobe Document Generation Tagger</strong></a>
@@ -137,7 +137,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
   </td>
   <td>
    <a href="docgen/taggerconditional.md">
-      <img alt="Setting conditional content with the Adobe Document Generation Tagger" src="assets/Taggerconditional_thumb.jpg" />
+      <img alt="Setting conditional content with the Adobe Document Generation Tagger" src="docgen/assets/Taggerconditional_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggerconditional.md"><strong>Setting conditional content with the Adobe Document Generation Tagger</strong></a>
