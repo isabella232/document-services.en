@@ -10,7 +10,7 @@ solution: Document Cloud, Document Services
 + [Overview](overview.md)
 + PDF Services API {#pdfservices}
   + [Create PDF from HTML](pdfservices/createpdffromhtml.md)
-  + [Leveraging PDF Tools API to export PDF to Word, PowerPoint, and More](pdfservices/exportpdf.md)
+  + [Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more](pdfservices/exportpdf.md)
   + [Getting started with Adobe PDF Tools API and Java](pdfservices/gettingstartedjava.md)
   + [Getting started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
   + [Using Adobe PDF Tools API to OCR PDF files](pdfservices/ocr.md)
