@@ -94,7 +94,7 @@ Example output:
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
-## Resources and Next Steps
+## Resources and next steps
 
 For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
