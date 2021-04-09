@@ -1,5 +1,5 @@
 ---
-title: Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More
+title: Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more
 description: Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs
 type: tutorial
 role: Developer
@@ -9,7 +9,7 @@ kt: 6674.jpg
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8,f16f6964-23f4-4205-b4e9-c724551ca529
 ---
 
-# Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More
+# Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more
 
 ![Create PDF Hero Image](assets/ExportPDF_hero.jpg)
 
@@ -79,7 +79,7 @@ Your PDF will be created in the same directory.
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
-## Final Thoughts:
+## Final thoughts:
 
 You should now have a working example that can be imported into your existing applications to start a proof of concept. In each of the sample directories, you’ll also see another sample to export PDF files to image format. The same steps above will allow you to run that sample as well. To change to another format you can update the code to the new format you would like:
 
@@ -91,7 +91,7 @@ output/exportPdfOutput.PPTX
 
 To another format.
 
-## Resources and Next Steps
+## Resources and next steps
 
 For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
