@@ -85,7 +85,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="docgen/taggeroverview.md">
-      <img alt="Brief overview of the Adobe Document Generation Tagger" src="docgen/assets/Taggeroverview_thumb.jpg" />
+      <img alt="Overview of the Adobe Document Generation Tagger" src="docgen/assets/Taggeroverview_thumb.jpg" />
    </a>
     <div>
    <a href="docgen/taggeroverview.md"><strong>Brief overview of the Adobe Document Generation Tagger</strong></a>
