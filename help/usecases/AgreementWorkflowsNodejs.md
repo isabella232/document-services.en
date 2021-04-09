@@ -18,7 +18,7 @@ We previously stepped through a high-level example of the [APIs](https://www.ado
 
 To get started, set up credentials to use Adobe Document Services. We can register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify our credentials work before integrating the functionality into a larger application.
 
-First, you'll need an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over 6 months.
+First, you'll need an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over 6 months.
 
 ![Image of Create New Credentials](assets/AWNjs_1.png)
 
