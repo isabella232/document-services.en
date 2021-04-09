@@ -10,13 +10,13 @@ solution: Document Cloud, Document Services
 + [Overview](overview.md)
 + PDF Services API {#pdfservices}
   + [Create PDF from HTML](pdfservices/createpdffromhtml.md)
-  + [Leveraging PDF Tools API to Export PDF to Word, PowerPoint, and More](pdfservices/exportpdf.md)
-  + [Getting Started with Adobe PDF Tools API and Java](pdfservices/gettingstartedjava.md)
-  + [Getting Started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
-  + [Using Adobe PDF Tools API to OCR PDF Files](pdfservices/ocr.md)
+  + [Leveraging PDF Tools API to export PDF to Word, PowerPoint, and More](pdfservices/exportpdf.md)
+  + [Getting started with Adobe PDF Tools API and Java](pdfservices/gettingstartedjava.md)
+  + [Getting started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
+  + [Using Adobe PDF Tools API to OCR PDF files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
   + [Overview](docgen/overview-docgen.md)
-  + Creating Templates {#docgentemplates}
+  + Creating templates {#docgentemplates}
     + [Overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
     + [Adding text tags](docgen/taggeraddtexttags.md)
     + [Adding image tags](docgen/taggeraddimagetags.md)
@@ -24,4 +24,4 @@ solution: Document Cloud, Document Services
     + [Setting numerical calculation tags](docgen/taggercalculations.md)
     + [Setting conditional content](docgen/taggerconditional.md)
 + Use Cases {#usecases}
-  + [Agreement Workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
+  + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
