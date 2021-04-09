@@ -15,11 +15,13 @@ solution: Document Cloud, Document Services
   + [Getting Started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
   + [Using Adobe PDF Tools API to OCR PDF Files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
-  + [Brief overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
-  + [Adding text tags with the Adobe Document Generation Tagger](docgen/taggeraddtexttags.md)
-  + [Adding image tags with the Adobe Document Generation Tagger](docgen/taggeraddimagetags.md)
-  + [Adding tables and list tags with the Adobe Document Generation Tagger](docgen/taggertables.md)
-  + [Setting numerical calculation tags with the Adobe Document Generation Tagger](docgen/taggercalculations.md)
-  + [Setting conditional content with the Adobe Document Generation Tagger](docgen/taggerconditional.md)
+  + [Overview](docgen/overview-docgen.md)
+  + Creating Templates {#docgentemplates}
+    + [Overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
+    + [Adding text tags](docgen/taggeraddtexttags.md)
+    + [Adding image tags](docgen/taggeraddimagetags.md)
+    + [Adding tables and list tags](docgen/taggertables.md)
+    + [Setting numerical calculation tags](docgen/taggercalculations.md)
+    + [Setting conditional content](docgen/taggerconditional.md)
 + Use Cases {#usecases}
   + [Agreement Workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
