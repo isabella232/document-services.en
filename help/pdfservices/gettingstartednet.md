@@ -10,7 +10,7 @@ keyword: Featured
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a,866b9eb5-66c2-423f-b912-af48f905f5c9
 ---
 
-# Getting Started with Adobe PDF Tools API and .Net
+# Getting started with Adobe PDF Tools API and .Net
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
@@ -59,11 +59,11 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 
 Your PDF will be created in the location designated in the output, which by default is the same folder.
 
-## Final Thoughts:
+## Final thoughts:
 
 The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
 
-## Resources and Next Steps
+## Resources and next steps
 
 For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
