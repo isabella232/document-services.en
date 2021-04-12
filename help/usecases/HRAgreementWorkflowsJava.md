@@ -375,8 +375,7 @@ First, register a [developer account](https://acrobat.adobe.com/us/en/sign/devel
 
 Create the CLIENT application in the [Adobe Sign portal](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 
-Configure OAuth for the application as described [here](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md)
-and [here](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Note your client identifier and client secret. Then, you can use https://www.google.com as the Redirect URI and the following scopes:
+Configure OAuth for the application as described [here](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) and [here](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Note your client identifier and client secret. Then, you can use https://www.google.com as the Redirect URI and the following scopes:
 
 -   user_login: self
 
@@ -404,9 +403,9 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 Note the values given for \<YOUR_CODE\> and api_access_point.
 
-Use the client ID, \<YOUR_CODE\>, and api_access_point values to send an HTTP POST request that will provide you with the access token. You can use [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html)
-or cURL:
+Use the client ID, \<YOUR_CODE\>, and api_access_point values to send an HTTP POST request that will provide you with the access token. You can use [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) or cURL:
 
+```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"
 \\
 
@@ -419,6 +418,7 @@ curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"
 \--data-urlencode "redirect_uri=**https://www.google.com**" \\
 
 \--data-urlencode "grant_type=authorization_code"
+```
 
 The sample response will look as follows:
 
