@@ -163,8 +163,13 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+   <a href="usecases/HRAgreementWorkflowsJava.md">
+      <img alt="HR Document Workflows with Adobe Document Services APIs in Java" src="assets/HRWJ_thumb.jpg" />
+   </a>
     <div>
+   <a href="usecases/HRAgreementWorkflowsJava.md"><strong>HR Document Workflows with Adobe Document Services APIs in Java</strong></a>
+    </div>
+    <em>Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
   <td>
