@@ -6,8 +6,8 @@ role: Developer
 skill: Beginner
 thumbnail: KT-7474.jpg
 kt: 7474
+exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
 ---
-
 # HR Document Workflows with Adobe Document Services APIs in Java
 
 Many businesses require documentation around a new hire, such as workplace agreements for work-from-home employees. Traditionally, businesses managed these documents physically in forms that were difficult to manage and store. When switching to electronic documents, PDF files are an ideal choice because they are more secure and less modifiable than other file types. Plus, they support digital signatures as well.
