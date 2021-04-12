@@ -25,3 +25,4 @@ solution: Document Cloud, Document Services
     + [Setting conditional content](docgen/taggerconditional.md)
 + Use Cases {#usecases}
   + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
+  + [HR Document Workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
