@@ -173,8 +173,13 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+   <a href="usecases/FinanceWorkflowsJava.md">
+      <img alt="Managing Financial Document Workflows with Adobe Document Services APIs in Java" src="assets/FAWJ_thumb.jpg" />
+   </a>
     <div>
+   <a href="usecases/FinanceWorkflowsJava.md"><strong>Managing Financial Document Workflows with Adobe Document Services APIs in Java</strong></a>
+    </div>
+    <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
     <br>
   </td>
 </tr>
