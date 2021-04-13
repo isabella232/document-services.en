@@ -6,8 +6,8 @@ role: Developer
 skill: Beginner
 thumbnail: KT-7482.jpg
 kt: 7482
+exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
 ---
-
 # Managing financial document workflows with Adobe Document Services APIs in Java
 
 The financial industry uses PDF files extensively to exchange data because it helps maintain document format, design, and structure. This allows financial analysts and advisors to help their clients make well-informed decisions.
