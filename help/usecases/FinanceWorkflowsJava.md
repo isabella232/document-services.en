@@ -8,7 +8,7 @@ thumbnail: KT-7482.jpg
 kt: 7482
 ---
 
-# Managing Financial Document Workflows with Adobe Document Services APIs in Java
+# Managing financial document workflows with Adobe Document Services APIs in Java
 
 The financial industry uses PDF files extensively to exchange data because it helps maintain document format, design, and structure. This allows financial analysts and advisors to help their clients make well-informed decisions.
 
@@ -38,7 +38,7 @@ To configure the logging services, visit [Adobe documentation](https://www.adobe
 
 Now that our Spring Boot application is configured, we can proceed with processing the PDFs and generating reports for customers.
 
-## Submitting the Report Data
+## Submitting the report data
 
 To use the Adobe PDF Tools API, first set up an `ExecutionContext` that consumes the credentials you provide. Since we have the credentials inside our application, we can read them from the file and create the context, as:
 
@@ -90,7 +90,7 @@ try {
 
 This scenario handles only one PDF file. You could also start with multiple PDF files and combine them into a single file. Using multiple files is common in financial data reporting because you need to process funds from multiple sources to provide a comprehensive report.
 
-## Generating the Report
+## Generating the report
 
 While Adobe Document Services does not support processing Excel documents out of the box, you can still use community frameworks and libraries to process the content.
 
@@ -136,7 +136,7 @@ ProtectPDFOperation operation = ProtectPDFOperation.createNew(options);
 
 Next, specify the input and execute the operation. The resulting file you receive should have a password on it to prevent unauthorized access.
 
-## Displaying the Report
+## Displaying the report
 
 Now that our PDF report is generated, we can display the report on our website using the Adobe PDF Embed API. This is a JavaScript API that enables web developers to load and render the PDF documents natively inside the web browser.
 
