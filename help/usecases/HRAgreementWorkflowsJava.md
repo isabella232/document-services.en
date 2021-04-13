@@ -8,13 +8,13 @@ thumbnail: KT-7474.jpg
 kt: 7474
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
 ---
-# HR Document Workflows with Adobe Document Services APIs in Java
+# HR Document workflows with Adobe Document Services APIs in Java
 
 Many businesses require documentation around a new hire, such as workplace agreements for work-from-home employees. Traditionally, businesses managed these documents physically in forms that were difficult to manage and store. When switching to electronic documents, PDF files are an ideal choice because they are more secure and less modifiable than other file types. Plus, they support digital signatures as well.
 
 In this article, we will implement a web-based HR form that saves a workplace agreement to PDF with sign off in a simple Java Spring MVC application. You can find the companion code [on GitHub](https://github.com/dawidborycki/adobe-sign).
 
-## Generating API Credentials
+## Generating API credentials
 
 Start by signing up for the Adobe PDF Tools API free trial. Go to the [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) [website](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) and click the *Get Started* button under *Create New Credentials*. The free trial provides 1,000 Document Transactions that can be used over 6 months. This will reveal another page (see below), where you choose the service (PDF Tools API), set the credentials name (for example, HRDocumentWFCredentials), and enter a description.
 
@@ -32,7 +32,7 @@ Finally, run the CombinePDF sample, as shown below. The code will generate the P
 
 ![Menu to run the CombinePDF sample screenshot](assets/HRWJ_2.png)
 
-## Creating the Spring MVC Application
+## Creating the Spring MVC application
 
 Given the credentials we can then create the application. We use Spring Initializr for this.
 
@@ -179,7 +179,7 @@ To render dynamic content, we employed the Thymeleaf template rendering engine. 
 
 ![Screenshot of rendered content](assets/HRWJ_5.png)
 
-## Generating the PDF with Dynamic Content
+## Generating the PDF with dynamic content
 
 We can now generate the PDF document containing the virtual contract by dynamically populating selected fields after rendering the personal data form. Specifically, we will need to populate the person data into the pre-created contract.
 
@@ -308,7 +308,7 @@ private static void setCustomOptionsAndPersonData(
 
 When generating the contract, you can also merge the dynamic, person-specific data with fixed contract terms. To do so, follow the [Create a PDF from static HTML](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf-from-dynamic-html) example. Alternatively, you can [merge two PDFs](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf-from-static-html).
 
-## Presenting the PDF File for Download
+## Presenting the PDF File for download
 
 We can now present the link to the generated PDF for the user to download. To do so, we first create the contract-actions.html file (see resources/templates contract-actions.html of the companion code):
 
@@ -365,7 +365,7 @@ The PDF, after rendering in the web browser, will look as follows. Namely, the p
 
 ![Screenshot of PDF rendered with personal data](assets/HRWJ_8.png)
 
-## Enabling Signatures and Security
+## Enabling signatures and security
 
 When the agreement is ready, Adobe Sign can add digital signatures representing approval. Adobe Sign authentication works a little differently than OAuth. Let's now see how to integrate the application with Adobe Sign. To do so, you need to prepare the access token for your application. Then, you write the client code using Adobe Sign Java SDK.
 
@@ -459,7 +459,7 @@ To integrate this package with our application, we first need to clone the code.
 
 In IntelliJ IDEA, you can add those files as dependencies using *Project Structure* (File/Project Structure).
 
-## Sending the PDF for Signature
+## Sending the PDF for signature
 
 We are now ready to send the agreement for signing. To do so, we first supplement the contract-details.html with another hyperlink to the send request:
 
@@ -577,7 +577,7 @@ Finally, you could also password-protect your PDF using PDF Tools API as shown i
 
 ![](assets/HRWJ_9.png)
 
-## Next Steps
+## Next steps
 
 As you can see, by leveraging the quickstarts provided, you can implement a simple web form to create an approved PDF in Java with Adobe PDF Tools API. Adobe PDF APIs integrate into your existing client applications seamlessly.
 
