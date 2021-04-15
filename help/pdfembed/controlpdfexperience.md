@@ -132,7 +132,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
    ```
    <script src=https://documentccloud.adobe.com/view-sdk/main.js></script>
-    ```
+   ```
 
    ![Screenshot of script](assets/ControlPDF_12.png)
 
