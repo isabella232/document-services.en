@@ -71,7 +71,7 @@ To begin this 4 part tutorial, click on *Getting started with PDF Embed API*.
 1. Go to the Adobe.io website: https://www.adobe.io/
 1. Scroll down to Build engaging document experiences and click on the **Learn more** button. 
 
-![Screenshot of the Learn more button](assets/ControlPDF_1.png)
+  ![Screenshot of the Learn more button](assets/ControlPDF_1.png)
 
 1. This takes you to the Adobe Document Services home page. In the navigation bar click on **Get Started**.
 1. You’ll see an option in **Get Started with Document Services APIs** to **Create New Credentials** or **Manage Existing Credentials**. Click on the **Get Started** button under **Create New Credentials**.
@@ -103,7 +103,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
 1. Go to the Adobe Document Services website: https://www.adobe.io/apis/documentcloud/dcsdk/
 
-![Screenshot of Adobe Document Services website](assets/ControlPDF_6.png)
+  ![Screenshot of Adobe Document Services website](assets/ControlPDF_6.png)
 
 1. Click on APIs in the navigation bar, then go to the PDF Embed API page in the drop-down link.
 
@@ -125,7 +125,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 1. Click on the **Generate Code** button to see the code preview.
 1. Go back to the Client Credentials window from Part 1 and copy the **Client ID** from that page.
 
-![Screenshot of Client ID](assets/ControlPDF_11.png)
+  ![Screenshot of Client ID](assets/ControlPDF_11.png)
 
 1. Go to your code editor and open the **Web -> resources -> js -> dc-config.js** file. You’ll see that the clientID variable is there. Paste your client credentials between the double quotes to set the clientID to your credential.
 1. Next, go back to the developer sandbox code preview and copy the second line that has the Adobe script: 
@@ -133,7 +133,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
   ```
   <script src=https://documentccloud.adobe.com/view-sdk/main.js></script>
   ```
-  
+
   ![Screenshot of script](assets/ControlPDF_12.png)
 
 1. Go to your code editor and open the **Web -> exercise -> index.html** file. Paste the script code into the `<head>` of the file on line 18 under the comment that says: **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**.
