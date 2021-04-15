@@ -154,7 +154,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <tr>
  <td>
    <a href="pdfembed/controlpdfexperience.md">
-      <img alt="Control your PDF online experience and gather analytics" src="assets/ControlPDF_thumb.jpg" />
+      <img alt="Control your PDF online experience and gather analytics" src="assets/ControlPDF_thumb.png" />
    </a>
     <div>
    <a href="pdfembed/controlpdfexperience.md"><strong>Control your PDF online experience and gather analytics</strong></a>
