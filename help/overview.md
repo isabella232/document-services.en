@@ -1,7 +1,7 @@
 ---
 title: Adobe Document Services Tutorials
 description: Overview page for Adobe Document Services
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner, Intermediate, Advanced
 thumbnail: KT-7463.jpg

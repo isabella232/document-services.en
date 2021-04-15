@@ -1,7 +1,7 @@
 ---
 title: Adding Tables and List Tags
 description: Learn how to add tables and list tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically add table or list rows based on data using Adobe Document Generation API
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner
 thumbnail: 332115.jpg

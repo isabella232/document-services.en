@@ -1,7 +1,7 @@
 ---
 title: Create a PDF from HTML or MS Office in a few minutes with PDF Tools API and Node.js
 description: Within the PDF Tools API, there are several available services to create and manipulate PDFs, or export from PDF to MS Office and other formats.
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-6673.jpg

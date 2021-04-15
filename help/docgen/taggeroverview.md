@@ -1,7 +1,7 @@
 ---
 title: Overview
 description: Overview of the Adobe Document Generation Tagger that's designed for use with the Adobe Document Generation API
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner
 thumbnail: 332120.jpg

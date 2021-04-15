@@ -1,7 +1,7 @@
 ---
 title: HR Document Workflows with Adobe Document Services APIs in Java
 description: Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner
 thumbnail: KT-7474.jpg

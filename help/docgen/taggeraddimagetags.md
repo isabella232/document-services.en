@@ -1,7 +1,7 @@
 ---
 title: Adding Image Tags
 description: Learn how to add image tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically push images into documents using Adobe Document Generation API
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner
 thumbnail: 332114.jpg

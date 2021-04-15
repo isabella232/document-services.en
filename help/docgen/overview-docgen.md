@@ -1,7 +1,7 @@
 ---
 title: Document Generation API Tutorials
 description: Overview of the Document Generation API tutorials
-type: tutorial
+type: Tutorial
 role: Developer
 skill: Beginner, Intermediate, Advanced
 thumbnail: KT-7480.jpg
