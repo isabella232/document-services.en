@@ -23,6 +23,8 @@ solution: Document Cloud, Document Services
     + [Adding tables and list tags](docgen/taggertables.md)
     + [Setting numerical calculation tags](docgen/taggercalculations.md)
     + [Setting conditional content](docgen/taggerconditional.md)
++ PDF Embed API {#pdfembed}
+  + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
 + Use Cases {#usecases}
   + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
