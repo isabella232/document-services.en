@@ -148,6 +148,33 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 </tr>
 </table>
 
+## PDF Embed API
+
+<table style="table-layout:fixed">
+<tr>
+ <td>
+   <a href="pdfembed/controlpdfexperience.md">
+      <img alt="Control your PDF online experience and gather analytics" src="assets/ControlPDF_thumb.png" />
+   </a>
+    <div>
+   <a href="pdfembed/controlpdfexperience.md"><strong>Control your PDF online experience and gather analytics</strong></a>
+    </div>
+    <em>learn how to use the Adobe PDF Embed API to control appearance, enable collaboration, and gather analytics about how user’s interact with PDFs, including time spent on a page and searches</em>
+    <br>
+  </td>
+  <td>
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+  <td>
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+</tr>
+</table>
+
 ## Use Cases
 
 <table style="table-layout:fixed">

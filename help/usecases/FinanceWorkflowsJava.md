@@ -170,7 +170,7 @@ In your Spring Boot application, add the following HTML snippet where you want t
 
 This script will load the PDF document and enable viewers to annotate and comment on the documents. Here is the view of this Embed API as shown in Firefox:
 
-![Sreenshot of a PDF document in Firefox](assets/FAWJ_2.png)
+![Screenshot of a PDF document in Firefox](assets/FAWJ_2.png)
 
 The PDF Embed API provides all the tools necessary to preview the PDF as well as to annotate the report.
 
