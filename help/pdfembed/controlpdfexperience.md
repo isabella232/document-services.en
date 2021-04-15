@@ -6,8 +6,8 @@ role: Developer
 skill: Intermediate
 thumbnail: KT-7487
 kt: 7487
+exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
 ---
-
 # Control your PDF online experience and gather analytics
 
 Does your organization post PDFs on your website? Learn how to use the Adobe PDF Embed API to control appearance, enable collaboration, and gather analytics about how user’s interact with PDFs, including time spent on a page and searches.
