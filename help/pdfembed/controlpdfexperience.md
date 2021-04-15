@@ -133,6 +133,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
   ```
   <script src=https://documentccloud.adobe.com/view-sdk/main.js></script>
   ```
+  
   ![Screenshot of script](assets/ControlPDF_12.png)
 
 1. Go to your code editor and open the **Web -> exercise -> index.html** file. Paste the script code into the `<head>` of the file on line 18 under the comment that says: **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**.
