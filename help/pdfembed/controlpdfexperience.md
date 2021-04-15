@@ -136,7 +136,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
 ![Screenshot of script](assets/ControlPDF_12.png)
 
-1. Go to your code editor and open the **Web -> exercise -> index.html** file. Paste the script code into the <head> of the file on line 18 under the comment that says: **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**.
+1. Go to your code editor and open the **Web -> exercise -> index.html** file. Paste the script code into the `<head>` of the file on line 18 under the comment that says: **TODO: EXERCISE 1: INSERT EMBED API SCRIPT TAG**.
 
 ![Screenshot of where to paste script code](assets/ControlPDF_13.png)
 
@@ -148,7 +148,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
 ![Screenshot of where to copy code](assets/ControlPDF_14.png)
 
-1. Go to your code editor and open the **Web -> exercise -> index.html** file again. Paste the <div> code into the <body> of the file on line 67 under the comment that says **TODO: EXERCISE 1: INSERT PDF EMBED API CODE**.
+1. Go to your code editor and open the **Web -> exercise -> index.html** file again. Paste the `<div>` code into the `<body>` of the file on line 67 under the comment that says **TODO: EXERCISE 1: INSERT PDF EMBED API CODE**.
 
 
 ![Screenshot of where to paste code](assets/ControlPDF_15.png)
@@ -173,7 +173,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 ![Screenshot of line 70](assets/ControlPDF_16.png)
 
 1. Modify line 72 of the same **index.html** file to update the location of the PDF file to use a local file. There is one available in the tutorial files in: **/resources/pdfs/whitepaper.pdf**.
-1. Save your modified files and preview your website by browsing to **<your domain>/summit21/web/exercise/**. You should see the Technical Whitepaper render in a Full Window mode within your browser.
+1. Save your modified files and preview your website by browsing to **`<your domain>`/summit21/web/exercise/**. You should see the Technical Whitepaper render in a Full Window mode within your browser.
 
 ## Accessing Analytics APIs {#part3}
 
@@ -207,7 +207,7 @@ listenOn: [ AdobeDC.View.Enum.PDFAnalyticsEvents.	PAGE_VIEW, AdobeDC.View.Enum.P
      console.log(“Data “ + event.data);
    }, eventOptions
  );
- ```
+```
 
 1. In **index.html**, find the code section you added earlier that looks like the below and append the code above after this code:
 
