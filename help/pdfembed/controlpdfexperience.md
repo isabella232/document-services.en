@@ -53,14 +53,14 @@ Does your organization post PDFs on your website? Learn how to use the Adobe PDF
 
 In part 1, you'll learn how to get started with everything you need for parts 1-3. You'll begin with getting API credentials.
 
-**Resources**
+**What you need**
 
 * Tutorial resources [download](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial)
 * Adobe ID [get one here](https://accounts.adobe.com/)
 * Web server (Node JS, PHP, etc.)
 * Working knowledge of HTML / JavaScript / CSS
 
-**Applications**
+**What we are using**
 
 * A basic web server (Node)
 * Visual Studio Code
@@ -111,7 +111,7 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
    ![Screenshot of Adobe Document Services website](assets/ControlPDF_6.png)
 
-1. Click **APIs** in the navigation bar, then go to the PDF Embed API page in the drop-down link.
+1. Click **APIs** in the navigation bar, then go to the **PDF Embed API** page in the drop-down link.
 
    ![Screenshot of PDF Embed API dropdown](assets/ControlPDF_7.png)
 
