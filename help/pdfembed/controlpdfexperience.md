@@ -69,7 +69,7 @@ In part 1, you'll learn how to get started with everything you need for parts 1-
 ### Getting credentials
 
 1. Go to the [Adobe.io website](https://www.adobe.io/).
-1. Click the **Learn more** button under Build engaging document experiences.
+1. Click **Learn more** under Build engaging document experiences.
 
    ![Screenshot of the Learn more button](assets/ControlPDF_1.png)
 
@@ -79,7 +79,7 @@ In part 1, you'll learn how to get started with everything you need for parts 1-
 
    You’ll see an option in **Get Started with Document Services APIs** to **Create New Credentials** or **Manage Existing Credentials**. 
    
-1. Click on the **Get Started** button under **Create New Credentials**.
+1. Click **Get Started** button under **Create New Credentials**.
 
    ![Screenshot of Get Started button](assets/ControlPDF_2.png)
 
@@ -91,7 +91,7 @@ In part 1, you'll learn how to get started with everything you need for parts 1-
 
    ![Screenshot of credentials](assets/ControlPDF_3.png)
 
-1. Click the **Create Credentials** button.
+1. Click **Create Credentials**.
 
    The final page of the wizard provides you with your client credential details. Leave this window open so you can come back to it and copy the Client ID (API Key) for later use. 
    
@@ -99,17 +99,11 @@ In part 1, you'll learn how to get started with everything you need for parts 1-
 
    ![Screenshot of create credentials button](assets/ControlPDF_4.png)
 
-### Getting exercise code
-
-To walk through the exercises, we have created code for you to utilize. While you can certainly use your own code, any demonstrations will be in the context of the exercise resources. Download sample code [here](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial).
-
-![Screenshot of view documentation](assets/ControlPDF_5.png)
-
 ## Part 2: Adding PDF Embed API to a webpage {#part2}
 
 In part 2, you'll learn how to easily embed PDF Embed API into a webpage. You'll do this by using the Adobe PDF Embed API online demo to create our code.
 
-**Resources**
+### Get the exercise code
 
 We created code for you to utilize. While you can use your own code, demonstrations will be in the context of the tutorial resources. Download sample code [here](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial).
 
@@ -143,13 +137,15 @@ We created code for you to utilize. While you can use your own code, demonstrati
 
    ![Screenshot of Client ID](assets/ControlPDF_11.png)
 
-1. Go to your code editor and open the **Web -> resources -> js -> dc-config.js** file. 
+1. Open the **Web -> resources -> js -> dc-config.js** file in your code editor. 
 
    You’ll see that the clientID variable is there.
 
 1. Paste your client credentials between the double quotes to set the clientID to your credential.
 
-1. Go back to the developer sandbox code preview and copy the second line that has the Adobe script: 
+1. Go back to the developer sandbox code preview.
+
+1. Copy the second line that has the Adobe script: 
 
    ```
    <script src=https://documentccloud.adobe.com/view-sdk/main.js></script>
@@ -220,7 +216,9 @@ There are a lot of different JavaScript events available as part of PDF Embed AP
 
    ![Screenshot of reference guide](assets/ControlPDF_17.png)
 
-1. Copy the sample code listed on the website. Use this as the basis for our code and modify it.
+1. Copy the sample code listed on the website.
+
+   Use this as the basis for our code and modify it.
 
    ![Screenshot of where to copy sample code](assets/ControlPDF_18.png)
 
@@ -264,7 +262,7 @@ Now that you have the events being outputted to console.log, let's change the be
 
    ![Screenshot of where to paste code](assets/ControlPDF_23.png)
 
-1. Confirm that the console outputs correctly when the page is loaded and the PDF Viewer is interacted with.
+1. Confirm that the console outputs correctly when the page is loaded and you interact with the PDF Viewer.
 
 ### Adobe Analytics
 
