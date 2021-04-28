@@ -41,7 +41,7 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 1. Download and install the [.Net SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 1. Extract the downloaded **PDFToolsSDK-.NetSamples.zip** and unzip the contents
 1. cd to the samples root directory **adobe-DC.PDFTools.SDK.NET.Samples**
-1. From the samples root directory, run **dotnet build**
+1. From the samples root directory, run `dotnet build`
 
     C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>dotnet build
 
@@ -53,27 +53,28 @@ You’ll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip whic
 
     C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>cd CreatePDFFromDocx/
 
-1. run **dotnet run CreatePDFFromDocx.csproj**
+1. run `dotnet run CreatePDFFromDocx.csproj`
 
     C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples\CreatePDFFromDocx>dotnet run CreatePDFFromDocx.csproj
 
 Your PDF will be created in the location designated in the output, which by default is the same folder.
 
-## Final thoughts:
+## Final thoughts
 
 The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
 
 ## Resources and next steps
 
-For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-[FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
 
-[Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
+* [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
 
-## Related articles:
+* Related articles
 
-[New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
-[July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+    [New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
+
+    [July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)

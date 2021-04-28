@@ -20,7 +20,7 @@ Developers can get started in just a few minutes with the ready to run sample fi
 
 In this tutorial we’ll cover the basics of how to run your first PDF Tools API OCR operation using sample files for Node.js, Java, and .Net languages.  
 
-## Step 1: First, create your credentials and setup your environment:
+## Step 1: Create your credentials and setup your environment
 
 Use the getting started tutorials below to create your API credentials, download sample files, and setup your environment.
 
@@ -38,39 +38,39 @@ When you pass in options with OCR operation including specific locale, the metho
 
 * SEARCHABLE_IMAGE_EXACT: Ensures that text is searchable and selectable. This option keeps the original image and places an invisible text layer over it. Recommended for cases requiring maximum fidelity to the original image.
 
-### Java
+**Java**
 
-1. Open a command prompt
+1. Open a command prompt.
 
-1. Change directories into your sample code directory
+1. Change directories into your sample code directory.
 
-    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>.
 
 1. Run the following command:
 
-    mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF
+    `mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.ocrpdf.OcrPDF`
 
 Your PDF will be created in the src/main/resources directory.
 
-### .Net
+**.Net**
 
-1. Open a command prompt
+1. Open a command prompt.
 
-1. Change directories into your sample code directory
+1. Change directories into your sample code directory.
 
-    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples
 
-1. Change directories again into the OcrPDF directory
+1. Change directories again into the OcrPDF directory.
 
 1. Run the following command:
 
-    dotnet run OcrPDF.csproj
+    `dotnet run OcrPDF.csproj`
 
 Your PDF will be created in the same directory.
 
-### Node.js
+**Node.js**
 
-1. Open a command prompt
+1. Open a command prompt.
 
 1. Change directories into your sample code directory. 
 
@@ -78,11 +78,11 @@ Your PDF will be created in the same directory.
 
 1. Run the following command:
 
-    **node src/ocr/ocr-pdf.js**
+    `node src/ocr/ocr-pdf.js`
 
 Your PDF will be created in the location designated in the output, which by default is the output directory.
 
-## Final thoughts:
+## Final thoughts
 
 With these simple steps using the sample files, you should have a working example that you can build on. In addition to the OCR example that we used in this tutorial, there is another example to OCR using the supported type and locale options discussed earlier. 
 
@@ -92,10 +92,10 @@ From here you can simply replace your input and output files located in the samp
 
 ## Resources and next steps
 
-For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-[FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
 
-[Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
+* [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
