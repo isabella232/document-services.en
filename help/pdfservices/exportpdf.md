@@ -25,7 +25,7 @@ The Export operation supports the following PDF file conversions:
 
 In this tutorial we’ll cover the basics of how to run your first PDF Tools API export operation using sample files for Node.js, Java, and .Net languages.
 
-## Step 1: First, create your credentials and setup your environment:
+## Step 1: Create your credentials and setup your environment:
 
 Use the getting started tutorials below to create your API credentials, download sample files, and setup your environment.
 
@@ -35,51 +35,51 @@ Use the getting started tutorials below to create your API credentials, download
 
 ## Step 2: Run export pdf operation using the sample files
 
-### Java
+**Java**
 
-1. Open a command prompt
-
-1. Change directories into your sample code directory
-
-    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples>
-
-1. Run the following command:
-
-    mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToDOCX    
-
-Your PDF will be created in the src/main/resources directory.
-
-### .Net
-
-1. Open a command prompt
-
-1. Change directories into your sample code directory
-
-    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples>
-
-1. Change directories again into the ExportPDFtoDocx directory
-
-1. Run the following command:
-
-    dotnet run ExportPDFToDocx.csproj
-
-Your PDF will be created in the same directory.
-
-## Node.js
-
-1. Open a command prompt
+1. Open a command prompt.
 
 1. Change directories into your sample code directory.
 
-    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples>
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples
 
 1. Run the following command:
 
-    **node src/ocr/ocr-pdf.js**
+    `mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.exportpdf.ExportPDFToDOCX`
+
+Your PDF will be created in the src/main/resources directory.
+
+**.Net**
+
+1. Open a command prompt.
+
+1. Change directories into your sample code directory.
+
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples
+
+1. Change directories again into the ExportPDFtoDocx directory.
+
+1. Run the following command:
+
+    `dotnet run ExportPDFToDocx.csproj`
+
+Your PDF will be created in the same directory.
+
+**Node.js**
+
+1. Open a command prompt.
+
+1. Change directories into your sample code directory.
+
+    E.g., C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples
+
+1. Run the following command:
+
+    `node src/ocr/ocr-pdf.js`
 
 Your PDF will be created in the location designated in the output, which by default is the pdfServicesSdkResult directory.
 
-## Final thoughts:
+## Final thoughts
 
 You should now have a working example that can be imported into your existing applications to start a proof of concept. In each of the sample directories, you’ll also see another sample to export PDF files to image format. The same steps above will allow you to run that sample as well. To change to another format you can update the code to the new format you would like:
 
@@ -93,10 +93,10 @@ To another format.
 
 ## Resources and next steps
 
-For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-[FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
 
-[Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
+* [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing

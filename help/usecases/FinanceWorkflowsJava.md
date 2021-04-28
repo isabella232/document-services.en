@@ -174,7 +174,7 @@ This script will load the PDF document and enable viewers to annotate and commen
 
 The PDF Embed API provides all the tools necessary to preview the PDF as well as to annotate the report.
 
-## Conclusion
+## Wrap up
 
 In this article, we explored the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) APIs and discussed how we can use these services to process PDF data and generate reports for financial decisions. We demonstrated how we can integrate the APIs into our systems, using Java Spring Boot as an example framework, to show how easy it is to quickly process PDF documents.
 

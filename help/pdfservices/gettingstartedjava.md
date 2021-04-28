@@ -38,7 +38,7 @@ You’ll receive a .zip file to download called PDFToolsSDK-JavaSamples.zip whic
 ## Step 2: Setup your Java environment
 
 1. Install [Java 8 or above](https://www.oracle.com/java/technologies/javase-downloads.html) if you haven’t already.
-1. Run javac -version to verify your install.
+1. Run `javac -version` to verify your install.
 1. Verify the JDK bin folder is included in the PATH variable (method varies by OS).
 1. Install [Maven](https://maven.apache.org/install.html) using your preferred tool if you haven’t already.
 
@@ -48,21 +48,22 @@ The personalized samples provide everything from ready-to-run sample code, an em
 1. Build the sample project with Maven: mvn clean install.
 1. Test the sample code on the command line or in your preferred IDE.
 
-## Final thoughts:
+## Final thoughts
 
 The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
 
 ## Resources and next steps
 
-For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-[FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
 
-[Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
+* [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
 
-## Related articles:
+* Related articles
 
-[New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
-[July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+    [New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
+
+    [July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
