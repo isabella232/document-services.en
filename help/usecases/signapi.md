@@ -13,12 +13,11 @@ kt: 8089
 
 This tutorial explains how developers can use Sign API to enhance applications and workflows created with Adobe Document Services. Document Services includes [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html), [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) (free), and [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-More specifically, learn how to include Sign API in your application to gather signatures and other information, such as employee information on an insurance form. Generic steps with simplified HTTP requests and responses are used. You can implement these requests in your favorite language to create a PDF using a combination of [Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/), upload it to the Sign API as a [transient](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) document, and request end-user signatures using the agreement or [widget](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) workflow.
+More specifically, learn how to include Sign API in your application to gather signatures and other information, such as employee information on an insurance form. Generic steps with simplified HTTP requests and responses are used. You can implement these requests in your favorite language. You can create a PDF using a combination of [Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/), upload it to the Sign API as a [transient](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) document, and request end-user signatures using the agreement or [widget](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) workflow.
 
 ## Creating a PDF document
 
-Start by creating a Microsoft Word template and saving it as a PDF. Or, you can automate your pipeline using Document Generation API to upload a template created in Word and then generate a PDF document. Document Generation API is part of Document Services, [free for six months then pay-as-you-go for just
-\$0.05 per document transaction](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+Start by creating a Microsoft Word template and saving it as a PDF. Or, you can automate your pipeline using Document Generation API to upload a template created in Word and then generate a PDF document. Document Generation API is part of Document Services, [free for six months then pay-as-you-go for just or $0.05 per document transaction](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
 
 In this example, the template is just a simple document with a few signer fields to fill in. Name the fields for now, then later insert the actual fields in this tutorial.
 
@@ -50,7 +49,7 @@ In the above example, is a response with the value as the access point.
 
 >[!IMPORTANT]
 >
->In this case, all subsequent requests you make to Sign API must use that access point. If you use an access point that doesn’t serve your region, you’ll get an error.
+>In this case, all subsequent requests you make to Sign API must use that access point. If you use an access point that doesn’t serve your region, you get an error.
 
 ## Uploading a transient document
 
@@ -91,7 +90,7 @@ In this example, the Web Form is `ACTIVE`, but you can create it in one of three
 
 * ACTIVE — to immediately host the Web Form
 
-The information on the form’s participants also needs to be defined. The `memberInfos` property contains data on the participants, such as email. Currently, this set does not support more than one member. But, since the email of the Web Form signer is unknown at the time of Web Form creation, the email should be left empty, like in the following example. The `role` property defines the role assumed by the members in `memberInfos` (such as the SIGNER and APPROVER).
+The information on the form’s participants must also be defined. The `memberInfos` property contains data on the participants, such as email. Currently, this set does not support more than one member. But, since the email of the Web Form signer is unknown at the time of Web Form creation, the email should be left empty, like in the following example. The `role` property defines the role assumed by the members in `memberInfos` (such as the SIGNER and APPROVER).
 
 ```
   POST /api/rest/v6/widgets HTTP/1.1
@@ -131,7 +130,7 @@ You can create a Web Form as `DRAFT` or `AUTHORING`, then change its state as th
 
 The next step is to discover the URL hosting the Web Form. The /widgets endpoint retrieves a list of Web Form data, including the hosted URL of the Web Form that you forward to your users, to collect signatures and other form data.
 
-Note that this endpoint returns a list, so you can locate the specific form by its id in the `userWidgetList` before getting the URL hosting the Web Form:
+This endpoint returns a list, so you can locate the specific form by its id in the `userWidgetList` before getting the URL hosting the Web Form:
 
 ```
   GET /api/rest/v6/widgets HTTP/1.1
@@ -172,13 +171,13 @@ Note that this endpoint returns a list, so you can locate the specific form by i
 
 ## Managing your Web Form
 
-This form is a PDF document for users to fill in. However, you still must tell the form’s editor which fields the users must fill in and where they are located within the document:
+This form is a PDF document for users to fill in. However, you still need to tell the form’s editor which fields the users must fill in and where they are located within the document:
 
 ![Screenshot of insurance form with a few fields](assets/GSASAPI_1.png)
 
-Note that the document above doesn’t show the fields — yet. They’ll be added while defining which fields will collect the signer’s information, as well as their size and position.
+The document above doesn’t show the fields — yet. They are added while defining which fields collect the signer’s information, as well as their size and position.
 
-Now, go to the [Web Forms](https://secure.na4.adobesign.com/public/agreements/#agreement_type=webform) tab on the “Your agreements” page and find the form you just created.
+Now, go to the [Web Forms](https://secure.na4.adobesign.com/public/agreements/#agreement_type=webform) tab on the “Your agreements” page and find the form you created.
 
 ![Screenshot of the Adobe Sign Manage tab](assets/GSASAPI_2.png)
 
@@ -188,7 +187,7 @@ Click **Edit** to open the document editing page. The available predefined field
 
 ![Screenshot of the Adobe Sign form authoring environment](assets/GSASAPI_4.png)
 
-The editor enables you to drag and drop text fields, as well as signature fields. After you add all the necessary fields, you can resize and align them to polish your form. Finally, click **Save** to create the form.
+The editor enables you to drag and drop text and signature fields. After you add all the necessary fields, you can resize and align them to polish your form. Finally, click **Save** to create the form.
 
 ![Screenshot of the Adobe Sign form authoring environment with form fields added](assets/GSASAPI_5.png)
 
@@ -211,6 +210,7 @@ src="https://secure.na4.adobesign.com/public/esignWidget?wid=CBFC
 style="border: 0;
 overflow: hidden; min-height: 500px; min-width: 600px;"></iframe>
 ```
+
 ![Screenshot of final Web Form](assets/GSASAPI_6.png)
 
 When your users access the hosted version of your form, they review the transient document first uploaded with the fields positioned as specified.
@@ -231,7 +231,7 @@ When the user clicks **Apply**, Adobe instructs them to open their email and con
 
 ![Screenshot of Just one more step](assets/GSASAPI_11.png)
 
-This adds multiple-factor authentication and strengthens signing process security.
+This authentication adds multiple-factor authentication and strengthens signing process security.
 
 ![Screenshot of confirmation message](assets/GSASAPI_12.png)
 
@@ -412,12 +412,11 @@ Company Name","CBJCHBCAABAA5Z84zy69q_Ilpuy5DzUAahVfcNZillDt"
 
 ## Next steps
 
-The Sign API enables you to manage documents, Web Forms, and agreements. The simplified yet complete workflows created using Web Forms and agreements, are donw in a generic way that enable developers to implement them using any language.
+The Sign API enables you to manage documents, Web Forms, and agreements. The simplified yet complete workflows created using Web Forms and agreements, are done in a generic way that enables developers to implement them using any language.
 
 For an overview of how Sign API works, you can find examples in the [API Usage Developer Guide](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/api_usage.md). This documentation contains short articles on many of the steps followed throughout the article, and other related topics.
 
-Adobe Sign API is available through several tiers of [single and multi user e-signature plans](https://acrobat.adobe.com/us/en/sign/pricing/plans.html), so you can choose a pricing model that best suits your needs. Now that you know how easy it is to incorporate Sign API into your apps, you may be interested in other features like [Adobe Sign
-Webhooks](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md), a push-based programming model. Instead of requiring your app to perform frequent checks in Adobe Sign events, Webhooks enable you to register an HTTP URL for which Sign API executes a POST callback request whenever an event occurs. Webhooks enable robust programming by powering your application with real-time and instant updates.
+Adobe Sign API is available through several tiers of [single and multi user e-signature plans](https://acrobat.adobe.com/us/en/sign/pricing/plans.html), so you can choose a pricing model that best suits your needs. Now that you know how easy it is to incorporate Sign API into your apps, you may be interested in other features like [Adobe Sign Webhooks](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md), a push-based programming model. Instead of requiring your app to perform frequent checks in Adobe Sign events, Webhooks enable you to register an HTTP URL for which Sign API executes a POST callback request whenever an event occurs. Webhooks enable robust programming by powering your application with real-time and instant updates.
 
 Check out the [pay-as-you-go pricing](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), for when your six-month free Adobe PDF Services API trial ends, and the free Adobe PDF Embed API.
 
