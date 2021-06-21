@@ -3,7 +3,7 @@ title: Getting Started with Adobe PDF Tools API and Java
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
 type: Tutorial
 role: Developer
-skill: Beginner
+level: Beginner
 thumbnail: KT-6676.jpg
 kt: 6676
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bfa
@@ -13,7 +13,7 @@ exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bf
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
-Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial will walk you through all the steps to start running the samples using the PDF Tools Java SDK:
+Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial walks you through all the steps to start running the samples using the PDF Tools Java SDK:
 
 ## Step 1: Obtaining credentials and downloading sample files
 

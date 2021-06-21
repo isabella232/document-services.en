@@ -3,7 +3,7 @@ title: Control Your PDF Online Experience and Gather Analytics
 description: In this hands-on tutorial, you'll learn how to use the Adobe PDF Embed API to control appearance, enable collaboration, and gather analytics about how user’s interact with PDFs, including time spent on a page and searches
 type: Tutorial
 role: Developer
-skill: Intermediate
+level: Intermediate
 thumbnail: KT-7487
 kt: 7487
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
@@ -51,7 +51,7 @@ Does your organization post PDFs on your website? Learn how to use the Adobe PDF
 
 ## Part 1: Getting started with PDF Embed API {#part1}
 
-In part 1, you'll learn how to get started with everything you need for parts 1-3. You'll begin with getting API credentials.
+In part 1, learn how to get started with everything you need for parts 1-3. You'll begin with getting API credentials.
 
 **What you need**
 

@@ -3,7 +3,7 @@ title: Getting Started with Adobe PDF Tools API and .Net
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
 type: Tutorial
 role: Developer
-skill: Beginner
+level: Beginner
 thumbnail: KT-6675.jpg
 kt: 6675
 keywords: Featured
@@ -14,7 +14,7 @@ exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a,866b9eb5-66c2-423f-b912-af48f905f5c
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
-Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial will walk you through all the steps to start running the samples using the PDF Tools .Net SDK:
+Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial walks you through all the steps to start running the samples using the PDF Tools .Net SDK:
 
 ## Step 1: Obtaining credentials and downloading sample files
 

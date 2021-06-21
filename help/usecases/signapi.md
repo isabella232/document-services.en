@@ -2,7 +2,8 @@
 title: Getting Started with Adobe Sign API
 description: Learn how to include Sign API in your application to gather signatures and other information
 role: Developer
-skill: Intermediate
+level: Intermediate
+type: Tutorial
 thumbnail: KT-8089.jpg
 kt: 8089
 ---
