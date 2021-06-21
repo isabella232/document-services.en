@@ -26,6 +26,7 @@ solution: Document Cloud, Document Services
 + PDF Embed API {#pdfembed}
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
 + Use Cases {#usecases}
+  + [Getting started with Adobe Sign API](usecases/signapi.md)
   + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
   + [Managing financial document workflows with Adobe Document Services APIs in Java](usecases/FinanceWorkflowsJava.md)
