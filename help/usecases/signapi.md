@@ -47,6 +47,7 @@ To access Sign API, you must first discover the correct access point for your ac
     "webAccessPoint": "https://secure.na4.adobesign.com/" 
   }
 ```
+
 <br>&nbsp;
 
 In the above example, is a response with the value as the access point.
@@ -285,6 +286,7 @@ Host: {YOUR-API-ACCESS-POINT}
 Authorization: Bearer {YOUR-INTEGRATION-KEY-HERE}
 Accept: text/csv
 ```
+
 <br>&nbsp;
 
 The resulting CSV file stream contains form data.
@@ -299,6 +301,7 @@ name","completed","email","role","first","last","title","company","agreementId",
 "Insurance Form","","myemail@email.com","SIGNER","John","Doe","My Job Title","My
 Company Name","","","2021-03-07 19:32:59"
 ```
+
 <br>&nbsp;
 
 ## Creating an agreement
@@ -341,6 +344,7 @@ Request Body:
     "state": "IN_PROCESS"
   }
 ```
+
 <br>&nbsp;
 
 In this example, the agreement is created as IN_PROCESS, but you can create it in one of three different states:
@@ -372,6 +376,7 @@ Unlike Web Forms, when you create an agreement, Adobe automatically sends it out
      id (string): The unique identifier of the agreement
   }
 ```
+
 <br>&nbsp;
 
 ## Retrieving information about agreement members
@@ -386,6 +391,7 @@ Host: {YOUR-API-ACCESS-POINT}
 Authorization: Bearer {YOUR-INTEGRATION-KEY-HERE}
 Accept: application/json
 ```
+
 <br>&nbsp;
 
 The resulting JSON response body contains information about the participants.
@@ -465,6 +471,7 @@ Once you post the reminder, the users receive an email with the agreement's deta
 ## Reading completed agreements
 
 Like Web Forms, you can read details on agreements that the recipients signed. The `/agreements/{agreementId}/formData` endpoint retrieves data entered by the user when they signed the Web Form.
+
 <br>&nbsp;
 
 ```
@@ -477,6 +484,7 @@ Response Body:
 "2021-03-16 18:11:45","myemail@email.com","SIGNER","John","Doe","My Job Title","My
 Company Name","CBJCHBCAABAA5Z84zy69q_Ilpuy5DzUAahVfcNZillDt"
 ```
+
 <br>&nbsp;
 
 ## Next steps
