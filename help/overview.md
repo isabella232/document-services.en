@@ -180,6 +180,16 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <table style="table-layout:fixed">
 <tr>
  <td>
+   <a href="usecases/signapi.md">
+      <img alt="Getting started with Adobe Sign API" src="assets/GSASAPI_thumb.jpg" />
+   </a>
+    <div>
+   <a href="usecases/AgreementWorkflowsNodejs.md"><strong>Getting started with Adobe Sign API</strong></a>
+    </div>
+    <em>Learn how to include Sign API in your application to gather signatures and other information</em>
+    <br>
+  </td>
+  <td>
    <a href="usecases/AgreementWorkflowsNodejs.md">
       <img alt="Agreement workflows with Adobe Document Services APIs in Node.js" src="assets/AWNjs_thumb.png" />
    </a>
@@ -199,7 +209,9 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
-  <td>
+</tr>
+<tr>
+   <td>
    <a href="usecases/FinanceWorkflowsJava.md">
       <img alt="Managing financial document workflows with Adobe Document Services APIs in Java" src="assets/FAWJ_thumb.jpg" />
    </a>
@@ -207,6 +219,16 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
    <a href="usecases/FinanceWorkflowsJava.md"><strong>Managing financial document workflows with Adobe Document Services APIs in Java</strong></a>
     </div>
     <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
+    <br>
+  </td>
+  <td>
+    <img alt="Spacer" src="assets/GrayBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+  <td>
+    <img alt="Spacer" src="assets/GrayBanner_Placeholder.png" />
+    <div>
     <br>
   </td>
 </tr>

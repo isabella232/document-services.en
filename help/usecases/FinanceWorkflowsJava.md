@@ -3,7 +3,7 @@ title: Managing Financial Document Workflows with Adobe Document Services APIs i
 description: Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents
 type: Tutorial
 role: Developer
-skill: Beginner
+level: Beginner
 thumbnail: KT-7482.jpg
 kt: 7482
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960

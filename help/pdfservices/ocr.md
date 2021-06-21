@@ -3,7 +3,7 @@ title: Using Adobe PDF Tools API to OCR PDF Files
 description: With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files
 type: Tutorial
 role: Developer
-skill: Beginner
+level: Beginner
 thumbnail: KT-6677.jpg
 kt: 6677
 keywords: Hero
@@ -18,7 +18,7 @@ With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract 
 
 Developers can get started in just a few minutes with the ready to run sample files provided for OCR. 
 
-In this tutorial we’ll cover the basics of how to run your first PDF Tools API OCR operation using sample files for Node.js, Java, and .Net languages.  
+In this tutorial covers the basics of how to run your first PDF Tools API OCR operation using sample files for Node.js, Java, and .Net languages.  
 
 ## Step 1: Create your credentials and setup your environment
 
