@@ -32,6 +32,8 @@ Adobe distributes Sign API around the globe in many deployment units called “s
 
 To access Sign API, you must first discover the correct access point for your account, which can be api.na1.adobesign.com, api.na4.adobesign.com, api.eu1.adobesign.com, or others, depending on your location.
 
+<br>&nbsp;
+
 ```
   GET /api/rest/v6/baseUris HTTP/1.1
   Host: https://api.adobesign.com
@@ -45,6 +47,7 @@ To access Sign API, you must first discover the correct access point for your ac
     "webAccessPoint": "https://secure.na4.adobesign.com/" 
   }
 ```
+<br>&nbsp;
 
 In the above example, is a response with the value as the access point.
 
@@ -59,6 +62,8 @@ Adobe Sign enables you to create different flows that prepare documents for sign
 The document uploads using a POST request to the `/transientDocuments` endpoint. The multipart request consists of the file name, a file stream, and the document file's MIME (media) type. The endpoint response contains an ID that identifies the document.
 
 Additionally, your application can specify a callback URL for Adobe Sign to ping, notifying the app when the signature process is complete.
+
+<br>&nbsp;
 
 ```
   POST /api/rest/v6/transientDocuments HTTP/1.1
@@ -77,6 +82,8 @@ Additionally, your application can specify a callback URL for Adobe Sign to ping
   }
 ```
 
+<br>&nbsp;
+
 ## Creating a Web Form
 
 Web Forms (previously known as signing widgets) are hosted documents that anyone who has access can sign. Examples of Web Forms include signup sheets, waivers, and other documents that many people access and sign online.
@@ -92,6 +99,8 @@ In this example, the Web Form is `ACTIVE`, but you can create it in one of three
 * ACTIVE — to immediately host the Web Form
 
 The information on the form’s participants must also be defined. The `memberInfos` property contains data on the participants, such as email. Currently, this set does not support more than one member. But, since the email of the Web Form signer is unknown at the time of Web Form creation, the email should be left empty, like in the following example. The `role` property defines the role assumed by the members in `memberInfos` (such as the SIGNER and APPROVER).
+
+<br>&nbsp;
 
 ```
   POST /api/rest/v6/widgets HTTP/1.1
@@ -125,6 +134,8 @@ The information on the form’s participants must also be defined. The `memberIn
   }
 ```
 
+<br>&nbsp;
+
 You can create a Web Form as `DRAFT` or `AUTHORING`, then change its state as the form passes through your application pipeline. To change a Web Form state, refer to the [PUT /widgets/{widgetId}/state](https://secure.na4.adobesign.com/public/docs/restapi/v6#!/widgets/updateWidgetState) endpoint.
 
 ## Reading the Web Form hosting URL
@@ -132,6 +143,8 @@ You can create a Web Form as `DRAFT` or `AUTHORING`, then change its state as th
 The next step is to discover the URL hosting the Web Form. The /widgets endpoint retrieves a list of Web Form data, including the hosted URL of the Web Form that you forward to your users, to collect signatures and other form data.
 
 This endpoint returns a list, so you can locate the specific form by its id in the `userWidgetList` before getting the URL hosting the Web Form:
+
+<br>&nbsp;
 
 ```
   GET /api/rest/v6/widgets HTTP/1.1
@@ -170,11 +183,15 @@ This endpoint returns a list, so you can locate the specific form by its id in t
         "id": "CBJCHB...Wmc",
 ```
 
+<br>&nbsp;
+
 ## Managing your Web Form
 
 This form is a PDF document for users to fill in. However, you still need to tell the form’s editor which fields the users must fill in and where they are located within the document:
 
 ![Screenshot of insurance form with a few fields](assets/GSASAPI_1.png)
+
+<br>&nbsp;
 
 The document above doesn’t show the fields — yet. They are added while defining which fields collect the signer’s information, as well as their size and position.
 
@@ -184,9 +201,13 @@ Now, go to the [Web Forms](https://secure.na4.adobesign.com/public/agreements/#a
 
 ![Screenshot of the Adobe Sign Manage tab with Web Forms selected](assets/GSASAPI_3.png)
 
+<br>&nbsp;
+
 Click **Edit** to open the document editing page. The available predefined fields are on the right panel.
 
 ![Screenshot of the Adobe Sign form authoring environment](assets/GSASAPI_4.png)
+
+<br>&nbsp;
 
 The editor enables you to drag and drop text and signature fields. After you add all the necessary fields, you can resize and align them to polish your form. Finally, click **Save** to create the form.
 
@@ -204,6 +225,8 @@ After finishing the Web Form, you must submit it so users can fill and sign it. 
 
 For example:
 
+<br>&nbsp;
+
 ```
 <iframe
 src="https://secure.na4.adobesign.com/public/esignWidget?wid=CBFC
@@ -212,15 +235,23 @@ style="border: 0;
 overflow: hidden; min-height: 500px; min-width: 600px;"></iframe>
 ```
 
+<br>&nbsp;
+
 ![Screenshot of final Web Form](assets/GSASAPI_6.png)
+
+<br>&nbsp;
 
 When your users access the hosted version of your form, they review the transient document first uploaded with the fields positioned as specified.
 
 ![Screenshot of final Web Form](assets/GSASAPI_7.png)
 
+<br>&nbsp;
+
 The user then fills in the fields and signs the form.
 
 ![Screenshot of user selecting Signature field](assets/GSASAPI_8.png)
+
+<br>&nbsp;
 
 Next, your user signs the document with a previously stored signature, or with a new one.
 
@@ -228,9 +259,13 @@ Next, your user signs the document with a previously stored signature, or with a
 
 ![Screenshot of signature](assets/GSASAPI_10.png)
 
+<br>&nbsp;
+
 When the user clicks **Apply**, Adobe instructs them to open their email and confirm the signature. The signature remains pending until the confirmation arrives.
 
 ![Screenshot of Just one more step](assets/GSASAPI_11.png)
+
+<br>&nbsp;
 
 This authentication adds multiple-factor authentication and strengthens signing process security.
 
@@ -242,12 +277,21 @@ This authentication adds multiple-factor authentication and strengthens signing 
 
 Now it’s time to get the form data that users filled in. The `/widgets/{widgetId}/formData` endpoint retrieves data entered by the user into an interactive form when they signed the form.
 
+<br>&nbsp;
+
 ```
 GET /api/rest/v6/widgets/{widgetId}/formData HTTP/1.1
 Host: {YOUR-API-ACCESS-POINT}
 Authorization: Bearer {YOUR-INTEGRATION-KEY-HERE}
 Accept: text/csv
+```
+<br>&nbsp;
+
 The resulting CSV file stream contains form data.
+
+<br>&nbsp;
+
+```
 Response Body:
 "Agreement
 name","completed","email","role","first","last","title","company","agreementId",
@@ -255,6 +299,7 @@ name","completed","email","role","first","last","title","company","agreementId",
 "Insurance Form","","myemail@email.com","SIGNER","John","Doe","My Job Title","My
 Company Name","","","2021-03-07 19:32:59"
 ```
+<br>&nbsp;
 
 ## Creating an agreement
 
@@ -263,6 +308,8 @@ As an alternative to Web Forms, you can create agreements. The following section
 Sending a document to specified recipients for signing or approval creates an agreement. You can track the status and completion of an agreement using APIs.
 
 You can create an agreement using a [transient document](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), [library document](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md), or URL. In this example, the agreement is based on the `transientDocumentId`, just like the Web Form created earlier.
+
+<br>&nbsp;
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
@@ -294,6 +341,7 @@ Request Body:
     "state": "IN_PROCESS"
   }
 ```
+<br>&nbsp;
 
 In this example, the agreement is created as IN_PROCESS, but you can create it in one of three different states:
 
@@ -315,6 +363,8 @@ The `participantSetsInfo` property above provides emails of people expected to p
 
 Unlike Web Forms, when you create an agreement, Adobe automatically sends it out for signature. The endpoint returns the agreement’s unique identifier.
 
+<br>&nbsp;
+
 ```
   Response Body:
 
@@ -322,17 +372,27 @@ Unlike Web Forms, when you create an agreement, Adobe automatically sends it out
      id (string): The unique identifier of the agreement
   }
 ```
+<br>&nbsp;
 
 ## Retrieving information about agreement members
 
 Once you create an agreement, you can use the `/agreements/{agreementId}/members` endpoint to retrieve information about members of the agreement. For example, you can check whether a participant has signed the agreement.
+
+<br>&nbsp;
 
 ```
 GET /api/rest/v6/agreements/{agreementId}/members HTTP/1.1
 Host: {YOUR-API-ACCESS-POINT}
 Authorization: Bearer {YOUR-INTEGRATION-KEY-HERE}
 Accept: application/json
+```
+<br>&nbsp;
+
 The resulting JSON response body contains information about the participants.
+
+<br>&nbsp;
+
+```
   Response Body:
 
   {
@@ -360,6 +420,8 @@ The resulting JSON response body contains information about the participants.
      ],
 ```
 
+<br>&nbsp;
+
 ## Sending agreement reminders
 
 Depending on the business rules, a deadline may prevent participants from signing the agreement after a specific date. If the agreement has an expiration date, you can remind participants as that date approaches.
@@ -367,6 +429,8 @@ Depending on the business rules, a deadline may prevent participants from signin
 Based on the agreement members’ information you received after the call to the `/agreements/{agreementId}/members` endpoint in the last section, you can issue email reminders to all participants who still haven’t signed the agreement.
 
 A POST request to the `/agreements/{agreementId}/reminders` endpoint creates a reminder for the specified participants of an agreement identified by the `agreementId` parameter.
+
+<br>&nbsp;
 
 ```
 POST /agreements/{agreementId}/reminders HTTP/1.1
@@ -392,6 +456,8 @@ Accept: application/json
   }
 ```
 
+<br>&nbsp;
+
 Once you post the reminder, the users receive an email with the agreement's details and a link to the agreement.
 
 ![Screenshot of Reminder message](assets/GSASAPI_14.png)
@@ -399,6 +465,7 @@ Once you post the reminder, the users receive an email with the agreement's deta
 ## Reading completed agreements
 
 Like Web Forms, you can read details on agreements that the recipients signed. The `/agreements/{agreementId}/formData` endpoint retrieves data entered by the user when they signed the Web Form.
+<br>&nbsp;
 
 ```
 GET /api/rest/v6/agreements/{agreementId}/formData HTTP/1.1
@@ -410,6 +477,7 @@ Response Body:
 "2021-03-16 18:11:45","myemail@email.com","SIGNER","John","Doe","My Job Title","My
 Company Name","CBJCHBCAABAA5Z84zy69q_Ilpuy5DzUAahVfcNZillDt"
 ```
+<br>&nbsp;
 
 ## Next steps
 
