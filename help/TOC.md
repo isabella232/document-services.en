@@ -30,3 +30,4 @@ solution: Document Cloud, Document Services
   + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
   + [Managing financial document workflows with Adobe Document Services APIs in Java](usecases/FinanceWorkflowsJava.md)
+  + [Digital Document Publishing with Adobe PDF Embed API](usecases/ddppdfembedapi.md)
