@@ -177,8 +177,6 @@ This form is a PDF document for users to fill in. However, you still need to tel
 
 ![Screenshot of insurance form with a few fields](assets/GSASAPI_1.png)
 
-<br>&nbsp;
-
 The document above doesn’t show the fields — yet. They are added while defining which fields collect the signer’s information, as well as their size and position.
 
 Now, go to the [Web Forms](https://secure.na4.adobesign.com/public/agreements/#agreement_type=webform) tab on the “Your agreements” page and find the form you created.
@@ -187,13 +185,9 @@ Now, go to the [Web Forms](https://secure.na4.adobesign.com/public/agreements/#a
 
 ![Screenshot of the Adobe Sign Manage tab with Web Forms selected](assets/GSASAPI_3.png)
 
-<br>&nbsp;
-
 Click **Edit** to open the document editing page. The available predefined fields are on the right panel.
 
 ![Screenshot of the Adobe Sign form authoring environment](assets/GSASAPI_4.png)
-
-<br>&nbsp;
 
 The editor enables you to drag and drop text and signature fields. After you add all the necessary fields, you can resize and align them to polish your form. Finally, click **Save** to create the form.
 
@@ -221,19 +215,13 @@ overflow: hidden; min-height: 500px; min-width: 600px;"></iframe>
 
 ![Screenshot of final Web Form](assets/GSASAPI_6.png)
 
-<br>&nbsp;
-
 When your users access the hosted version of your form, they review the transient document first uploaded with the fields positioned as specified.
 
 ![Screenshot of final Web Form](assets/GSASAPI_7.png)
 
-<br>&nbsp;
-
 The user then fills in the fields and signs the form.
 
 ![Screenshot of user selecting Signature field](assets/GSASAPI_8.png)
-
-<br>&nbsp;
 
 Next, your user signs the document with a previously stored signature, or with a new one.
 
@@ -241,13 +229,9 @@ Next, your user signs the document with a previously stored signature, or with a
 
 ![Screenshot of signature](assets/GSASAPI_10.png)
 
-<br>&nbsp;
-
 When the user clicks **Apply**, Adobe instructs them to open their email and confirm the signature. The signature remains pending until the confirmation arrives.
 
 ![Screenshot of Just one more step](assets/GSASAPI_11.png)
-
-<br>&nbsp;
 
 This authentication adds multiple-factor authentication and strengthens signing process security.
 

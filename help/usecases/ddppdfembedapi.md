@@ -117,21 +117,15 @@ Click **Create New Credentials** and then **Get Started:**
 
 ![Screenshot of how to create new credentials](assets/ddp_5.png)
 
-<br>&nbsp;
-
 At this point, you are asked to register for a free account if you don’t have one.
 
 Select **PDF Embed API**, then type your credentials name and application domain. Use the **localhost** domain because of testing the web app locally.
 
 ![Screenshot of creating new credentials for PDF Embed API](assets/ddp_6.png)
 
-<br>&nbsp;
-
 Click the **Create Credentials** button to access your PDF credentials and get the Client ID (API KEY).
 
 ![Screenshot of how to copy new credentials](assets/ddp_7.png)
-
-<br>&nbsp;
 
 In your Node.js project, create a file named .ENV in the application’s root folder and declare the environment variable for your PDF Embed Client ID with the value of the API KEY credential from the previous step.
  
