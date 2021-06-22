@@ -56,7 +56,7 @@ You now have a basic website.
 
 ## Rendering whitepaper data
 
-To post whitepapers to the website, the whitepaper data is defined and prepared our website to display these documents. First, create a new \\data folder at the project root. The information on available whitepapers comes from a new file named [data.json](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/data/data.json), which is put in the data folder.
+To post whitepapers to the website, the whitepaper data is defined and prepared on the website to display these documents. First, create a new \\data folder at the project root. The information on available whitepapers comes from a new file named [data.json](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/data/data.json), which is put in the data folder.
 
 To give the web app a nice, polished look, install the [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/) front-end libraries.
 
@@ -82,7 +82,7 @@ While the \\public\\images folder should contain the thumbnails for each of the 
 
 ![Screenshot of PDF thumbnails](assets/ddp_3.png)
 
-Now, open the \\routes\\index.js file, which contains the logic for routing the home page. To use the whitepaper data from the data.json file, you must load the Node.js module responsible for accessing and interacting with the file system and declare the `fs` constant in the first line of the \\routes\\index.js file, as follows:
+Now, open the \\routes\\index.js file, which contains the logic for routing the home page. To use the whitepaper data from the data.json file, you must load the Node.js module responsible for accessing and interacting with the file system. Then, declare the `fs` constant in the first line of the \\routes\\index.js file, as follows:
 
 ```
 const fs = require('fs');
@@ -101,13 +101,13 @@ Now modify the line to invoke the render method for the index view, passing the 
 res.render('index', { title: 'Embedding PDF', papers: papers });
 ```
  
-To render the collection of whitepapers on the homepage, open the \\views\\index.ejs file and replace the existing code with the code from our project’s [index file](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/views/index.ejs).
+To render the collection of whitepapers on the homepage, open the \\views\\index.ejs file and replace the existing code with the code from your project’s [index file](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/views/index.ejs).
 
 Now, rerun npm start and open <http://localhost:3000> to view your collection of available whitepapers.
 
 ![Screenshot of thumbnails for whitepapers](assets/ddp_4.png)
 
-In the next sections onvolve enhancing the website and using [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) to display the PDF documents on our web page. PDF Embed API is free to use — you just need to obtain an API credential.
+In the next sections involve enhancing the website and using [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) to display the PDF documents the web page. PDF Embed API is free to use — you just need to obtain an API credential.
 
 ## Getting a PDF Embed API credential
 
@@ -167,7 +167,7 @@ On the left panel, you can choose the embed mode that best fits your website nee
 
 *  **Lightbox**: the PDF displays as a layer on top of your webpage
 
-It is recommended to use the in-line embed mode for whitepapers and the code generator later to embed a PDF in our application.
+It is recommended to use the in-line embed mode for whitepapers and the code generator later to embed a PDF in the application.
 
 ## Creating an in-line embed mode page
 
@@ -202,7 +202,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 />
 ```
  
-and put your customers first.
+And put your customers first.
  
 ```
 </p>
@@ -282,7 +282,7 @@ module.exports = router;
 
 Look again at the [live demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) to generate PDF Embed API code automatically. Click **In-Line** from the left panel:
 
-![Screenshot of live PDF Embed API Demo](assets/ddp_8.png.png)
+![Screenshot of live PDF Embed API Demo](assets/ddp_8.png)
 
 Click **Generate Code** to see the HTML code required to display a Sized Container PDF viewer.
 
@@ -310,7 +310,7 @@ metaData:{fileName: "Bodea Brochure.pdf"}
 </div>
 ```
 
-However, our document parameters are still hardcoded. Let’s replace them with the EJS bracket syntax (\<%= someValue %\>) to render the page according to the whitepaper model data.
+However, the document parameters are still hardcoded. Let’s replace them with the EJS bracket syntax (\<%= someValue %\>) to render the page according to the whitepaper model data.
  
 ```
 <div id="adobe-dc-view" style="width: 800px;"></div>
@@ -340,7 +340,7 @@ Note how the Download PDF and Print PDF options are now present.
 
 ![Screenshot of download and print options](assets/ddp_12.png)
 
-You will want to control these flags on the back end. Later you can implement authorization controls based on user identity and restrict access according to your business rules. That complexity isn't needed here, so let’s just modify \\routes\\in-line.js to include the authenticated and permissions properties in the model object.
+You want to control these flags on the back end. Later you can implement authorization controls based on user identity and restrict access according to your business rules. That complexity isn't needed here, so let’s just modify \\routes\\in-line.js to include the authenticated and permissions properties in the model object.
  
 ```
 let authenticated = false;
@@ -379,7 +379,7 @@ Then, rerun the application to see how this change reflects in the PDF Viewer.
 
 According to the end-user scenario, the marketer for the company’s website wants to understand better how users interact with their PDF-based content and incorporate the content with the rest of their webpage and brand.
 
-Our focus is on PDF embedding, so you won’t create a user authentication feature. Instead, you'll just implement a simple, fake paywall using a web form that accepts some user information then displays the PDF document once the user submits the form.
+Our focus is on PDF embedding, so you are not creating a user authentication feature. Instead, just implement a simple, fake paywall using a web form that accepts some user information then displays the PDF document once the user submits the form.
 
 Replace the \\routes\\in-line.js file with the contents below to provide the view model with user information:
  
@@ -450,7 +450,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 />
 ```
 
-and put your customers first.
+And put your customers first.
  
 ```
 </p>
@@ -540,9 +540,9 @@ You can send this data to [Adobe Analytics](https://www.adobe.io/apis/documentcl
 
 Document Services APIs help developers easily solve digital publishing challenges using a PDF-centric workflow. You've seen how to create a sample Node web app to display a collection of whitepapers. Then, acquire a [free API credential](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and built restricted access to the whitepapers, which can be displayed in one of four [embed modes](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
 
-Putting all this together helps our [hypothetical marketer](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) gather lead contact information in exchange for whitepaper downloads and view statistics on who is interacting with the PDFs. You can incorporate these features into your website to drive and monitor user engagement.
+Putting this workflow together helps the [hypothetical marketer](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) gather lead contact information in exchange for whitepaper downloads and view statistics on who is interacting with the PDFs. You can incorporate these features into your website to drive and monitor user engagement.
 
-If you’re an Angular or React developer, you’ll enjoy trying [additional samples](https://github.com/adobe/pdf-embed-api-samples) featuring how to integrate PDF Embed API with React and Angular projects.
+If you’re an Angular or React developer, you might enjoy trying [additional samples](https://github.com/adobe/pdf-embed-api-samples) featuring how to integrate PDF Embed API with React and Angular projects.
 
 Adobe enables you to build your end-to-end customer experience with innovative solutions. Check out [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) for free. To explore what else you can do, try Adobe PDF Services API with [pay-as-you-gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[icing](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
 

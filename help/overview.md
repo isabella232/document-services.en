@@ -180,11 +180,11 @@ Adobe Document Services, an Adobe Document Cloud solution, offers three APIs: th
 <table style="table-layout:fixed">
 <tr>
  <td>
-   <a href="usecases/ddppdfembedapi.md.md">
+   <a href="usecases/ddppdfembedapi.md">
       <img alt="Digital Document Publishing with Adobe PDF Embed API" src="assets/ddp_thumb.jpg" />
    </a>
     <div>
-   <a href="usecases/ddppdfembedapi.md.md"><strong>Digital Document Publishing with Adobe PDF Embed API</strong></a>
+   <a href="usecases/ddppdfembedapi.md"><strong>Digital Document Publishing with Adobe PDF Embed API</strong></a>
     </div>
     <em>Learn how to display embedded PDF documents inside web pages using Adobe PDF Embed API</em>
     <br>
