@@ -34,3 +34,4 @@ solution: Document Cloud, Document Services
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
   + [Managing financial document workflows with Adobe Document Services APIs in Java](usecases/FinanceWorkflowsJava.md)
   + [Digital document publishing with Adobe PDF Embed API](usecases/ddppdfembedapi.md)
+  + [Student-Teacher Collaboration with Adobe Document Services APIs](usecases/educationcollab.md)
