@@ -1,6 +1,6 @@
 ---
-title: Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more
-description: Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs
+title: Leveraging PDF Services API to export PDF to Word, PowerPoint, and more
+description: Adobe PDF Services API provides the ability to convert PDF files to MS Office, text, and images using APIs
 type: Tutorial
 role: Developer
 level: Beginner
@@ -9,11 +9,11 @@ kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8,f16f6964-23f4-4205-b4e9-c724551ca529
 ---
 
-# Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more
+# Leveraging PDF Services API to export PDF to Word, PowerPoint, and more
 
 ![Create PDF Hero Image](assets/ExportPDF_hero.jpg)
 
-Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs. There are many common use cases to unlock existing PDFs for content editing and analysis and with PDF Tools API developers can easily integrate this capability into existing systems and applications. Convert PDF files to MS Word for editing of content, approvals, and later sending for signatures to create custom contract workflows. Or export PDF content to MS Excel format for invoice and financial calculations or data analysis.
+Adobe PDF Services API provides the ability to convert PDF files to MS Office, text, and images using APIs. There are many common use cases to unlock existing PDFs for content editing and analysis and with PDF Services API developers can easily integrate this capability into existing systems and applications. Convert PDF files to MS Word for editing of content, approvals, and later sending for signatures to create custom contract workflows. Or export PDF content to MS Excel format for invoice and financial calculations or data analysis.
 
 The Export operation supports the following PDF file conversions:
 
@@ -23,15 +23,15 @@ The Export operation supports the following PDF file conversions:
 * PDF to text (RTF)
 * PDF to Image (JPEG, PNG)
 
-In this tutorial we’ll cover the basics of how to run your first PDF Tools API export operation using sample files for Node.js, Java, and .Net languages.
+In this tutorial we’ll cover the basics of how to run your first PDF Services API export operation using sample files for Node.js, Java, and .Net languages.
 
 ## Step 1: Create your credentials and setup your environment:
 
 Use the getting started tutorials below to create your API credentials, download sample files, and setup your environment.
 
-[Getting Started with PDF Tools API and Java](gettingstartedjava.md)
-[Getting Started with PDF Tools API and .Net](gettingstartednet.md)
-[Getting Started with PDF Tools API and Node.js](createpdffromhtml.md)
+[Getting Started with PDF Services API and Java](gettingstartedjava.md)
+[Getting Started with PDF Services API and .Net](gettingstartednet.md)
+[Getting Started with PDF Services API and Node.js](createpdffromhtml.md)
 
 ## Step 2: Run export pdf operation using the sample files
 
@@ -95,8 +95,8 @@ To another format.
 
 * For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Services API questions
 
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing

@@ -11,10 +11,10 @@ solution: Document Cloud, Document Services
 + PDF Services API {#pdfservices}
   + [Overview](pdfservices/overview-pdfservices.md)
   + [Create PDF from HTML](pdfservices/createpdffromhtml.md)
-  + [Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more](pdfservices/exportpdf.md)
-  + [Getting started with Adobe PDF Tools API and Java](pdfservices/gettingstartedjava.md)
-  + [Getting started with Adobe PDF Tools API and .Net](pdfservices/gettingstartednet.md)
-  + [Using Adobe PDF Tools API to OCR PDF files](pdfservices/ocr.md)
+  + [Leveraging PDF Services API to export PDF to Word, PowerPoint, and more](pdfservices/exportpdf.md)
+  + [Getting started with Adobe PDF Services API and Java](pdfservices/gettingstartedjava.md)
+  + [Getting started with Adobe PDF Services API and .Net](pdfservices/gettingstartednet.md)
+  + [Using Adobe PDF Services API to OCR PDF files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
   + [Overview](docgen/overview-docgen.md)
   + Creating templates {#docgentemplates}
@@ -34,3 +34,4 @@ solution: Document Cloud, Document Services
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
   + [Managing financial document workflows with Adobe Document Services APIs in Java](usecases/FinanceWorkflowsJava.md)
   + [Digital document publishing with Adobe PDF Embed API](usecases/ddppdfembedapi.md)
+  + [Student-Teacher Collaboration with Adobe Document Services APIs](usecases/educationcollab.md)
