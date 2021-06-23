@@ -39,7 +39,7 @@ kt: 8116
       <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFServices_GettingStartedJAVA_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/gettingstartedjava.md"><strong>Getting started with Adobe PDF Tools API and Java</strong></a>
+   <a href="gettingstartedjava.md"><strong>Getting started with Adobe PDF Tools API and Java</strong></a>
     </div>
     <em>Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services</em>
     <br>
@@ -61,7 +61,7 @@ kt: 8116
       <img alt="Using Adobe PDF Tools API to OCR PDF files" src="assets/PDFServices_OCR_Thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF files</strong></a>
+   <a href="ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF files</strong></a>
     </div>
     <em>With OCR (Optical Character Recognition), you can unlock scanned PDFs to extract text and create searchable files</em>
     <br>

@@ -61,7 +61,7 @@ kt: 8115
       <img alt="Managing financial document workflows with Adobe Document Services APIs in Java" src="assets/FAWJ_thumb.jpg" />
    </a>
     <div>
-   <a href="usecases/FinanceWorkflowsJava.md"><strong>Managing financial document workflows with Adobe Document Services APIs in Java</strong></a>
+   <a href="FinanceWorkflowsJava.md"><strong>Managing financial document workflows with Adobe Document Services APIs in Java</strong></a>
     </div>
     <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
     <br>
