@@ -18,31 +18,31 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
 <table style="table-layout:fixed">
 <tr>
  <td>
-   <a href="pdfservices/overview_pdfservices.md">
-      <img alt="PDF Services API" src="../assets/PDFServicesAPI_thumb.jpg" />
+   <a href="pdfservices/overview-pdfservices.md">
+      <img alt="PDF Services API" src="assets/PDFServicesAPI_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfservices/overview_pdfservices.md"><strong>PDF Services API</strong></a>
+   <a href="pdfservices/overview-pdfservices.md"><strong>PDF Services API</strong></a>
     </div>
     <em>PDF APIs with SDKs for Node.js, .Net, and Java to create, convert, OCR PDFs, and more</em>
     <br>
   </td>
   <td>
-   <a href="docgen/overview_docgen.md">
-      <img alt="Document Generation API" src="../assets/DocGenAPI_thumb.jpg" />
+   <a href="docgen/overview-docgen.md">
+      <img alt="Document Generation API" src="assets/DocGenAPI_thumb.jpg" />
    </a>
     <div>
-   <a href="docgen/overview_docgen.md""><strong>Document Generation API</strong></a>
+   <a href="docgen/overview-docgen.md""><strong>Document Generation API</strong></a>
     </div>
     <em>Generate PDF and Word documents from Word templates and JSON data</em>
     <br>
   </td>
   <td>
-   <a href="pdfembed/overview_embed.md">
-      <img alt="Getting started with Adobe PDF Tools API and Java" src="../assets/PDFEmbedAPI_thumb.jpg" />
+   <a href="pdfembed/overview-embed.md">
+      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFEmbedAPI_thumb.jpg" />
    </a>
     <div>
-   <a href="pdfembed/overview_embed.md"><strong>PDF Embed API</strong></a>
+   <a href="pdfembed/overview-embed.md"><strong>PDF Embed API</strong></a>
     </div>
     <em>Free JavaScript API to embed high-fidelity PDFs, enable collaboration, and see analytics</em>
     <br>
@@ -50,22 +50,22 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
 </tr>
 <tr>
  <td>
-   <a href="usecases/overview_usecases.md">
-      <img alt="Adobe Document Services API use cases" src="../assets/UseCase_thumb.jpg" />
+   <a href="usecases/overview-usecases.md">
+      <img alt="Adobe Document Services API use cases" src="assets/UseCase_thumb.jpg" />
    </a>
     <div>
-   <a href="usecases/overview_usecases.md"><strong>Adobe Document Services API use cases</strong></a>
+   <a href="usecases/overview-usecases.md"><strong>Adobe Document Services API use cases</strong></a>
     </div>
     <em>A wide variety of Document Services API use cases</em>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>

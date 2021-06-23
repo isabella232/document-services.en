@@ -21,7 +21,7 @@ kt: 8116
     <div>
    <a href="createpdffromhtml.md"><strong>Create a PDF from HTML or MS Office in a few minutes with PDF Tools API and Node.js</strong></a>
     </div>
-    <em>Digitizing document workflows has never been easier with the new Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows</em>
+    <em>Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows</em>
     <br>
   </td>
   <td>
@@ -31,7 +31,7 @@ kt: 8116
     <div>
    <a href="exportpdf.md"><strong>Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more</strong></a>
     </div>
-    <em>Adobe PDF Tools API provides the ability to convert PDF files to MS Office, text, and images using APIs</em>
+    <em>Adobe PDF Tools API converts PDF files to MS Office, text, and images using APIs</em>
     <br>
   </td>
   <td>
@@ -53,7 +53,7 @@ kt: 8116
     <div>
    <a href="gettingstartednet.md"><strong>Getting started with Adobe PDF Tools API and .Net</strong></a>
     </div>
-    <em>Digitizing document workflows has never been easier with the new Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows</em>
+    <em>Adobe PDF Tools API which provides developers free range to pick and choose between several powerful PDF manipulation services to meet the needs of complicated business workflows</em>
     <br>
   </td>
   <td>
@@ -63,7 +63,7 @@ kt: 8116
     <div>
    <a href="pdfservices/ocr.md"><strong>Using Adobe PDF Tools API to OCR PDF files</strong></a>
     </div>
-    <em>With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files</em>
+    <em>With OCR (Optical Character Recognition), you can unlock scanned PDFs to extract text and create searchable files</em>
     <br>
   </td>
   <td>
