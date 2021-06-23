@@ -9,6 +9,7 @@ solution: Document Cloud, Document Services
 
 + [Overview](overview.md)
 + PDF Services API {#pdfservices}
+  + [Overview](pdfservices/overview-pdfservices.md)
   + [Create PDF from HTML](pdfservices/createpdffromhtml.md)
   + [Leveraging PDF Tools API to export PDF to Word, PowerPoint, and more](pdfservices/exportpdf.md)
   + [Getting started with Adobe PDF Tools API and Java](pdfservices/gettingstartedjava.md)
@@ -24,10 +25,12 @@ solution: Document Cloud, Document Services
     + [Setting numerical calculation tags](docgen/taggercalculations.md)
     + [Setting conditional content](docgen/taggerconditional.md)
 + PDF Embed API {#pdfembed}
+  + [Overview](pdfembed/overview-embed.md)
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
 + Use Cases {#usecases}
+  + [Overview](usecases/overview-usecases.md)
   + [Getting started with Adobe Sign API](usecases/signapi.md)
   + [Agreement workflows with Adobe Document Services APIs in Node.js](usecases/AgreementWorkflowsNodejs.md)
   + [HR document workflows with Adobe Document Services APIs in Java](usecases/HRAgreementWorkflowsJava.md)
   + [Managing financial document workflows with Adobe Document Services APIs in Java](usecases/FinanceWorkflowsJava.md)
-  + [Digital Document Publishing with Adobe PDF Embed API](usecases/ddppdfembedapi.md)
+  + [Digital document publishing with Adobe PDF Embed API](usecases/ddppdfembedapi.md)
