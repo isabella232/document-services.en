@@ -19,7 +19,7 @@ kt: 8115
       <img alt="Student-Teacher Collaboration with Adobe Document Services APIs" src="assets/edu_thumb.jpg" />
    </a>
     <div>
-   <a href="ddppdfembedapi.md"><strong>Student-Teacher Collaboration with Adobe Document Services APIs</strong></a>
+   <a href="ddppdfembedapi.md"><strong>Student-Teacher collaboration with Adobe Document Services APIs</strong></a>
     </div>
     <em>Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF</em>
     <br>
@@ -29,7 +29,7 @@ kt: 8115
       <img alt="Digital Document Publishing with Adobe PDF Embed API" src="assets/ddp_thumb.jpg" />
    </a>
     <div>
-   <a href="ddppdfembedapi.md"><strong>Digital Document Publishing with Adobe PDF Embed API</strong></a>
+   <a href="ddppdfembedapi.md"><strong>Digital document publishing with Adobe PDF Embed API</strong></a>
     </div>
     <em>Learn how to display embedded PDF documents inside web pages using Adobe PDF Embed API</em>
     <br>
