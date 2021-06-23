@@ -1,5 +1,5 @@
 ---
-title: Using Adobe PDF Tools API to OCR PDF Files
+title: Using Adobe PDF Services API to OCR PDF Files
 description: With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files
 type: Tutorial
 role: Developer
@@ -10,7 +10,7 @@ keywords: Hero
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245,e971e8cf-fe71-42c7-89ea-079bef7a7fba
 ---
 
-# Using Adobe PDF Tools API to OCR PDF files
+# Using Adobe PDF Services API to OCR PDF files
 
 ![Create PDF Hero Image](assets/OCR_hero.jpg)
 
@@ -18,15 +18,15 @@ With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract 
 
 Developers can get started in just a few minutes with the ready to run sample files provided for OCR. 
 
-In this tutorial covers the basics of how to run your first PDF Tools API OCR operation using sample files for Node.js, Java, and .Net languages.  
+In this tutorial covers the basics of how to run your first PDF Services API OCR operation using sample files for Node.js, Java, and .Net languages.  
 
 ## Step 1: Create your credentials and setup your environment
 
 Use the getting started tutorials below to create your API credentials, download sample files, and setup your environment.
 
-[Getting Started with PDF Tools API and Java](gettingstartedjava.md)
-[Getting Started with PDF Tools API and .Net](gettingstartednet.md)
-[Getting Started with PDF Tools API and Node.js](createpdffromhtml.md)
+[Getting Started with PDF Services API and Java](gettingstartedjava.md)
+[Getting Started with PDF Services API and .Net](gettingstartednet.md)
+[Getting Started with PDF Services API and Node.js](createpdffromhtml.md)
 
 ## Run the OCR example provided in the sample files
 
@@ -94,8 +94,8 @@ From here you can simply replace your input and output files located in the samp
 
 * For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Services API questions
 
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing

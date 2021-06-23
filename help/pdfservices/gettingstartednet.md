@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Adobe PDF Tools API and .Net
+title: Getting Started with Adobe PDF Services API and .Net
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
 type: Tutorial
 role: Developer
@@ -10,11 +10,11 @@ keywords: Featured
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a,866b9eb5-66c2-423f-b912-af48f905f5c9
 ---
 
-# Getting started with Adobe PDF Tools API and .Net
+# Getting started with Adobe PDF Services API and .Net
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)
 
-Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial walks you through all the steps to start running the samples using the PDF Tools .Net SDK:
+Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services. This tutorial walks you through all the steps to start running the samples using the PDF Services .Net SDK:
 
 ## Step 1: Obtaining credentials and downloading sample files
 
@@ -26,7 +26,7 @@ It’s important to choose a ‘Personal Account’ to sign up for the free tria
 
 ![Personal](assets/GettingStartedJava_personal.png)
 
-In the next step you’ll choose the PDF Tools API Service, then add a name and description for your credentials.
+In the next step you’ll choose the PDF Services API Service, then add a name and description for your credentials.
 
 There is a checkbox to ‘Create personalized code sample’. Choose this option to have your new credentials automatically added to your sample files which will save you the manual step of adding them to your project. 
 
@@ -61,20 +61,20 @@ Your PDF will be created in the location designated in the output, which by defa
 
 ## Final thoughts
 
-The PDF Tools API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Tools API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
+The PDF Services API can help you eliminate manual processes by automating common workflows and shifting the processing burden to the cloud. In a world where every browser treats PDF differently, leveraging the Adobe PDF Embed API along with the PDF Services API, you can create streamlined, reliable, and predictable processes that run and display correctly **every time** regardless of platform or device.
 
 ## Resources and next steps
 
 * For additional help and support, visit the Adobe [Document Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
-* PDF Tools API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
+* PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Tools API questions
+* [FAQ](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) for PDF Services API questions
 
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
 
 * Related articles
 
-    [New PDF Tools API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
+    [New PDF Services API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
-    [July Release of Adobe Document Services: PDF Embed and PDF Tools](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+    [July Release of Adobe Document Services: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
