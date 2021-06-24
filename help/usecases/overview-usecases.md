@@ -12,6 +12,10 @@ kt: 8115
 
 ![Document Services API Use Case Banner](../assets/UseCaseHero.jpg)
 
+## What can the Adobe Document Services APIs do for me?
+
+Learn how the Adobe Document Services APIs can change your business with these use cases.
+
 <table style="table-layout:fixed">
 <tr>
  <td>
