@@ -18,7 +18,7 @@ This tutorial walks through a Node.js example that uses Adobe Document Services 
 
 To start, set up a simple Express-based Node.js web application. [Express](https://expressjs.com/) is a minimalist web application framework offering features such as routing and templating. The code for the application is available on [GitHub](https://github.com/contentlab-io/adobe_job_posting). Also, install the [PostgreSQL database](https://www.postgresql.org/) and set it up to store the PDF.
 
-## Relevant Adobe APIs
+## Relevant Document Services APIs
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 

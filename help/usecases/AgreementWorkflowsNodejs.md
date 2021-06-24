@@ -13,19 +13,27 @@ exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 
 Many business applications and processes require documentation like proposals and agreements. PDF documents ensure files are more secure and less modifiable. They also provide digital signature support so your clients can quickly and easily complete their documents. Adobe Document Services APIs easily incorporate PDF capabilities into your web applications.
 
-We previously stepped through a high-level example of the [APIs](https://www.adobe.io/apis/documentcloud/dcsdk/) available. In this article, we will add PDF services to a Node.js application to digitize an agreement process.
+This tutorial walks through how to add PDF services to a Node.js application to digitize an agreement process.
+
+## Relevant Adobe APIs
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html) 
+
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
 
 ## Setting up Adobe Document Services
 
-To get started, set up credentials to use Adobe Document Services. We can register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify our credentials work before integrating the functionality into a larger application.
+To get started, set up credentials to use Adobe Document Services. Register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify your credentials work before integrating the functionality into a larger application.
 
-First, you'll need an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over 6 months.
+First, get an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over 6 months.
 
-![Image of Create New Credentials](assets/AWNjs_1.png)
+![Image of Creating New Credentials](assets/AWNjs_1.png)
 
-On the following Create New Credentials page, you are prompted to decide between the PDF Embed API and the PDF Tools API.
+On the following Create New Credentials page, you are prompted to decide between the PDF Embed API and the PDF Services API.
 
-Select *PDF Tools API*.
+Select *PDF Services API*.
 
 Enter a name for the application and check the box labeled *Create personalized code sample*. Checking this box automatically embeds your credentials in the code sample. If you leave this box unchecked, you must manually add your credentials to the application.
 
@@ -33,7 +41,7 @@ Select *Node.js* for the application type and click *Create Credentials*.
 
 A few moments later, a .zip file will begin to download with a sample project including your credentials. The Node.js package for document services is already included as part of the sample project code.
 
-![Image of Selecting PDF Tools API Credentials](assets/AWNjs_2.png)
+![Image of Selecting PDF Services API Credentials](assets/AWNjs_2.png)
 
 ## Configuring the sample project manually
 
@@ -79,11 +87,11 @@ logger.level = 'info';
 logger.info('Application started')
 ```
 
-The above code writes logged data to a file in ./logs/applicationlog.txt. If we want it to write to the console instead, we can comment out the call to log4js.configure.
+The above code writes logged data to a file in ./logs/applicationlog.txt. If you want it to write to the console instead, you can comment out the call to log4js.configure.
 
 ## Converting Word files to PDF
 
-Agreements and proposals are often written in a productivity application, like Microsoft Word. We can add functionality for your application to accept documents in this format and convert the document to PDF. Let’s look at how to upload and save a document in an Express application and save it to the file system.
+Agreements and proposals are often written in a productivity application, like Microsoft Word. You can add functionality for your application to accept documents in this format and convert the document to PDF. Let’s look at how to upload and save a document in an Express application and save it to the file system.
 
 In the application’s HTML, add a file element and a button for starting the upload:
 
@@ -92,7 +100,7 @@ In the application’s HTML, add a file element and a button for starting the up
 <button onclick="upload()" >Upload</button>
 ```
 
-In the page’s JavaScript, we can upload the file asynchronously using the fetch function:
+In the page’s JavaScript, upload the file asynchronously using the fetch function:
 
 ```
 function upload()
@@ -104,13 +112,13 @@ function upload()
 }
 ```
 
-Choose a folder to accept your uploaded files. The application will need a path to this folder. Find the absolute path by using a relative path joined with \_\_dirname:
+Choose a folder to accept your uploaded files. The application needs a path to this folder. Find the absolute path by using a relative path joined with \_\_dirname:
 
 ```
 const uploadFolder = path.join(__dirname, "../uploads");
 ```
 
-Since the file is submitted via post, we need to respond to a post message on the server side:
+Since the file is submitted via post, you need to respond to a post message on the server side:
 
 ```
 router.post('/', (req, res, next) => {
@@ -133,7 +141,7 @@ router.post('/', (req, res, next) => {
 
 After this function executes, the file saves in the applications upload folder and is available for further processing.
 
-We now want to convert the file from its native format to PDF. The sample code you downloaded earlier contains a script named `create-pdf-from-docx.js` for converting a document to PDF. The following function, `convertDocumentToPDF`, takes an uploaded document and converts it to a PDF in a different folder:
+Next, convert the file from its native format to PDF. The sample code you downloaded earlier contains a script named `create-pdf-from-docx.js` for converting a document to PDF. The following function, `convertDocumentToPDF`, takes an uploaded document and converts it to a PDF in a different folder:
 
 ```
 function convertDocumentToPDF(sourcePath, destinationPath)
@@ -168,7 +176,7 @@ function convertDocumentToPDF(sourcePath, destinationPath)
 
 You may notice a general pattern with the code:
 
-The code builds a credentials object and an execution context, initializes some operation, then executes the operation with the execution context. You will see this pattern throughout the sample code.
+The code builds a credentials object and an execution context, initializes some operation, then executes the operation with the execution context. You can see this pattern throughout the sample code.
 
 By making a few additions to the upload function so it calls this function, the Word documents that users upload are now automatically converted to PDF.
 
@@ -192,7 +200,7 @@ logger.info('converting to ${destinationName}')
 
 The document toolkit converts other formats to PDF, such as static HTML, another common document type. The toolkit accepts HTML documents packaged as a .zip file with all resources referenced by the document (CSS files, images, and other files) in the same .zip file. The HTML document itself must be named index.html and placed in the root of the .zip file.
 
-If we have a .zip file containing HTML we want to convert, we can use the following code:
+To convert a .zip file containing HTML use the following code:
 
 ```
 //Create an HTML to PDF operation and provide the source file to it
@@ -227,7 +235,7 @@ const setCustomOptions = (htmlToPDFOperation) => {
 };
 ```
 
-Opening an HTML document containing some terms, we get the following within the browser:
+Opening an HTML document containing some terms, you get the following within the browser:
 
 ![Image of Computer Terms](assets/AWNjs_3.png)
 
@@ -235,15 +243,15 @@ The source for this document is composed of a CSS file and an HTML file:
 
 ![Image of CSS and HTML file](assets/AWNjs_4.png)
 
-After processing the HTML file, we have the same text in PDF format:
+After processing the HTML file, you have the same text in PDF format:
 
 ![PDF file of Computer Terms](assets/AWNjs_5.png)
 
 ## Appending pages
 
-Another common operation with PDF files is appending pages to the end that may have standard text, such as a list of terms. The document toolkit can combine several PDF documents into a single document. If we have a list of document paths (here in `sourceFileList`), we can add each file’s file references to an object for a combine operation.
+Another common operation with PDF files is appending pages to the end that may have standard text, such as a list of terms. The document toolkit can combine several PDF documents into a single document. If you have a list of document paths (here in `sourceFileList`), you can add each file’s file references to an object for a combine operation.
 
-When the combine operation executes, it provides a single file containing all of the source content. We can use `saveAsFile` on the object to persist the file to storage.
+When the combine operation executes, it provides a single file containing all of the source content. You can use `saveAsFile` on the object to persist the file to storage.
 
 ```
 const executionContext = PDFToolsSDK.ExecutionContext.create(credentials);
@@ -265,21 +273,21 @@ combineOperation.execute(executionContext)
 
 ## Displaying PDF documents
 
-We’ve performed several operations on PDF files, but ultimately, your user needs to view the documents. You can easily embed the document into a webpage using Adobe’s PDF Embed API.
+You’ve performed several operations on PDF files, but ultimately, your user needs to view the documents. You can embed the document into a webpage using Adobe’s PDF Embed API.
 
-On the page that will display the PDF, add a `<div />` element to hold the document and give it an ID. We will use this ID shortly. In the web page, include a `<script />` reference to the Adobe JavaScript library:
+On the page that will display the PDF, add a `<div />` element to hold the document and give it an ID. You use this ID shortly. In the web page, include a `<script />` reference to the Adobe JavaScript library:
 
 ```
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 ```
 
-The last bit of code you need is a function that displays the document once the Adobe PDF Embed API JavaScript is loaded. We receive a notification that the script is loaded through an adobe_dc_view\_sdk.ready event, then create a new AdobeDC.View object. This object needs your Client ID and the ID of the element we created earlier. Find your client ID in the [Adobe Developer Console](https://console.adobe.io/). When you view the settings for the application you created when generating credentials earlier, the Client ID will display there.
+The last bit of code you need is a function that displays the document once the Adobe PDF Embed API JavaScript is loaded. You receive a notification that the script is loaded through an adobe_dc_view\_sdk.ready event, then create a new AdobeDC.View object. This object needs your Client ID and the ID of the element you created earlier. Find your client ID in the [Adobe Developer Console](https://console.adobe.io/). When you view the settings for the application you created when generating credentials earlier, the Client ID will display there.
 
 ![Image of API Client Key](assets/AWNjs_6.png)
 
 ## Other PDF options
 
-[Adobe PDF Embed API demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) enables you to preview the various other options for embedding PDF documents.
+The [Adobe PDF Embed API demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) enables you to preview the various other options for embedding PDF documents.
 
 ![Image of embedding PDF options ](assets/AWNjs_7.png)
 
@@ -289,9 +297,9 @@ You can turn various options on and off and immediately see how they render. Whe
 
 ## Adding digital signatures and security
 
-Once a document is ready, you can add in digital signatures for approval using Adobe Sign. This functionality works a bit differently than the functionality we have used thus far. For digital signatures, an application must be configured to use OAuth for user authentication.
+Once a document is ready, you can add in digital signatures for approval using Adobe Sign. This functionality works a bit differently than the functionality you have used so far. For digital signatures, an application must be configured to use OAuth for user authentication.
 
-The first step in setting up your application will be to [register your application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) to use OAuth for Adobe Sign. Once signed in, navigate to the screen for creating new applications by clicking on *Account*, then open the *Adobe Sign API* section, and click *API Applications* to open the list of applications you have registered.
+The first step in setting up your application is to [register your application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) to use OAuth for Adobe Sign. Once signed in, navigate to the screen for creating new applications by clicking on *Account*, then open the *Adobe Sign API* section, and click *API Applications* to open the list of registered applications.
 
 ![Image of first step in registering your application](assets/AWNjs_9.png)
 
@@ -303,7 +311,7 @@ In the window that opens, enter an application name and display name. Select *Cu
 
 ![Image of where to enter application name and display name](assets/AWNjs_11.png)
 
-After the application is created, we can select it from the list and click on *Configure OAuth for Application*. Select the options. In the Redirect URL, enter the URL for your application. You can enter multiple URLs here. For the application we’re testing, the value is:
+After the application is created, you can select it from the list and click on *Configure OAuth for Application*. Select the options. In the Redirect URL, enter the URL for your application. You can enter multiple URLs here. For the application you’re testing, the value is:
 
 ```
 http://localhost:3000/signed-in 
@@ -324,7 +332,7 @@ https://secure.adobesign.com/public/oauth?
   scope=
 ```
 
-The user will be prompted to sign into their ID for Adobe Sign. After signing in, they are asked whether or not to provide permissions to the application.
+The user is prompted to sign into their ID for Adobe Sign. After signing in, they are asked whether or not to provide permissions to the application.
 
 ![Image of confirm access screen](assets/AWNjs_12.png)
 
@@ -414,7 +422,7 @@ request(requestBody, function (error, response) {
 });
 ```
 
-If the signers forget to sign and need another notification email, send the notifications again using the ID received earlier. The only difference is that you'll also need to add the participant IDs of the parties. You can get the participant IDs by sending a GET request to `/agreements/{agreementID}/members`.
+If the signers forget to sign and need another notification email, send the notifications again using the ID received earlier. The only difference is that you also need to add the participant IDs of the parties. You can get the participant IDs by sending a GET request to `/agreements/{agreementID}/members`.
 
 To request to send the reminder, first build a JSON object describing the request. The minimal object needs a list of the participant IDs and a status for the reminder (“ACTIVE”, “COMPLETE”, or “CANCELLED”).
 
@@ -449,11 +457,11 @@ And that's all it takes to send a reminder request.
 
 ## Creating Web Forms
 
-You can also use the Adobe Sign API to create Web Forms. Web Forms enable you to embed a form within a web page or link directly to it. Once a Web Form is created, it also displays among the web forms in your Adobe Sign console. You can create new Web Forms with DRAFT status for incremental building, AUTHORING status for editing the web form fields, and ACTIVE status to immediately host the form.
+You can also use the Adobe Sign API to create Web Forms. Web Forms enable you to embed a form within a web page or link directly to it. Once a Web Form is created, it also displays among the Web Forms in your Adobe Sign console. You can create new Web Forms with DRAFT status for incremental building, AUTHORING status for editing the web form fields, and ACTIVE status to immediately host the form.
 
 ![Image of Web Form in the Adobe Sign Manage screen](assets/AWNjs_14.png)
 
-To create a Web Form use the form `transientDocumentId`. Decide on a title for the form and a status in which to initialize it.
+To create a Web Form use the form `transientDocumentId`. Decide on a title for the form and a status to initialize it.
 
 ```
 var requestBody = {
