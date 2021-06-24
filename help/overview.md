@@ -60,12 +60,12 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="assets/GrayBanner_Placeholder.png" />
     <div>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="assets/GrayBanner_Placeholder.png" />
     <div>
     <br>
   </td>
