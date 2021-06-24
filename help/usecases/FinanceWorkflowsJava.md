@@ -14,13 +14,13 @@ The financial industry uses PDF files extensively to exchange data because it he
 
 The PDF format, however, can be challenging to process and automate, especially when combining multiple data sources — a common use case in the financial industry. Building a custom solution to process PDF documents is an option, but there is no need to invest too much time and money in software and infrastructure. Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF documents.
 
-In this tutorial, learn how to use Adobe Document Services APIs for Java Spring Boot applications to build a model-view-controller (MVC) app that extracts content from PDF documents, converts it to other data formats such as Excel, combines multiple PDFs, and password protects the resources. This tutorial explains how to process PDF documents and show them on your websites using the Adobe [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
+In this tutorial, learn how to use Adobe Document Services APIs for Java Spring Boot applications. You build a model-view-controller (MVC) app that extracts content from PDF documents, converts it to other data formats such as Excel, combines multiple PDFs, and password protects the resources. This tutorial explains how to process PDF documents and show them on your websites using the Adobe [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
 
 ## Setup
 
-Adobe Document Services uses an authentication system to control resource access. To access the services, you must request an API key from Adobe for your organization or application. If you have an API key, continue to the next section. If you want to create a new API key, visit [Getting Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) in the Document Services site. You can create a key using their free trial which provides 1,000 document transactions that can be used for up to 6 months.
+Adobe Document Services uses an authentication system to control resource access. To access the services, you must request an API key from Adobe for your organization or application. If you have an API key, continue to the next section. To create a new API key, visit [Getting Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) in the Document Services site. You can create a key using their free trial which provides 1,000 document transactions that can be used for up to six months.
 
-Note that to follow along with this tutorial, you need two sets of API keys:
+To follow along with this tutorial, you need two sets of API keys:
 
 * Adobe PDF Services — used to process the PDF document
 
@@ -58,15 +58,15 @@ Next, get the context to process the PDF documents. Here are the actions you can
 
 * Combine multiple PDF documents
 
-* Protect and unprotect the PDF documents (you need to have the password)
+* Protect and unprotect the PDF documents (you must have the password)
 
 * Optimize the PDF documents for delivery on networks
 
 All these samples are available in the [GitHub samples](https://github.com/adobe/pdftools-java-sdk-samples/tree/master/src/main/java/com/adobe/platform/operation/samples) repository.
 
-Next, in Spring Boot, you can get a file using the String path or the Stream where the file is being uploaded. Every operation that you perform needs to be initialized and an input file path must be set. For this tutorial, you use the publicly available PDF reports from [Blackrock](https://www.blackrock.com/us/individual/products/investment-funds). You can use any other source including your own reports.
+Next, in Spring Boot, you can get a file using the String path or the Stream where the file is being uploaded. Every operation you perform must be initialized and an input file path must be set. For this tutorial, you use the publicly available PDF reports from [Blackrock](https://www.blackrock.com/us/individual/products/investment-funds). You can use any other source including your own reports.
 
-Start by capturing the [FileRef](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/io/FileRef.html) object from the file. Note that, for simplicity, you focus on the files by String path. Below, you create an operation to convert a file in your path from PDF to Excel:
+Start by capturing the [FileRef](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/io/FileRef.html) object from the file. For simplicity, focus on the files by String path. Below, you create an operation to convert a file in your path from PDF to Excel:
 
 ```
 ExecutionContext executionContext = ExecutionContext.create(credentials);
@@ -88,7 +88,7 @@ try {
 }
 ```
 
-This scenario handles only one PDF file. You could also start with multiple PDF files and combine them into a single file. Using multiple files is common in financial data reporting because you need to process funds from multiple sources to provide a comprehensive report.
+This scenario handles only one PDF file. You could also start with multiple PDF files and combine them into a single file. Using multiple files is common in financial data reporting because you must process funds from multiple sources to provide a comprehensive report.
 
 ## Generating the report
 
@@ -124,7 +124,7 @@ try {
 
 This code generates a PDF document from the report in Excel format.
 
-Before delivering this PDF to your customers, you can protect it with a password. You need to create another operation that handles this for us, [ProtectPDFOperation](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/options/protectpdf/ProtectPDFOptions.html) to add the password to the document.
+Before delivering this PDF to your customers, you can protect it with a password. Create another operation that handles this protection for you, [ProtectPDFOperation](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/options/protectpdf/ProtectPDFOptions.html) to add the password to the document.
 
 ```
 ProtectPDFOptions options = ProtectPDFOptions.passwordProtectOptionsBuilder()
@@ -138,11 +138,11 @@ Next, specify the input and execute the operation. The resulting file should hav
 
 ## Displaying the report
 
-Now that your PDF report is generated, you can display the report on the website using the Adobe PDF Embed API. This is a JavaScript API that enables web developers to load and render the PDF documents natively inside the web browser.
+Now that your PDF report is generated, you can display the report on the website using the Adobe PDF Embed API. This JavaScript API enables web developers to load and render the PDF documents natively inside the web browser.
 
 >[!NOTE]
 >
-> This is where you need the second credential token, the client ID.
+> At this point you need the second credential token, the client ID.
 
 In your Spring Boot application, add the following HTML snippet where you want to render the PDF report:
 
