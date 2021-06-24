@@ -14,7 +14,7 @@ When operating a website with multiple users, it’s crucial to design an experi
 
 Imagine the following scenario: you have a website that allows employers to [upload job postings](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html). For job seekers, it’s convenient to easily view all documents related to a posting in a consistent format. However, it’s convenient for employers to attach information in whatever file format they happen to have. To offer convenience to both types of users, you can automatically convert all uploaded documents to PDFs and embed them in-line in the posting.
 
-This tutorial walks through a Node.js example that uses Adobe Document Services and its [Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) to add these capabilities to a  job posting site, making it easier to use and making it more attractive to employers and job seekers alike. Here is the [complete](https://github.com/contentlab-io/adobe_job_posting) [project code](https://github.com/contentlab-io/adobe_job_posting), in case you want follow along as you read.
+This tutorial walks through a Node.js example that uses Adobe Document Services and its [Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) to add these capabilities to a job posting site. This makes the website easier to use and more attractive to employers and job seekers alike. Here is the [complete](https://github.com/contentlab-io/adobe_job_posting) [project code](https://github.com/contentlab-io/adobe_job_posting), in case you want to follow along as you read.
 
 To start, set up a simple Express-based Node.js web application. [Express](https://expressjs.com/) is a minimalist web application framework offering features such as routing and templating. The code for the application is available on [GitHub](https://github.com/contentlab-io/adobe_job_posting). Also, install the [PostgreSQL database](https://www.postgresql.org/) and set it up to store the PDF.
 
@@ -26,17 +26,17 @@ To start, set up a simple Express-based Node.js web application. [Express](https
 
 ## Creating Adobe API credentials
 
-You must [create new credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API (completely free to use) and Adobe PDF Services API (free for six months then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction). When creating credentials for PDF Services API, select the “Create personalized code sample” option. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
+You must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API (free to use) and Adobe PDF Services API (free for six months then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction). When creating credentials for PDF Services API, select the “Create personalized code sample” option. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
 
-You also need an API key for the freely available Embed API. From [Projects](https://console.adobe.io/projects), go to the project you just created. Then, click **Add to Project** and select **API**. Finally, click **PDF Embed API**.
+You also need an API key for the freely available Embed API. From [Projects](https://console.adobe.io/projects), go to the project you created. Then, click **Add to Project** and select **API**. Finally, click **PDF Embed API**.
 
-Specify the domain where you will use Embed API. The API key must be public (find it in the code executed by the browser). By specifying a domain, you ensure that someone else in a different domain can’t use the API key.
+Specify the domain for the PDF Embed API. The API key must be public (find it in the code executed by the browser). By specifying a domain, you ensure that someone else in a different domain can’t use the API key.
 
 You cannot use “localhost” as a domain. Specify a domain, such as “testing.local”, and edit the hosts file on your computer to redirect that domain to 127.0.0.1, which is your computer. Then, instead of testing your application on localhost:3000, you can test it on testing.local:3000. When finished, find the API key for PDF Embed API on the project page.
 
 ## Adding an upload form and handler
 
-With a working Express application and our API credentials, you also need a form enabling users to upload their documents to the website. Edit the index.jade template for this purpose.
+With a working Express application and API credentials, you also need a form enabling users to upload their documents to the website. Edit the index.jade template for this purpose.
 
 Create an input field for the name of the uploaded job posting and for a document containing more information.
 
@@ -60,7 +60,7 @@ block content
     input(type="submit", value="Submit job posting")
 ```
 
-Next, add a handler for the POST request to the /upload action. Then add a new route for /upload to the routes/index.js file. If you want, you can also create a new file for this route, but you’ll have to update the app.js file to reflect this. Inside this route handler, you can access the given name and the uploaded file.
+Next, add a handler for the POST request to the /upload action. Then, add a route for /upload to the routes/index.js file. You can also create a new file for this route, but you’ll have to update the app.js file to reflect the new file. Inside this route handler, you can access the given name and the uploaded file.
 
 ```  
 router.post('/upload', async function (req, res, next) {
@@ -71,13 +71,13 @@ router.post('/upload', async function (req, res, next) {
   });
 ```
 
-Note that the function is asynchronous so you can use the await keyword in the function. This is convenient when calling the methods that perform API calls.
+The function is asynchronous so you can use the await keyword in the function. This is convenient when calling the methods that perform API calls.
 
 ![Screenshot of job posting website](assets/jobs_1.png)
 
 ## Using PDF Services API
 
-Before we can start using PDF Services API, we must add the following imports to the top of the routes file:
+Before using the PDF Services API, you must add the following imports to the top of the routes file:
 
 ```  
 const PDFToolsSdk = require('@adobe/documentservices-pdftools-node-sdk');
@@ -95,7 +95,7 @@ Right under the imports, you can load API credentials and create an [execution c
   const executionContext = PDFToolsSdk.ExecutionContext.create(credentials);
 ```
 
-Now, go back to writing code in our request handler at the comment in our `router.post` block. Start by converting the document to PDF.
+Now, go back to writing code in the request handler at the comment in the `router.post` block. Start by converting the document to PDF.
 
 ```
   const createPdfOperation = PDFToolsSdk.CreatePDF.Operation.createNew();
@@ -111,9 +111,9 @@ Now, go back to writing code in our request handler at the comment in our `route
   return res.send('success!');
 ```
 
-Most operations take the same four steps. First, initialize the type of operation, using the createNew method of the appropriate class. Then, create the input for the operation, which is FileRef. Subsequent operations can skip this step because the result of an operation is also a FileRef. For this initial operation, you must create a FileRef from the bytes of the uploaded file. Third, you must assign the input to the operation. Finally, the operation executes, with the execution context as a parameter in the execute method. This method returns a Promise so we can await the result.
+Most operations take the same four steps. First, initialize the type of operation, using the createNew method of the appropriate class. Then, create the input for the operation, which is FileRef. Subsequent operations can skip this step because the result of an operation is also a FileRef. For this initial operation, you must create a FileRef from the bytes of the uploaded file. Third, you must assign the input to the operation. Finally, the operation executes, with the execution context as a parameter in the execute method. This method returns a Promise so you can await the result.
 
-The code saves the returned PDF to a file and sends a simple “success” response to the browser. The “Date” part of the filename guarantees a unique filename. The saveAsFile returns an error if the destination file already exists.
+The code saves the returned PDF to a file and sends a simple “success” response to the browser. The “Date” part of the filename guarantees a unique filename. The saveAsFile returns an error if the destination file exists.
 
 ## Converting images to text and compressing the PDF
 
@@ -142,9 +142,9 @@ Now, use optical character recognition (OCR) to convert images to text and then 
   return res.send('success!');
 ```
 
-You only need to create input once because the result is a FileRef, which the code can pass to setInput.
+It's only necessary to do this once because the result is a FileRef, which the code can pass to setInput.
 
-Next, instead of saving the file on a hard disk and returning an oversimplified HTTP response, store the PDF in a database and display a webpage that embeds the PDF using Adobe’s free PDF Embed API. This way, the employer’s job posting or brochure is visible on the website for job seekers to find and view, complete with company logos and other design elements.
+There is an better alternative than saving the file on a hard disk and returning an oversimplified HTTP response. Instead, store the PDF in a database and display a webpage that embeds the PDF using Adobe’s free PDF Embed API. This way, the employer’s job posting or brochure is visible on the website for job seekers to find and view, complete with company logos and other design elements.
 
 ## Storing the PDF in a database
 
@@ -154,7 +154,7 @@ Store the PDFs in a PostgreSQL database. Get the node-postgres package to connec
 npm install pg stream-buffers
 ```
 
-Now create a database table for job postings. It needs a column for a unique identifier, a column for a name, and a column for the attached PDF. You can do this from the Postgres command-line interface (CLI):
+Now create a database table for job postings. It needs a column for a unique identifier, a column for a name, and a column for the attached PDF. You can create a database table from the Postgres command-line interface (CLI):
 
 ```
 CREATE TABLE job_postings (id TEXT PRIMARY KEY, name TEXT NOT NULL, attachment
@@ -168,7 +168,7 @@ Go back to the Node.js files. Add some imports at the top of the file:
   const streamBuffers = require('stream-buffers');
 ```
 
-Modify the upload function to store the PDF in the database table. Replace the last two lines (saveAsFile and send) with this code snippet:
+To store the PDF in the database table, modify the upload function. Replace the last two lines (saveAsFile and send) with this code snippet:
 
 ```
   const pgClient = new Client();
@@ -189,9 +189,9 @@ Modify the upload function to store the PDF in the database table. Replace the l
   result.writeToStream(writableStream);
 ```
 
-Create a WritableStreamBuffer to write the contents. With the finish event, it's time to execute the SQL query. The node-postgres package automatically converts the Buffer parameter to the BYTEA format. The query redirects the user to /job/{id}, an endpoint created later.
+To write the contents, create a WritableStreamBuffer. With the finish event, it's time to execute the SQL query. The node-postgres package automatically converts the Buffer parameter to the BYTEA format. The query redirects the user to /job/{id}, an endpoint created later.
 
-For PDF Embed API, we also need an endpoint that returns just the PDF contents:
+For PDF Embed API, you also need an endpoint that returns just the PDF contents:
 
 ```
   router.get('/pdf/:id', async function (req, res, next) {
@@ -241,7 +241,7 @@ In the views/ directory, create a job.jade file with this content:
     script(src='/javascripts/embed-pdf.js')
 ```
 
-The first script is Adobe’s View SDK, which makes it easy to embed the PDF. The second script is an in-line one-liner that sets the value of window.embedUrl to the URL of the PDF provided by the Express route handler. You must create the third script yourself:
+The first script is Adobe’s View SDK, which makes it easy to embed the PDF. The second script is an in-line one-liner that sets the value of window.embedUrl to the URL of the PDF provided by the Express route handler. Create the third script yourself as follows:
 
 ```
   document.addEventListener("adobe_dc_view_sdk.ready", function () {
@@ -259,11 +259,11 @@ Now, you can test the whole process of uploading a document, being redirected to
 
 ![Screenshot of testing an uploaded PDF document](assets/jobs_2.png)
 
-Check out this [live demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/IN_LINE/Bodea%20Brochure.pdf) to see an in-line embed in action.
+To see an in-line embed in action, check out this [live demo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/IN_LINE/Bodea%20Brochure.pdf).
 
 ## Next steps
 
-This tutorial walked through how to use Node.js with Document Services to convert an uploaded [job posting](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. This helps everyone get the information they need to find their dream job.
+This tutorial walked through how to use Node.js with Document Services to convert an uploaded [job posting](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. These funcations help everyone get the information they need to find their dream job.
 
 Document Services help you add key document-handling functions to your website or app. If you want to dive deeper into what these APIs can do, refer to the following quickstart documentation:
 
