@@ -60,7 +60,6 @@ You are using MongoDB as a database for this application. Therefore, to configur
 
 Now, install some packages using the npm install command as shown in the code snippet below:
 
- ```
     "name": "adobedocumentservicesapis",
     "version": "1.0.0",
     "description": "",
@@ -92,8 +91,7 @@ Now, install some packages using the npm install command as shown in the code sn
     "url": "https://github.com/agavitalis/AdobeDocumentServicesAPIs/issues"
     },
     "homepage": "https://github.com/agavitalis/AdobeDocumentServicesAPIs#readme"
-    }
-```
+}
 
 ```
 ###bash
@@ -117,7 +115,7 @@ Document Services includes three APIs:
 
 These APIs automate the generation, manipulation, and transformation of PDF contents through a set of cloud-based web services.
 
-To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, simply [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
+To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
 
 ![Screenshot of creating credentials](assets/searching_1.png)
 
