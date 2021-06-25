@@ -29,6 +29,7 @@ solution: Document Cloud, Document Services
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
 + Use Cases {#usecases}
   + [Overview](usecases/overview-usecases.md)
+  + [Searching and indexing with Adobe Document Services APIs](usecases/searching.md)
   + [Reviews and approvals with Adobe Document Services APIs](usecases/reviews.md)
   + [Report creation and editing with Adobe Document Services APIs](usecases/reportcreation.md)
   + [Job posting with Adobe Document Services APIs](usecases/jobposting.md)
