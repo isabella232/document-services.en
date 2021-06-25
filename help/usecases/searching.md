@@ -10,7 +10,7 @@ kt: 8095
 
 # Searching and indexing with Adobe Document Services APIs
 
-Organizations must often digitize their hard copy documents and scanned files. Consider this [scenario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit. A law firm has thousands of legal contracts they have scanned to create digital files. They want to determine if any of those legal contracts have a particular clause or supplement they must revise. Accuracy is necessary for compliance purposes. The solution is taking inventory of the digital documents, making the text searchable, and creating an index to find this information.
+Organizations must often digitize their hard copy documents and scanned files. Consider this [scenario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit). A law firm has thousands of legal contracts they have scanned to create digital files. They want to determine if any of those legal contracts have a particular clause or supplement they must revise. Accuracy is necessary for compliance purposes. The solution is taking inventory of the digital documents, making the text searchable, and creating an index to find this information.
 
 The challenge of creating digital archives to retrieve information for editing or downstream operations is a nightmare for most organizations.
 
