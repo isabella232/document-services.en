@@ -38,7 +38,7 @@ When creating credentials for PDF Services API, select the **Create personalized
 
 ## Setting up a project and dependencies
 
-Set up your Node.js and Express project to serve static files from a folder named “public”. You can do this in different ways, depending on your preferences. To get up and running quickly, you can use the [Express app generator](https://expressjs.com/en/starter/generator.html). Or if you'd like to keep things simple, you can [start from scratch](https://expressjs.com/en/starter/hello-world.html) and keep your code in a single JavaScript file. In the sample project linked above, you're using the one-file approach and keeping all of your code in index.js.
+Set up your Node.js and Express project to serve static files from a folder named “public”. You can set up your project ways, depending on your preferences. To get up and running quickly, you can use the [Express app generator](https://expressjs.com/en/starter/generator.html). Or if you'd like to keep things simple, you can [start from scratch](https://expressjs.com/en/starter/hello-world.html) and keep your code in a single JavaScript file. In the sample project linked above, you're using the one-file approach and keeping all of your code in index.js.
 
 Copy the `pdftools-api-credentials.json` and `private.key` files from the personalized code sample to the root directory of the project. Also, add them to the .gitignore file, if you have one, so your credential files are not accidentally sent to a repository.
 
@@ -417,7 +417,7 @@ Add an endpoint called /finalize that calls the function to combine all the PDF 
   } );
 ```
 
-Finally, add a link in the main index.html web page to this /finalize endpoint. This enables users to download the result of the document workflow.
+Finally, add a link in the main index.html web page to this /finalize endpoint. This links enables users to download the result of the document workflow.
 
 ```
 <a href="/finalize">Download final PDF</a>
@@ -427,7 +427,7 @@ Finally, add a link in the main index.html web page to this /finalize endpoint. 
 
 ## Next steps
 
-This tutorial shows how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) into a web application. Using the application remote workers can easily share files and collaborate with their teammates, which is especially helpful to employees and contractors who work from home.
+This tutorial shows how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) into a web application. This application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
 
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe’s APIs.
 
