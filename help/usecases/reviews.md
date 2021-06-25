@@ -14,7 +14,7 @@ Remote cross-team collaboration became necessary for many companies during the C
 
 These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. Adobe Document Services APIs are designed to enable application developers to solve these challenges for their users.
 
-This tutoral shows how to build a document review and approval workflow in a Node.js and Express web application. The code for this project is available [here](https://github.com/contentlab-io/adobe_reviews_and_approvals). To follow along with this tutorial, you just need some experience with Node.js.
+This tutorial shows how to build a document review and approval workflow in a Node.js and Express web application. The code for this project is available [here](https://github.com/contentlab-io/adobe_reviews_and_approvals). To follow along with this tutorial, you need some experience with Node.js.
 
 The application has the following features:
 
@@ -32,13 +32,13 @@ The application has the following features:
 
 ## Creating Adobe API credentials
 
-Before starting the code, you must [create new credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API and Adobe PDF Services API. PDF Embed API is completely free to use. PDF Services API is free to use for six months, then you can switch to a [pay-as-you-go plan](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just \$0.05 per document transaction.
+Before starting the code, you must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API and Adobe PDF Services API. PDF Embed API is free to use. PDF Services API is free to use for six months, then you can switch to a [pay-as-you-go plan](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just \$0.05 per document transaction.
 
 When creating credentials for PDF Services API, select the **Create personalized code sample** option and select Node.js for the language. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
 
 ## Setting up a project and dependencies
 
-Set up your Node.js and Express project to serve static files from a folder named “public.” There are several ways to do this, depending on your preferences. To get up and running quickly, you can use the [Express app generator](https://expressjs.com/en/starter/generator.html). Or if you'd like to keep things simple, you can [start from scratch](https://expressjs.com/en/starter/hello-world.html) and keep your code in a single JavaScript file. In the sample project linked above, you're using the one-file approach and keeping all of your code in index.js.
+Set up your Node.js and Express project to serve static files from a folder named “public”. You can do this in different ways, depending on your preferences. To get up and running quickly, you can use the [Express app generator](https://expressjs.com/en/starter/generator.html). Or if you'd like to keep things simple, you can [start from scratch](https://expressjs.com/en/starter/hello-world.html) and keep your code in a single JavaScript file. In the sample project linked above, you're using the one-file approach and keeping all of your code in index.js.
 
 Copy the `pdftools-api-credentials.json` and `private.key` files from the personalized code sample to the root directory of the project. Also, add them to the .gitignore file, if you have one, so your credential files are not accidentally sent to a repository.
 
@@ -80,7 +80,7 @@ Now you are ready to work with Document Services APIs.
 
 ## Converting a file to PDF
 
-For the first part of the document workflow, the end-user must upload documents to share. To enable this, you add an upload function and consolidate the different document file formats into PDFs to prepare them for the review process.
+For the first part of the document workflow, the end user must upload documents to share. To enable this, you add an upload function and consolidate the different document file formats into PDFs to prepare them for the review process.
 
 Start by creating a function to convert documents to PDF based on the [example snippet for PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html). This example also shows snippets for many other vital features, including optical character recognition (OCR), password protection and removal, and compression.
 
@@ -110,7 +110,7 @@ You can now use this function to create PDFs from uploaded documents.
 
 Next, the server needs a file upload endpoint on the web server to receive and process the documents.
 
-First, create a new folder within an uploads folder and name it “drafts.” You store the uploaded files and the converted PDF files here. Next, run `npm install express-fileupload' to install the Express-FileUpload module and add the middleware to Express in your code:
+First, create a folder within an uploads folder and name it “drafts.” You store the uploaded files and the converted PDF files here. Next, run `npm install express-fileupload' to install the Express-FileUpload module and add the middleware to Express in your code:
 
 ```
 const fileUpload = require( "express-fileupload" );
@@ -192,7 +192,11 @@ return res.json( files.filter( f =\> f.endsWith( ".pdf" ) ) );
 
 ```
 
-Add a `/download/:file` route that provides access to the uploaded PDF file for embedding into the webpage. Note that in a production application, you need to add authentication and authorization to ensure that the request is coming from a valid user and that the user is allowed to access the document.
+Add a `/download/:file` route that provides access to the uploaded PDF file for embedding into the webpage. 
+
+>[!NOTE]
+>
+>In a production application, you must add authentication and authorization to ensure that the request is coming from a valid user and that the user is allowed to access the document.
 
 ```
 app.get( "/download/:file", function( req, res ){
@@ -205,7 +209,7 @@ Update the index.html page with a file list element that fills at load time. Eac
 
 >[!NOTE]
 >
->You use jQuery to append each item, so you may need to load the jQuery library on your web page or append the element using a different method.
+>You use jQuery to append each item, so you must load the jQuery library on your web page or append the element using a different method.
 
 ```
   <ul id="filelist">
@@ -238,7 +242,7 @@ Update the index.html page with a file list element that fills at load time. Eac
 
 You are ready to embed and show PDF files inside your web application.
 
-Create a new web page called “draft.html” and add a div element on the page for the embedded PDF:
+Create a web page called “draft.html” and add a div element on the page for the embedded PDF:
 
 ```
   <div id="adobe-dc-view"></div>
@@ -310,7 +314,7 @@ Your profile identifies you as a specific user when you see and annotate any upl
 
 ## Saving document feedback
 
-After a user comments on a document, they click **Save.** By default, this downloads the updated PDF file. Let’s change this action to update the current PDF file on the server.
+After a user comments on a document, they click **Save.** By default, clicking **Save** downloads the updated PDF file. Change this action to update the current PDF file on the server.
 
 Add a `/save` endpoint to the server code that overwrites the PDF file in the uploads/drafts folder:
 
