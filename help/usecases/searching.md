@@ -10,13 +10,13 @@ kt: 8095
 
 # Searching and indexing with Adobe Document Services APIs
 
-Organizations must often digitize their hard copy documents and scanned files. Consider this [scenario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit. A law firm has thousands of legal contracts they have scanned to create digital files. They want to determine if any of those legal contracts have a particular clause or supplement they must revise. You must do this accurately for compliance purposes. The solution is taking inventory of the digital documents, making the text searchable, and creating an index to find this information.
+Organizations must often digitize their hard copy documents and scanned files. Consider this [scenario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit. A law firm has thousands of legal contracts they have scanned to create digital files. They want to determine if any of those legal contracts have a particular clause or supplement they must revise. Accuracy is necessary for compliance purposes. The solution is taking inventory of the digital documents, making the text searchable, and creating an index to find this information.
 
 The challenge of creating digital archives to retrieve information for editing or downstream operations is a nightmare for most organizations.
 
 This tutorial explores how Adobe Document Services APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating Document Services APIs for archiving, digitization, and document transformation.
 
-To follow, you need [Node.js](https://nodejs.org/) installed and a basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp). You can access the complete code for this application on [Github](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
+To follow, you need [Node.js](https://nodejs.org/) installed and a basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp). You can access the complete code for this application on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
 ## Project setup
 
@@ -61,38 +61,38 @@ You are using MongoDB as a database for this application. Therefore, to configur
 Now, install some packages using the npm install command as shown in the code snippet below:
 
  ```
-"name": "adobedocumentservicesapis",
-"version": "1.0.0",
-"description": "",
-"main": "index.js",
-"directories": {
-"test": "test"
-},
-"dependencies": {
-"body-parser": "^1.19.0",
-"config": "^3.3.6",
-"express": "^4.17.1",
-"hbs": "^4.1.1",
-"mongoose": "^5.12.1",
-"morgan": "^1.10.0",
-"multer": "^1.4.2",
-"path": "^0.12.7"
-},
-"devDependencies": {},
-"scripts": {
-"start": "set NODE_ENV=dev && node index.js"
-},
-"repository": {
-"type": "git",
-"url": "git+https://github.com/agavitalis/AdobeDocumentServicesAPIs.git"
-},
-"author": "Ogbonna Vitalis",
-"license": "ISC",
-"bugs": {
-"url": "https://github.com/agavitalis/AdobeDocumentServicesAPIs/issues"
-},
-"homepage": "https://github.com/agavitalis/AdobeDocumentServicesAPIs#readme"
-}
+    "name": "adobedocumentservicesapis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+    "test": "test"
+    },
+    "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.12.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+    "start": "set NODE_ENV=dev && node index.js"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agavitalis/AdobeDocumentServicesAPIs.git"
+    },
+    "author": "Ogbonna Vitalis",
+    "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/agavitalis/AdobeDocumentServicesAPIs/issues"
+    },
+    "homepage": "https://github.com/agavitalis/AdobeDocumentServicesAPIs#readme"
+    }
 ```
 
 ```
@@ -117,7 +117,7 @@ Document Services includes three APIs:
 
 These APIs automate the generation, manipulation, and transformation of PDF contents through a set of cloud-based web services.
 
-To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, simply [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just \$0.05 per document transaction. You pay only as your company grows and processes more contracts.
+To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, simply [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
 
 ![Screenshot of creating credentials](assets/searching_1.png)
 
@@ -127,13 +127,13 @@ Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/doc
 
 ## Creating a PDF
 
-Document Services provides support for the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
+Document Services supports the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
 
 To create PDF documents from the supported file formats, use this form to upload the documents. You can access the HTML and CSS files for the form on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
 ![Screenshot of the web form](assets/searching_2.png)
 
-Now, add the following code snippets to the controllers/createPDFController.js file. This retrieves the document and transforms it into a PDF.
+Now, add the following code snippets to the controllers/createPDFController.js file. This code retrieves the document and transforms it into a PDF.
 
 The original files and the transformed file are saved in a folder inside your application.
 
@@ -211,7 +211,7 @@ Here is the upload form for this example:
 
 ![Screenshot of form to upload files](assets/searching_3.png)
 
-Now, to manipulate the uploaded PDF and perform some OCR operations, add the code snippet below to the controllers/makeOCRController.js file. This implements the OCR process on an uploaded file and then saves the file in your application’s file system.
+Now, to manipulate the uploaded PDF and perform some OCR operations, add the code snippet below to the controllers/makeOCRController.js file. This code implements the OCR process on an uploaded file and then saves the file in your application’s file system.
 
 ```
 const fs = require('fs')
@@ -303,7 +303,11 @@ You need the Document Services Node SDK and the mongoose, pdf-parse, and fs modu
 
 Now create two functions: makeOCR to display the uploaded form and then makeOCRPost for processing the uploaded document. Save the original form to a database, then save the transformed form to the output folder of your application.
 
-The Adobe-provided credentials from the pdftools-api-credentials.json file are loaded in each case before transforming the file. Note that the Document Service’s OCR feature supports only PDF documents.
+The Adobe-provided credentials from the pdftools-api-credentials.json file are loaded in each case before transforming the file. 
+
+>[!NOTE]
+>
+>The Document Service’s OCR feature supports only PDF documents.
 
 Also, add the code snippet below to the Modes/Document.js file of your application.
 
@@ -339,7 +343,7 @@ module.exports = mongoose.model("document", DocumentSchema);
 
 Now you implement a simple search feature to enable users to perform some simple text searches. You also add download functionality to enable the download of PDF files.
 
-This functionality requires a simple form and cards to display the search result. You can find the designs for the form and cards on [Github](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
+This functionality requires a simple form and cards to display the search result. You can find the designs for the form and cards on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
 The screenshot below illustrates the search feature and the search results. You can download any of the search results.
 
