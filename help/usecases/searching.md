@@ -24,7 +24,7 @@ First, set up the folder structure for the application. You can retrieve the sou
 
 ## Directory structure
 
-Create a folder called AdobeDocumentServicesAPIs and open it in an editor of your choice. Create a basic NodeJS application with the ``  `npm init` `` command using this folder structure:
+Create a folder called AdobeDocumentServicesAPIs and open it in an editor of your choice. Create a basic NodeJS application with the ```  `npm init` ``` command using this folder structure:
  
 ```
 AdobeDocumentServicesAPIs
@@ -124,7 +124,7 @@ To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_cred
 
 Once you have completed the signup, a code sample is downloaded to your PC which contains your API credentials. Extract this code sample and place the private.key and pdftools-api-credentials.json files at the root directory of your application.
 
-Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) by running the `` `npm install --save @adobe/documentservices-pdftools-node-sdk ` `` command using the terminal in the root directory of the application.
+Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) by running the ``` `npm install --save @adobe/documentservices-pdftools-node-sdk ` ``` command using the terminal in the root directory of the application.
 
 ## Creating a PDF
 
