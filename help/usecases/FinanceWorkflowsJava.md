@@ -26,9 +26,9 @@ To follow along with this tutorial, you need two sets of API keys:
 
 * Adobe PDF Embed API
 
-After creating the credentials, copy the PDF Tools API credentials and the private key to the Spring Boot application inside the resources section. Learn more about the [Maven and Gradle libraries and dependencies](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=services) on the Adobe Document Services website. Make sure you set up all necessary packages and libraries before you proceed.
+After creating the credentials, copy the PDF Services API credentials and the private key to the Spring Boot application inside the resources section. Learn more about the [Maven and Gradle libraries and dependencies](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=services) on the Adobe Document Services website. Make sure you set up all necessary packages and libraries before you proceed.
 
-![Screenshot of the directory location for PDF Tools API credentials](assets/FAWJ_1.png)
+![Screenshot of the directory location for PDF Services API credentials](assets/FAWJ_1.png)
 
 To configure the logging services, visit [Adobe documentation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=services) and scroll to the Logging section.
 
@@ -98,7 +98,7 @@ For example, you can use the [Apache POI](https://poi.apache.org/) to process Ex
 
 In this example, starting with your PDF documents, you extract the net asset value for your three funds and show them in a table. You can pull other information as well, such as charts and tables, based on your requirements and the data available. You can even bring in data from other sources.
 
-After your report is generated — in this example, in an Excel format — you can use Adobe PDF Tools operations to convert the report back to a PDF document and protect it.
+After your report is generated — in this example, in an Excel format — you can use Adobe PDF Services operations to convert the report back to a PDF document and protect it.
 
 To convert the report from Excel format to a PDF document, use the following operation:
 
