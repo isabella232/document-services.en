@@ -60,6 +60,8 @@ You are using MongoDB as a database for this application. Therefore, to configur
 
 Now, install some packages using the npm install command as shown in the code snippet below:
 
+```
+{
     "name": "adobedocumentservicesapis",
     "version": "1.0.0",
     "description": "",
@@ -92,6 +94,7 @@ Now, install some packages using the npm install command as shown in the code sn
     },
     "homepage": "https://github.com/agavitalis/AdobeDocumentServicesAPIs#readme"
 }
+```
 
 ```
 ###bash
