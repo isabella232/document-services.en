@@ -110,7 +110,7 @@ You can now use this function to create PDFs from uploaded documents.
 
 Next, the server needs a file upload endpoint on the web server to receive and process the documents.
 
-First, create a folder within an uploads folder and name it “drafts.” You store the uploaded files and the converted PDF files here. Next, run `npm install express-fileupload' to install the Express-FileUpload module and add the middleware to Express in your code:
+First, create a folder within an uploads folder and name it “drafts”. You store the uploaded files and the converted PDF files here. Next, run `npm install express-fileupload` to install the Express-FileUpload module and add the middleware to Express in your code:
 
 ```
 const fileUpload = require( "express-fileupload" );
