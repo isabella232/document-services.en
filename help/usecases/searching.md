@@ -118,13 +118,13 @@ Document Services includes three APIs:
 
 These APIs automate the generation, manipulation, and transformation of PDF contents through a set of cloud-based web services.
 
-To get the credentials you need, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
+To get the credentials you need to [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
 
 ![Screenshot of creating credentials](assets/searching_1.png)
 
 Once you have completed the signup, a code sample is downloaded to your PC which contains your API credentials. Extract this code sample and place the private.key and pdftools-api-credentials.json files at the root directory of your application.
 
-Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) by running the `npm install --save @adobe/documentservices-pdftools-node-sdk ` command using the terminal in the root directory of the application.
+Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) by running the ` npm install --save @adobe/documentservices-pdftools-node-sdk ` command using the terminal in the root directory of the application.
 
 ## Creating a PDF
 
@@ -306,9 +306,7 @@ Now create two functions: makeOCR to display the uploaded form and then makeOCRP
 
 The Adobe-provided credentials from the pdftools-api-credentials.json file are loaded in each case before transforming the file.
 
->[!NOTE]
->
->The Document Service’s OCR feature supports only PDF documents.
+**NOTE:** The Document Service’s OCR feature supports only PDF documents.
 
 Also, add the code snippet below to the Modes/Document.js file of your application.
 
