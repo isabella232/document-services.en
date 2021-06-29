@@ -19,11 +19,21 @@ Learn how the Adobe Document Services APIs can change your business with these h
 <table style="table-layout:fixed">
 <tr>
  <td>
+   <a href="legal.md">
+      <img alt="Managing legal contracts with Adobe Document Services APIs" src="assets/legal_thumb.jpg" />
+   </a>
+    <div>
+   <a href="legal.md"><strong>Managing legal contracts with Adobe Document Services APIs</strong></a>
+    </div>
+    <em>Learn how to automatically generate and protect legal documents with custom data input</em>
+    <br>
+  </td>
+  <td>
    <a href="invoices.md">
       <img alt="Handling invoices with Adobe Document Generation API" src="assets/invoices_thumb.jpg" />
    </a>
     <div>
-   <a href="offer.md"><strong>Handling invoices with Adobe Document Generation API</strong></a>
+   <a href="invoices.md"><strong>Handling invoices with Adobe Document Generation API</strong></a>
     </div>
     <em>Learn how to automatically generate, password-protect, and deliver customer invoices</em>
     <br>
@@ -38,6 +48,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to generate an offer letter that can be delivered to a new employee for their signature</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
    <a href="searching.md">
       <img alt="Searching and indexing with Adobe Document Services APIs" src="assets/searching_thumb.jpg" />
@@ -48,9 +60,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to create searchable PDF files from scanned documents</em>
     <br>
   </td>
-</tr>
-<tr>
-  <td>
+   <td>
    <a href="reviews.md">
       <img alt="Reviews and approvals with Adobe Document Services APIs" src="assets/reviews_thumb.jpg" />
    </a>
@@ -70,7 +80,9 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to generate PDF reports on your website for customers</em>
     <br>
   </td>
-  <td>
+</tr>
+<tr>
+   <td>
    <a href="jobposting.md">
       <img alt="Job posting with Adobe Document Services APIs" src="assets/job_thumb.jpg" />
    </a>
@@ -80,14 +92,12 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to develop a smooth and consistent web experience for job applicants and employers</em>
     <br>
   </td>
-</tr>
-<tr>
-   <td>
+  <td>
    <a href="educationcollab.md">
       <img alt="Student-Teacher Collaboration with Adobe Document Services APIs" src="assets/edu_thumb.jpg" />
    </a>
     <div>
-   <a href="ddppdfembedapi.md"><strong>Student-Teacher collaboration with Adobe Document Services APIs</strong></a>
+   <a href="educationcollab.md"><strong>Student-Teacher collaboration with Adobe Document Services APIs</strong></a>
     </div>
     <em>Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF</em>
     <br>
@@ -102,7 +112,9 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to display embedded PDF documents inside web pages using Adobe PDF Embed API</em>
     <br>
   </td>
-  <td>
+</tr>
+<tr>
+   <td>
    <a href="signapi.md">
       <img alt="Getting started with Adobe Sign API" src="assets/GSASAPI_thumb.jpg" />
    </a>
@@ -112,8 +124,6 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to include Sign API in your application to gather signatures and other information</em>
     <br>
   </td>
-</tr>
-<tr>
    <td>
    <a href="AgreementWorkflowsNodejs.md">
       <img alt="Agreement workflows with Adobe Document Services APIs in Node.js" src="assets/AWNjs_thumb.png" />
@@ -134,6 +144,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
+</tr>
+<tr>
    <td>
    <a href="FinanceWorkflowsJava.md">
       <img alt="Managing financial document workflows with Adobe Document Services APIs in Java" src="assets/FAWJ_thumb.jpg" />
@@ -144,5 +156,15 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
     <br>
   </td>
-</tr>
+   <td>
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+  <td>
+    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+ </tr> 
 </table>

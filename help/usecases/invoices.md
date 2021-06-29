@@ -203,7 +203,7 @@ Once you're done with the invoice, you might want to automatically email it to t
 
 ## Next steps
 
-In this tutorial, you created a simple app to help Danielle in accounting with her [invoicing](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
+In this tutorial, you created a simple app to help Danielle in accounting with [invoicing](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
 
 Since Danielle can generate invoices automatically and doesn’t have to worry about customers editing their invoices, she won’t need to hire an assistant to help with all the manual work. She can use her extra time to find cost savings in the accounts payable files.
 
