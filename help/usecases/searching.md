@@ -306,7 +306,9 @@ Now create two functions: makeOCR to display the uploaded form and then makeOCRP
 
 The Adobe-provided credentials from the pdftools-api-credentials.json file are loaded in each case before transforming the file.
 
-**NOTE:** The Document Service’s OCR feature supports only PDF documents.
+>[!NOTE]
+>
+>The OCR feature only supports PDF documents.
 
 Also, add the code snippet below to the Modes/Document.js file of your application.
 
