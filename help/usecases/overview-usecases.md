@@ -19,6 +19,16 @@ Learn how the Adobe Document Services APIs can change your business with these h
 <table style="table-layout:fixed">
 <tr>
  <td>
+   <a href="nda.md">
+      <img alt="Creating an NDA with Adobe Document Services APIs" src="assets/nda_thumb.jpg" />
+   </a>
+    <div>
+   <a href="nda.md"><strong>Creating an NDA with Adobe Document Services APIs</strong></a>
+    </div>
+    <em>Learn how to create a dynamic NDA PDF for collaboration</em>
+    <br>
+  </td>
+  <td>
    <a href="legal.md">
       <img alt="Managing legal contracts with Adobe Document Services APIs" src="assets/legal_thumb.jpg" />
    </a>
@@ -38,6 +48,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to automatically generate, password-protect, and deliver customer invoices</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
    <a href="offer.md">
       <img alt="Managing employee offer letters with Adobe Document Services APIs" src="assets/offer_thumb.jpg" />
@@ -48,9 +60,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to generate an offer letter that can be delivered to a new employee for their signature</em>
     <br>
   </td>
-</tr>
-<tr>
-  <td>
+   <td>
    <a href="searching.md">
       <img alt="Searching and indexing with Adobe Document Services APIs" src="assets/searching_thumb.jpg" />
    </a>
@@ -70,6 +80,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to build a document review and approval workflow for cross-team collaboration</em>
     <br>
   </td>
+</tr>
+<tr>
    <td>
    <a href="reportcreation.md">
       <img alt="Report creation and editing with Adobe Document Services APIs" src="assets/report_thumb.jpg" />
@@ -80,9 +92,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to generate PDF reports on your website for customers</em>
     <br>
   </td>
-</tr>
-<tr>
-   <td>
+  <td>
    <a href="jobposting.md">
       <img alt="Job posting with Adobe Document Services APIs" src="assets/job_thumb.jpg" />
    </a>
@@ -102,7 +112,9 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF</em>
     <br>
   </td>
-  <td>
+</tr>
+<tr>
+   <td>
    <a href="ddppdfembedapi.md">
       <img alt="Digital document publishing with Adobe PDF Embed API" src="assets/ddp_thumb.jpg" />
    </a>
@@ -112,8 +124,6 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to display embedded PDF documents inside web pages using Adobe PDF Embed API</em>
     <br>
   </td>
-</tr>
-<tr>
    <td>
    <a href="signapi.md">
       <img alt="Getting started with Adobe Sign API" src="assets/GSASAPI_thumb.jpg" />
@@ -134,6 +144,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your web applications</em>
     <br>
   </td>
+</tr>
+<tr>
    <td>
    <a href="HRAgreementWorkflowsJava.md">
       <img alt="HR document workflows with Adobe Document Services APIs in Java" src="assets/HRWJ_thumb.jpg" />
@@ -144,8 +156,6 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
-</tr>
-<tr>
    <td>
    <a href="FinanceWorkflowsJava.md">
       <img alt="Managing financial document workflows with Adobe Document Services APIs in Java" src="assets/FAWJ_thumb.jpg" />
@@ -154,11 +164,6 @@ Learn how the Adobe Document Services APIs can change your business with these h
    <a href="FinanceWorkflowsJava.md"><strong>Managing financial document workflows with Adobe Document Services APIs in Java</strong></a>
     </div>
     <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
-    <br>
-  </td>
-   <td>
-    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
-    <div>
     <br>
   </td>
   <td>
