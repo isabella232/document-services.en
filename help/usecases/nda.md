@@ -12,7 +12,7 @@ kt: 8098
 
 Organizations collaborate with external contributors to build their services and products. A non-disclosure agreement (NDA) is an important of these collaborations. It binds all the parties from releasing any confidential information that might damage either entity.
 
-The most widely-used NDA format is a PDF document. Organizations prepare an NDA and send it to all parties. Then, once everyone has signed, they initiate the contract. In a high-velocity team, manual PDF creation slows the progress.
+The most widely used NDA format is a PDF document. Organizations prepare an NDA and send it to all parties. Then, once everyone has signed, they initiate the contract. In a high-velocity team, manual PDF creation slows the progress.
 
 With Adobe Document Services, you can generate PDF documents on the fly using dynamic data. Document Services offers a suite of PDF tools, including Adobe Document Generation API to automate [NDA creation](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html).
 
@@ -52,19 +52,19 @@ You use this structure inside Microsoft Word to generate a template. This data c
 
 ## Creating the Microsoft Word template
 
-Create the NDA template in a Microsoft Word document. Adobe PDF Services API expects the Microsoft Word document to contain tags where the service can inject values from JSON documents. Although the template is the same for all requests to Adobe, the dynamic data in JSON changes. This helps create PDF documents for every vendor in this case, using a single Microsoft Word template and speeding up the process by automating NDA document generation.
+Create the NDA template in a Microsoft Word document. Adobe PDF Services API expects the Microsoft Word document to contain tags where the service can inject values from JSON documents. Although the template is the same for all requests to Adobe, the dynamic data in JSON changes. These tags help create PDF documents for every vendor in this case, using a single Microsoft Word template and speeding up the process by automating NDA document generation.
 
 You can install the [free](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) [Document Generation Tagger add-in](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) to Microsoft Word. If you are a part of an organization, you can request your Microsoft Office administrator to install the free add-in for everyone.
 
-Once you have the add-in installed, you can find it in the Home tab under the Adobe category. Click **Document Generation** to open the tab:
+Once you have the add-in installed, you can find it in the Home tab under the Adobe category. To open the tab, select **Document Generation** :
 
 ![Screenshot of the Document Generation add-in in Word](assets/nda_1.png)
 
-Inside the tab, you can upload the sample JSON document. This document can be a sample because you’ll only use it to create a Microsoft Word template.
+Inside the tab, you can upload the sample JSON document. This document can be a sample because you only use it to create a Microsoft Word template.
 
 ![Screenshot of sample data in Document Generation add-in](assets/nda_2.png)
 
-Click **Generate Tags** to view items you can use inside your template. Here are the properties extracted from the JSON structure, ready for use in the template:
+Select **Generate Tags** to view items you can use inside your template. Here are the properties extracted from the JSON structure, ready for use in the template:
 
 ![Screenshot of text tags in Document Generation add-in](assets/nda_3.png)
 
@@ -78,13 +78,13 @@ The following template in a Microsoft Word file:
 
 ![Screenshot of sample template](assets/nda_4.png)
 
-This file contains several tags. When you run the program, these fields will be filled with the vendor information.
+This file contains several tags. When you run the program, these fields are filled with the vendor information.
 
 Document Generation Tagger integrates with Adobe Sign API. Because of this integration, you can automatically create Sign text tags so the generated document can then be sent to Adobe Sign for signature.
 
 ## Generating the NDA for vendors
 
-Inside the sample application, you prepared folders for the input and outputs. As mentioned earlier, you use JSON files, so there two files to show the available vendors in the system.The files are shown inside a form that prints on the browser:
+Inside the sample application, you prepared folders for the input and outputs. As mentioned earlier, you use JSON files, so that there are two files to show the available vendors in the system. The files are shown inside a form that prints on the browser:
 
 ```
 <h1><b>NDA</b>: Generate for vendor.</h1>
@@ -100,7 +100,7 @@ Inside the sample application, you prepared folders for the input and outputs. A
 </form>
 ```
 
-This generates the following user interface (UI) in the browser:
+This code generates the following user interface (UI) in the browser:
 
 ![Screenshot of the Create NDA user interface](assets/nda_5.png)
 
@@ -158,7 +158,7 @@ This call creates the following NDA document:
 
 ![Screenshot of the NDA document preview](assets/nda_6.png)
 
-Adobe Document Services APIs inserted content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of this with a single API call.
+Adobe Document Services APIs inserts content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of these steps with a single API call.
 
 Now use [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html) to request signatures on the NDAs and deliver the final, signed document to all parties. Adobe Sign notifies you [using a Webhook](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md). Listening to this webhook, you can fetch the status of the NDA.
 
@@ -166,7 +166,7 @@ For a deeper explanation of the Adobe Sign process, [consult the documentation](
 
 ## Conclusion
 
-In this tutorial, you used Adobe Document Generation Tagger to dynamically generate PDF documents using Microsoft Word templates and JSON data files. This helps us [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
+In this tutorial, you used Adobe Document Generation Tagger to dynamically generate PDF documents using Microsoft Word templates and JSON data files. This add-in helps you [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
 
 You can use these techniques to dynamically create your own NDAs or other documents, freeing your team’s time to focus on productive work. Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) to find APIs and SDKs for your language and runtime of choice so you can add PDF functions directly to your applications to quickly create PDF documents. [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with a six-month free trial then
 [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for only $0.05 per document transaction.
