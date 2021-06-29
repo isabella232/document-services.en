@@ -10,14 +10,13 @@ kt: 8097
 
 # Managing legal contracts with Adobe Document Services APIs
 
-With digitization comes challenges. Today, most organizations have many types of [legal contracts](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html)
-that they must create, edit, approve, and have signed by different parties. These legal contracts often require unique customization and branding. Organizations may also need to save them in a protected format once signed to keep them secure. To do all these things, they need a robust document generation and management solution.
+With digitization comes challenges. Today, most organizations have many types of [legal contracts](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html) that they must create, edit, approve, and have signed by different parties. These legal contracts often require unique customization and branding. Organizations may also need to save them in a protected format once signed to keep them secure. To do all these things, they need a robust document generation and management solution.
 
 Many solutions offer some document generation, but cannot customize data inputs and conditional logic, such as clauses that apply only to specific scenarios. Manually updating a company’s legal templates is challenging and error-prone as these documents grow more extensive. The need to automate these processes is considerable.
 
 In this tutorial, explore the features of [Adobe Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) in the generation of custom input fields in documents. Also, explore how to easily convert these generated documents to a protected portable document format (PDF) to prevent data manipulation.
 
-This tutorial involves a bit of programming when exploring the conversion of contracts to PDFs. To follow along effectively, [Microsoft Word](https://www.microsoft.com/en-us/download/office.aspx) and [Node.js](https://nodejs.org/) should be installed on your PC. A basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp) is also recommended. You can access the complete code for this application at <https://github.com/agavitalis/adobe_legal_contracts.git>[GitHub](https://github.com/agavitalis/adobe_legal_contracts.git), to follow along.
+This tutorial involves a bit of programming when exploring the conversion of contracts to PDFs. To follow along effectively, [Microsoft Word](https://www.microsoft.com/en-us/download/office.aspx) and [Node.js](https://nodejs.org/) should be installed on your PC. A basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp) is also recommended. You can access the complete code for this application at [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git), to follow along.
 
 ## Creating a template document
 
