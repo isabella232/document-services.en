@@ -11,7 +11,7 @@ kt: 8097
 # Managing legal contracts with Adobe Document Services APIs
 
 With digitization comes challenges. Today, most organizations have many types of [legal contracts](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html)
-that they must create, edit, approve, and have signed by different parties. These legal contracts often require unique customization and branding. Organizations may also need to save them in a protected format once signed to keep them secure. To do all this, they need a robust document generation and management solution.
+that they must create, edit, approve, and have signed by different parties. These legal contracts often require unique customization and branding. Organizations may also need to save them in a protected format once signed to keep them secure. To do all these things, they need a robust document generation and management solution.
 
 Many solutions offer some document generation, but cannot customize data inputs and conditional logic, such as clauses that apply only to specific scenarios. Manually updating a company’s legal templates is challenging and error-prone as these documents grow more extensive. The need to automate these processes is considerable.
 
@@ -23,7 +23,7 @@ This tutorial involves a bit of programming when exploring the conversion of con
 
 You can create legal documents using the Microsoft Word application or by downloading Adobe’s [sample Word templates](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade). Still, it is not easy to customize inputs and digitally sign these documents without using some helper tools like [Adobe Document Generation Tagger add-in](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin) for Microsoft Word.
 
-Document Generation Tagger is a Microsoft Word add-in, specifically made to make document customization seamless using tags. It enables the creation of dynamic fields in document templates that fill dynamically using JSON data.
+Document Generation Tagger is a Microsoft Word add-in, made to make document customization seamless using tags. It enables the creation of dynamic fields in document templates that fill dynamically using JSON data.
 
 ![Screenshot of how to add Adoe Document Generation Tagger in Word](assets/legal_1.png)
 
@@ -33,7 +33,7 @@ Install Document Generation Tagger in Word by clicking the **Insert** tab, then 
 
 After installing the Document Generation Tagger for Word add-in, create a simple JSON data model to tag the legal document.
 
-To proceed, open any editor of your choice, create a file called Agreement.json, then paste the code snippet below in the JSON file you just created.
+To proceed, open any editor of your choice, create a file called Agreement.json, then paste the code snippet below in the JSON file you created.
  
 ```
 {
@@ -51,13 +51,13 @@ To proceed, open any editor of your choice, create a file called Agreement.json,
 }
 ```
  
-After saving this JSON document, import it to the Document Generation Tagger add-in you just installed. You can do this by clicking **Document Generation** in the Adobe group on the upper right side of your Word screen, as shown in the screen capture below.
+After saving this JSON document, import it to the Document Generation Tagger add-in. Import the document by clicking **Document Generation** in the Adobe group on the upper right side of your Word screen, as shown in the screen capture below.
 
 ![Screenshot of the Adobe Document Generation Tagger add-in in Word](assets/legal_2.png)
 
 This displays a video to guide you. You can watch it or go straight to the tagging field by clicking **Get Started**. After clicking **Get Started**, an upload form appears. Click **Upload JSON file** and select the JSON file you just created. When the import is complete, click **Generate Tag** to generate the tags.
 
-After importing and generating tags, you can add these tags to your document. To add them, place your cursor at the exact spot where you would like the tag to appear. Then select a tag from Document Generation API and click **Insert Text**. You can see this procedure in the screen capture below.
+After importing and generating tags, you can add these tags to your document. To add them, place your cursor at the exact spot where you would like the tag to appear. Then select a tag from Document Generation API and click **Insert Text**. The screen capture below outlines this procedure.
 
 ![Screenshot of adding tags to document](assets/legal_3.png)
 
@@ -65,7 +65,7 @@ Aside from the basic tags created using the imported JSON data model, you can al
 
 ![Screenshot of the Advanced tab of the Adobe Document Generation Tagger](assets/legal_4.png)
 
-These advanced features are not very different from the basic tags. To include conditional logic, select the part of the document to fill. Then, configure the rule that determines the tag’s insertion.
+These advanced features are not different from the basic tags. To include conditional logic, select the part of the document to fill. Then, configure the rule that determines the tag’s insertion.
 
 To further illustrate, say in the agreement, there is a section you want to include, only conditionally. In the Select content type field, select **Section.** In the Select records field, pick the option that determines whether the conditional section shows. Select your desired conditional operator and set the value you are testing for in the Value field. Then click **Insert Condition.** The screen capture below illustrates this process.
 
@@ -75,7 +75,7 @@ For calculations, select either Arithmetic or Aggregation, then include the rele
 
 Also, legal contracts often require signatures of the involved parties. You can insert an e-signature using Adobe Sign Text tags found right below the “Numerical calculations” section. To include the e-signature, you must specify the number of recipients, select **Signer**, and the field type from the drop-down lists, accordingly. Once done, click **Insert Adobe Sign Text Tag** to finalize the process.
 
-To ensure data integrity, save legal documents in a protected format. With Document Services APIs, you can quickly transform documents into PDF format. This is illustrated by building a simple express Node.js application, integrating Document Generation API into it, and using this simple application to convert our tagged document from Word to PDF format.
+To ensure data integrity, save legal documents in a protected format. With Document Services APIs, you can quickly transform documents into PDF format. You can build a simple express Node.js application, integrate Document Generation API into it, and using this simple application to convert your tagged document from Word to PDF format.
 
 ## Project setup
 
@@ -171,13 +171,13 @@ You require credentials to use Document Services APIs (different from your PDF E
 
 ![Screenshot of creating new credentials](assets/legal_6.png)
 
-Once the signup process is completed, a code sample automatically downloads to your PC to help you start. You can extract this code sample and follow along. Don’t forget to copy the pdftools-api-credentials.json and private.key files from the extracted code sample to the Node.js project’s root directory. The credentials are required before you can access Document Services API endpoints. You also have the option to download SDK samples with your personalized credentials so you don’t have to update the key in the sample code.
+Once the signup process is completed, a code sample automatically downloads to your PC to help you start. You can extract this code sample and follow along. Don’t forget to copy the pdftools-api-credentials.json and private.key files from the extracted code sample to the Node.js project’s root directory. The credentials are required before you can access Document Services API endpoints. You can also download SDK samples with your personalized credentials so you don’t have to update the key in the sample code.
 
 Now, install Adobe PDF Services Node SDK by running the ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` command using the terminal in the root directory of your application. When successfully installed, you can use Document Services APIs to manipulate documents in your application.
 
 ## Creating a PDF document
 
-Document Services APIs provide support for the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https:/ opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Document Service APIs.
+Document Services APIs support the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https:/ opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Document Service APIs.
 
 Adobe Document Generation API enables conversion to a Word file or PDF. For example, you can use a Word template to generate a contract, including redlining to mark edited text. Then, convert it to a PDF and use PDF Services API to protect the document with a password, send it for signature, and more.
 
@@ -187,7 +187,7 @@ The designed upload form appears in the screen capture below, and you can access
 
 ![Screenshot of form upload](assets/legal_7.png)
 
-Now, add the following code snippets to the controllers /createPDFController.js file. This retrieves the uploaded document and transforms it into PDF. Document Services saves the original uploaded file and the transformed file in different folders.
+Now, add the following code snippets to the controllers /createPDFController.js file. This code retrieves the uploaded document and transforms it into PDF. Document Services saves the original uploaded file and the transformed file in different folders.
 
 ```
 ###controllers/createPDFController.js
