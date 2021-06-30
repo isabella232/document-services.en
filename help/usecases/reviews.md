@@ -10,11 +10,15 @@ kt: 8094
 
 # Reviews and approvals with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseReviewsHero.jpg)
+
 Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) presents a series of challenges for teams and cross-functional resources.
 
 These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. Adobe Document Services APIs are designed to enable application developers to solve these challenges for their users.
 
-This tutorial shows how to build a document review and approval workflow in a Node.js and Express web application. The code for this project is available [here](https://github.com/contentlab-io/adobe_reviews_and_approvals). To follow along with this tutorial, you need some experience with Node.js.
+## What you can learn
+
+This hands-on tutorial shows how to build a document review and approval workflow in a Node.js and Express web application. To follow along with this tutorial, you need some experience with Node.js.
 
 The application has the following features:
 
@@ -29,6 +33,14 @@ The application has the following features:
 * Enable user profiles to identify comment authors
 
 * Combine files into a final PDF that the users can download
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html) 
+
+* [Project Code](https://github.com/contentlab-io/adobe_reviews_and_approvals)
 
 ## Creating Adobe API credentials
 
@@ -427,7 +439,7 @@ Finally, add a link in the main index.html web page to this /finalize endpoint. 
 
 ## Next steps
 
-This tutorial shows how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) into a web application. This application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
+This hands-on tutorial showed how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
 
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe’s APIs.
 

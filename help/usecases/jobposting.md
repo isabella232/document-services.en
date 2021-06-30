@@ -10,11 +10,15 @@ kt: 8092
 
 # Job posting with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseJobHero.jpg)
+
 When operating a website with multiple users, it’s crucial to design an experience that ensures a smooth experience for everyone.
 
 Imagine the following scenario: you have a website that allows employers to [upload job postings](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html). For job seekers, it’s convenient to easily view all documents related to a posting in a consistent format. However, it’s convenient for employers to attach information in whatever file format they happen to have. To offer convenience to both types of users, you can automatically convert all uploaded documents to PDFs and embed them in-line in the posting.
 
-This tutorial walks through a Node.js example that uses Adobe Document Services and its [Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) to add these capabilities to a job posting site. This creates a website that is easier to use and more attractive to employers and job seekers alike. Here is the [complete](https://github.com/contentlab-io/adobe_job_posting) [project code](https://github.com/contentlab-io/adobe_job_posting), in case you want to follow along as you read.
+## What you can learn
+
+This hands-on tutorial walks through a Node.js example that uses Adobe Document Services and its [Node.js SDK](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) to add these capabilities to a job posting site. This creates a website that is easier to use and more attractive to employers and job seekers alike. Here is the [complete](https://github.com/contentlab-io/adobe_job_posting) [project code](https://github.com/contentlab-io/adobe_job_posting), in case you want to follow along as you read.
 
 To start, set up a simple Express-based Node.js web application. [Express](https://expressjs.com/) is a minimalist web application framework offering features such as routing and templating. The code for the application is available on [GitHub](https://github.com/contentlab-io/adobe_job_posting). Also, install the [PostgreSQL database](https://www.postgresql.org/) and set it up to store the PDF.
 
@@ -263,7 +267,7 @@ To see an in-line embed in action, check out this [live demo](https://documentcl
 
 ## Next steps
 
-This tutorial walked through how to use Node.js with Document Services to convert an uploaded [job posting](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. These capabilities help everyone get the information necessary to find their dream job.
+This hands-on tutorial walked through how to use Node.js with Document Services to convert an uploaded [job posting](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. These capabilities help everyone get the information necessary to find their dream job.
 
 Document Services help you add key document-handling functions to your website or app. If you want to dive deeper into what these APIs can do, refer to the following quickstart documentation:
 
