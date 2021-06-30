@@ -10,9 +10,13 @@ kt: 8089
 
 # Getting started with Adobe Sign API
 
+![Use Case Hero Banner](assets/UseCaseStartedHero.jpg)
+
 [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html) is a great way to enhance the way you manage signed agreements. Developers can easily integrate their systems with Sign API, which provides a reliable, easy way to upload documents, send them for signing, send reminders, and collect e-signatures.
 
-This tutorial explains how developers can use Sign API to enhance applications and workflows created with Adobe Document Services. Document Services includes [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html), [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) (free), and [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+## What you can learn
+
+This hands-on tutorial explains how developers can use Sign API to enhance applications and workflows created with Adobe Document Services. Document Services includes [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html), [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) (free), and [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 More specifically, learn how to include Sign API in your application to gather signatures and other information, such as employee information on an insurance form. Generic steps with simplified HTTP requests and responses are used. You can implement these requests in your favorite language. You can create a PDF using a combination of [Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/), upload it to the Sign API as a [transient](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) document, and request end-user signatures using the agreement or [widget](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/overview/terminology.md) workflow.
 
