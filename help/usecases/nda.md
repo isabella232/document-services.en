@@ -16,7 +16,9 @@ Organizations collaborate with external contributors to build their services and
 
 The most widely used NDA format is a PDF document. Organizations prepare an NDA and send it to all parties. Then, once everyone has signed, they initiate the contract. In a high-velocity team, manual PDF creation slows the progress.
 
-This tutorial explains how to create a specialized Microsoft Word NDA template for your company. Adobe’s free add-in for Microsoft Word, [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo), inserts “tags” to input the dynamic values. You learn how to pass the JSON data to the template and create a dynamic PDF. The resulting PDF can be emailed or shown to your collaborators in their browser, depending on your business requirements and goals.
+## What you can learn
+
+This hands-on tutorial explains how to create a specialized Microsoft Word NDA template for your company. Adobe’s free add-in for Microsoft Word, [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo), inserts “tags” to input the dynamic values. Learn how to pass the JSON data to the template and create a dynamic PDF. The resulting PDF can be emailed or shown to your collaborators in their browser, depending on your business requirements and goals. To follow along, you just need a little experience with Node.js, JavaScript, Express.js, HTML, and CSS. 
 
 ## Relevant APIs and resources
 
@@ -28,7 +30,7 @@ With Adobe Document Services, you can generate PDF documents on the fly using dy
 
 * [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
-* [Sample code](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample)
+* [Project code](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample)
 
 * [Document Services keys](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred)
 

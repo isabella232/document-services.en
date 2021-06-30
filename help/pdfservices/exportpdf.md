@@ -23,7 +23,7 @@ The Export operation supports the following PDF file conversions:
 * PDF to text (RTF)
 * PDF to Image (JPEG, PNG)
 
-In this tutorial we’ll cover the basics of how to run your first PDF Services API export operation using sample files for Node.js, Java, and .Net languages.
+In this tutorial, learn the basics of how to run your first PDF Services API export operation using sample files for Node.js, Java, and .Net languages.
 
 ## Step 1: Create your credentials and setup your environment:
 

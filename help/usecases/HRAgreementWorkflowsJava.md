@@ -8,11 +8,23 @@ thumbnail: KT-7474.jpg
 kt: 7474
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
 ---
-# HR Document workflows with Adobe Document Services APIs in Java
+# HR document workflows with Adobe Document Services APIs in Java
+
+![Use Case Hero Banner](assets/UseCaseHRHero.jpg)
 
 Many businesses require documentation around a new hire, such as workplace agreements for work-from-home employees. Traditionally, businesses managed these documents physically in forms that are difficult to manage and store. When switching to electronic documents, PDF files are an ideal choice because they are more secure and less modifiable than other file types. Plus, they support digital signatures.
 
-In this tutorial, you implement a web-based HR form that saves a workplace agreement to PDF with sign-off in a simple Java Spring MVC application. You can find the companion code [on GitHub](https://github.com/dawidborycki/adobe-sign).
+## What you can learn
+
+In this hands-on tutorial, learn how to implement a web-based HR form that saves a workplace agreement to PDF with sign-off in a simple Java Spring MVC application.
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+* [Project code](https://github.com/dawidborycki/adobe-sign)
 
 ## Generating API credentials
 
@@ -308,7 +320,7 @@ private static void setCustomOptionsAndPersonData(
 
 When generating the contract, you can also merge the dynamic, person-specific data with fixed contract terms. To do so, follow the [Create a PDF from static HTML](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf-from-dynamic-html) example. Alternatively, you can [merge two PDFs](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf-from-static-html).
 
-## Presenting the PDF File for download
+## Presenting the PDF file for download
 
 You can now present the link to the generated PDF for the user to download. To do so, first create the contract-actions.html file (see resources/templates contract-actions.html of the companion code):
 
