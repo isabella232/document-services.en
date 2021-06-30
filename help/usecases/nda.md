@@ -10,15 +10,23 @@ kt: 8098
 
 # Creating an NDA with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseHero.png)
+
 Organizations collaborate with external contributors to build their services and products. A non-disclosure agreement (NDA) is an important of these collaborations. It binds all the parties from releasing any confidential information that might damage either entity.
 
 The most widely used NDA format is a PDF document. Organizations prepare an NDA and send it to all parties. Then, once everyone has signed, they initiate the contract. In a high-velocity team, manual PDF creation slows the progress.
 
+## Relevant APIs and tools
+
 With Adobe Document Services, you can generate PDF documents on the fly using dynamic data. Document Services offers a suite of PDF tools, including Adobe Document Generation API to automate [NDA creation](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html).
 
-This tutorial explains how to create a specialized Microsoft Word NDA template for your company. Adobe’s free add-in for Microsoft Word, Adobe Document Generation Tagger, inserts “tags” to input the dynamic values. You learn how to pass the JSON data to the template and create a dynamic PDF. The resulting PDF can be emailed or shown to your collaborators in their browser, depending on your business requirements and goals.
+* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
 
-To follow this tutorial, you need experience with Node.js, JavaScript, Express.js, HTML, and CSS. There is a [sample demonstration](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample) for you to try. Download the source code, get your own [Document Services keys](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred), and begin.
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+This tutorial explains how to create a specialized Microsoft Word NDA template for your company. Adobe’s free add-in for Microsoft Word, [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo), inserts “tags” to input the dynamic values. You learn how to pass the JSON data to the template and create a dynamic PDF. The resulting PDF can be emailed or shown to your collaborators in their browser, depending on your business requirements and goals.
+
+To follow this tutorial, you need experience with Node.js, JavaScript, Express.js, HTML, and CSS. There is a [sample code](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample) for you to try. Download the source code, get your own [Document Services keys](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred), and begin.
 
 ## Creating the JSON model
 
@@ -54,9 +62,9 @@ You use this structure inside Microsoft Word to generate a template. This data c
 
 Create the NDA template in a Microsoft Word document. Adobe PDF Services API expects the Microsoft Word document to contain tags where the service can inject values from JSON documents. Although the template is the same for all requests to Adobe, the dynamic data in JSON changes. These tags help create PDF documents for every vendor in this case, using a single Microsoft Word template and speeding up the process by automating NDA document generation.
 
-You can install the [free](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) [Document Generation Tagger add-in](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) to Microsoft Word. If you are a part of an organization, you can request your Microsoft Office administrator to install the free add-in for everyone.
+You can install the [free Document Generation Tagger add-in](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) to Microsoft Word. If you are a part of an organization, you can request your Microsoft Office administrator to install the free add-in for everyone.
 
-Once you have the add-in installed, you can find it in the Home tab under the Adobe category. To open the tab, select **Document Generation** :
+Once you have the add-in installed, you can find it in the Home tab under the Adobe category. To open the tab, select **Document Generation**:
 
 ![Screenshot of the Document Generation add-in in Word](assets/nda_1.png)
 
@@ -166,7 +174,7 @@ For a deeper explanation of the Adobe Sign process, [consult the documentation](
 
 ## Next steps
 
-In this tutorial, the Adobe Document Generation Tagger is used to dynamically generate PDF documents using Microsoft Word templates and JSON data files. This add-in helps to[automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
+In this tutorial, the Adobe Document Generation Tagger is used to dynamically generate PDF documents using Microsoft Word templates and JSON data files. This add-in helps to [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
 
 You can use these techniques to dynamically create your own NDAs or other documents, freeing your team’s time to focus on productive work. Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) to find APIs and SDKs for your language and runtime of choice so you can add PDF functions directly to your applications to quickly create PDF documents. [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with a six-month free trial then
 [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for only $0.05 per document transaction.
