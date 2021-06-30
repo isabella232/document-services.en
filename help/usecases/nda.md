@@ -10,7 +10,7 @@ kt: 8098
 
 # Creating an NDA with Adobe Document Services APIs
 
-![Use Case Hero Banner](assets/UseCaseNDAHero.png)
+![Use Case Hero Banner](assets/UseCaseNDAHero.jpg)
 
 Organizations collaborate with external contributors to build their services and products. A non-disclosure agreement (NDA) is an important of these collaborations. It binds all the parties from releasing any confidential information that might damage either entity.
 
@@ -84,7 +84,7 @@ These are the features from the `authorizedSigner` field. Other fields are wrapp
 
 ## Creating the tags
 
-Feel free to create a new template or import an [existing template](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade) into Microsoft Word. Once you set up your document, add tags to each field by clicking the corresponding tokens in the add-in.
+Feel free to create a template or import an [existing template](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade) into Microsoft Word. Once you set up your document, add tags to each field by clicking the corresponding tokens in the add-in.
 
 The following template in a Microsoft Word file:
 
@@ -170,7 +170,7 @@ This call creates the following NDA document:
 
 ![Screenshot of the NDA document preview](assets/nda_6.png)
 
-Adobe Document Services APIs inserts content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of these steps with a single API call.
+Adobe Document Services APIs insert content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of these steps with a single API call.
 
 Now use [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html) to request signatures on the NDAs and deliver the final, signed document to all parties. Adobe Sign notifies you [using a Webhook](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md). Listening to this webhook, you can fetch the status of the NDA.
 
