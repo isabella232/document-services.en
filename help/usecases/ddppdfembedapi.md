@@ -10,12 +10,24 @@ kt: 8090
 
 # Digital document publishing with Adobe PDF Embed API
 
+![Use Case Hero Banner](assets/UseCaseDigitalHero.jpg)
+
 Electronic documents are everywhere — in fact, there are probably [trillions of PDFs](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world) globally, and that number rises every day. By embedding a PDF viewer in your web pages, you enable users to view documents without redesigning your HTML and CSS or obstructing access to your website.
 
 Let’s explore a popular scenario. A company posts [whitepapers on their website](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)
 to provide context for their apps and services. The website’s marketer wants to understand better how users interact with their PDF-based content and incorporate it with their webpage and brand. They have decided to publish the whitepapers as [gated content](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.), controlling who can download them.
 
-Learn how to display embedded PDF documents inside web pages using [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), which is free and easy to use. These examples use some JavaScript, Node.js, Express.js, HTML, and CSS. You can view the complete project code on [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+## What you can learn
+
+In this hands-on tutorial, learn how to display embedded PDF documents inside web pages using [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), which is free and easy to use. These examples use some JavaScript, Node.js, Express.js, HTML, and CSS. You can view the complete project code on [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+
+## Relevant APIs and resources
+
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Project code](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
 ## Creating a Node Web App
 

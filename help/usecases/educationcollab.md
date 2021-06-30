@@ -10,6 +10,8 @@ kt: 8091
 
 # Student-Teacher collaboration with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseStudentHero.jpg)
+
 Educational institutes use PDF documents to share learning material with students. PDFs provide an interchangeable document format for teachers.
 
 Integrating [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) and [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) into an app provides teachers and students a single platform on which to teach and learn. For example, your app can enable students to ask questions on their assignments and report cards, and to collaborate on group assignments.
@@ -17,7 +19,9 @@ Integrating [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcs
 There is an official SDK for Node.js applications to access PDF Services API. This enables you to convert documents like Microsoft Word or Microsoft Excel to
 PDF. Also, you can perform more advanced operations like combining multiple reports, rearranging pages, and protecting PDFs. For more details, review [product documentation](https://www.adobe.io/apis/documentcloud/dcsdk/).
 
-This tutorial demonstrates how to create an online learning platform that [enables teachers and students to easily share resources](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html) in PDF. This tutorial uses a [learning portal](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) created using the Node.js JavaScript runtime (Node.js) and PDF Services.
+## What you can learn
+
+In this hands-on tutorial, learn to create an online learning platform that [enables teachers and students to easily share resources](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html) in PDF. This tutorial uses a [learning portal](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) created using the Node.js JavaScript runtime (Node.js) and PDF Services.
 
 The learning portal has the following features:
 
@@ -31,9 +35,17 @@ The learning portal has the following features:
 
 * Enables students to leave comments and download them to their computers
 
-In this tutorial, learn how to use Adobe Document Services to provide a rich experience for your students with PDFs. Document Services APIs seamlessly integrate into your existing applications, so students can upload, convert, and view files, then make and save comments — all within your current setup.
+Learn how Adobe Document Services provide a rich experience for your students with PDFs. Document Services APIs seamlessly integrate into your existing applications, so students can upload, convert, and view files, then make and save comments — all within your current setup.
 
-## Uploading resources
+## Relevant APIs and resources
+
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Project code](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers)
+
+## Uploading resources to the learning portal
 
 In the teachers’ section of the learning portal, teachers can upload documents such as assignments and tests. The documents can be in any format, such as Microsoft Word, Microsoft Excel, HTML, various image formats, and so on.
 

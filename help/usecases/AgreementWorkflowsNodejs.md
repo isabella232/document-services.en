@@ -11,17 +11,23 @@ exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 ---
 # Agreement workflows with Adobe Document Services APIs in Node.js
 
+![Use Case Hero Banner](assets/UseCaseAgreementHero.jpg)
+
 Many business applications and processes require documentation like proposals and agreements. PDF documents ensure that files are more secure and less modifiable. They also provide digital signature support so your clients can quickly and easily complete their documents. Adobe Document Services APIs easily incorporate PDF capabilities into your web applications.
 
-This tutorial walks through how to add PDF services to a Node.js application to digitize an agreement process.
+## What you can learn
 
-## Relevant Adobe APIs
+In this hands-on tutorial, learn how to add PDF services to a Node.js application to digitize an agreement process.
+
+## Relevant APIs and resources
 
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html) 
 
 * [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+* [Project code](https://github.com/adobe/pdftools-node-sdk-samples)
 
 ## Setting up Adobe Document Services
 

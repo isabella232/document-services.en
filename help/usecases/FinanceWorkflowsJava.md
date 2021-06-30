@@ -10,11 +10,23 @@ exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
 ---
 # Managing financial document workflows with Adobe Document Services APIs in Java
 
+![Use Case Hero Banner](assets/UseCaseFinancialHero.jpg)
+
 The financial industry uses PDF files extensively to exchange data because it helps maintain document format, design, and structure. This robust format allows financial analysts and advisors to help their clients make well-informed decisions.
 
 The PDF format, however, can be challenging to process and automate, especially when combining multiple data sources — a common use case in the financial industry. Building a custom solution to process PDF documents is an option, but there is no need to invest too much time and money in software and infrastructure. Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF documents.
 
-In this tutorial, learn how to use Adobe Document Services APIs for Java Spring Boot applications. You build a model-view-controller (MVC) app that extracts content from PDF documents, converts it to other data formats such as Excel, combines multiple PDFs, and password protects the resources. This tutorial explains how to process PDF documents and show them on your websites using the Adobe [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
+## What you can learn
+
+In this hands-on tutorial, learn how to use Adobe Document Services APIs for Java Spring Boot applications. You build a model-view-controller (MVC) app that extracts content from PDF documents, converts it to other data formats such as Excel, combines multiple PDFs, and password protects the resources. This tutorial explains how to process PDF documents and show them on your websites using the Adobe [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html) 
+
+* [Project samples](https://github.com/adobe/pdftools-java-sdk-samples)
 
 ## Setup
 
@@ -178,6 +190,6 @@ The PDF Embed API provides all the tools necessary to preview the PDF as well as
 
 This tutorial explored the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) APIs and discussed how to use these services to process PDF data and generate reports for financial decisions. It demonstrated how you can integrate the APIs into your systems, using Java Spring Boot as an example framework, to show how easy it is to quickly process PDF documents.
 
-Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) and see what Adobe PDF Toolkit can do for your business. To learn about more features available in the SDK, consult the [GitHub repository](https://github.com/adobe/pdftools-java-sdk-samples) for the samples, and explore how [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) can help you quickly show PDFs inside your applications.
+Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) and see what Adobe PDF Services can do for your business. To learn about more features available in the SDK, consult the [GitHub repository](https://github.com/adobe/pdftools-java-sdk-samples) for the samples, and explore how [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) can help you quickly show PDFs inside your applications.
 
 To easily combine and manipulate documents, creating helpful PDF reports for your financial clients, start by signing up for your free [Adobe developer account](https://www.adobe.io/apis/documentcloud/dcsdk/) today.
