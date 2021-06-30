@@ -16,7 +16,7 @@ Organizations must often digitize their hard copy documents and scanned files. C
 
 The challenge of creating digital archives to retrieve information for editing or downstream operations is a nightmare for most organizations.
 
-# What you can learn
+## What you can learn
 
 This hands-on tutorial explores how Adobe Document Services APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating Document Services APIs for archiving, digitization, and document transformation.
 
