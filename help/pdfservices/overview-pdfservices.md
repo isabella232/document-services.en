@@ -31,7 +31,7 @@ kt: 8116
     <div>
    <a href="exportpdf.md"><strong>Leveraging PDF Services API to export PDF to Word, PowerPoint, and more</strong></a>
     </div>
-    <em>Adobe PDF Services API converts PDF files to MS Office, text, and images using APIs</em>
+    <em>Learn how to run the PDF Services API export operation using sample files for Node.js, Java, and .Net languages</em>
     <br>
   </td>
   <td>
