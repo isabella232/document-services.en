@@ -188,7 +188,7 @@ The PDF Embed API provides all the tools necessary to preview the PDF as well as
 
 ## Next steps
 
-This tutorial explored the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) APIs and discussed how to use these services to process PDF data and generate reports for financial decisions. It demonstrated how you can integrate the APIs into your systems, using Java Spring Boot as an example framework, to show how easy it is to quickly process PDF documents.
+This hands-on tutorial explored the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) APIs and discussed how to use these services to process PDF data and generate reports for financial decisions. It demonstrated how you can integrate the APIs into your systems, using Java Spring Boot as an example framework, to show how easy it is to quickly process PDF documents.
 
 Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/) and see what Adobe PDF Services can do for your business. To learn about more features available in the SDK, consult the [GitHub repository](https://github.com/adobe/pdftools-java-sdk-samples) for the samples, and explore how [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) can help you quickly show PDFs inside your applications.
 

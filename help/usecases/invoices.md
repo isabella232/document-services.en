@@ -10,6 +10,8 @@ kt: 8145
 
 # Handling invoices with Adobe Document Generation API
 
+![Use Case Hero Banner](assets/UseCaseInvoicesHero.jpg)
+
 It’s great when business is booming but productivity suffers when it comes time to prepare all those invoices. Manually generating invoices is time consuming, plus you run the risk of making an error, potentially losing money or angering a customer with an incorrect amount.
 
 Think of Danielle, for example, working in the [accounting department](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [of a medical supply company](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). It’s the end of the month, so she’s pulling information from several different systems, double-checking its accuracy, and formatting the invoices. After all that work, she’s finally ready to convert the documents to PDFs (so anyone can view them without purchasing specific software) and send each customer their personalized invoice.
@@ -18,9 +20,21 @@ Even when the monthly invoicing is complete, Danielle just can’t escape those 
 
 What Danielle needs is a way to generate invoices quickly and accurately, both in batch at the end of the month and ad hoc at other times. Ideally, if she could protect these invoices from edits, she wouldn’t have to worry about troubleshooting mismatched amounts.
 
-In this tutorial, learn how to use Adobe Document Generation API to automatically generate invoices, password-protect the PDFs, and deliver an invoice to each customer. All it takes is a little knowledge of Node.js, JavaScript, Express.js, HTML, and CSS.
+## What you can learn
+
+In this hands-on tutorial, learn how to use Adobe Document Generation API to automatically generate invoices, password-protect the PDFs, and deliver an invoice to each customer. All it takes is a little knowledge of Node.js, JavaScript, Express.js, HTML, and CSS.
 
 The complete code for this project is [available on GitHub](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation). You must set up the public directory with your template and the raw data folders. In production, you must fetch the data from an external API. You can also explore this archived version of the application that contains the template resources.
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+* [Project code]((https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation))
 
 ## Preparing the data
 
@@ -203,7 +217,7 @@ Once you're done with the invoice, you might want to automatically email it to t
 
 ## Next steps
 
-In this tutorial, you created a simple app to help Danielle in accounting with [invoicing](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
+In this hands-on tutorial, you created a simple app to help Danielle in accounting with [invoicing](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
 
 Since Danielle can generate invoices automatically and doesn’t have to worry about customers editing their invoices, she won’t need to hire an assistant to help with all the manual work. She can use her extra time to find cost savings in the accounts payable files.
 

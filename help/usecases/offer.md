@@ -10,9 +10,25 @@ kt: 8096
 
 # Managing employee offer letters with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseOfferHero.jpg)
+
 Employee offer letters are one of the first experiences employees have with your organization. As a result, you want to make sure that your offer letters are on-brand, but you don’t want to have to build a letter in your word processor from scratch every time. Adobe Document Services APIs offer a fast, easy, and effective way to handle key parts of [generating and delivering offer letters to new employees](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html).
 
-This tutorial walks through setting up a Node Express project that displays a web form for a user to populate with employee details. These details use Document Services over the web to generate an offer letter as a PDF that can be delivered to a customer for their signature using Adobe Sign API.
+## What you can learn
+
+This hands-on tutorial walks through setting up a Node Express project that displays a web form for a user to populate with employee details. These details use Document Services over the web to generate an offer letter as a PDF that can be delivered to a customer for their signature using Adobe Sign API.
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+* [Document Generation Tagger Word Add-in](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin)
+
+* [Project sample](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html)
 
 ## Getting started
 

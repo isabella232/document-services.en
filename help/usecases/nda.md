@@ -180,7 +180,7 @@ For a deeper explanation of the Adobe Sign process, [consult the documentation](
 
 ## Next steps
 
-In this tutorial, the Adobe Document Generation Tagger is used to dynamically generate PDF documents using Microsoft Word templates and JSON data files. This add-in helps to [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
+In this hands-on tutorial, the Adobe Document Generation Tagger wass used to dynamically generate PDF documents using Microsoft Word templates and JSON data files. The add-in helped to [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
 
 You can use these techniques to dynamically create your own NDAs or other documents, freeing your team’s time to focus on productive work. Explore [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) to find APIs and SDKs for your language and runtime of choice so you can add PDF functions directly to your applications to quickly create PDF documents. [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with a six-month free trial then
 [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for only $0.05 per document transaction.

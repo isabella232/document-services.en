@@ -204,7 +204,7 @@ var adobeDCView = new AdobeDC.View({
 
 ## Next steps
 
-This tutorial reviewed how to use PDF Services API and PDF Embed API to create a learning portal, facilitating effective [collaboration between students and teachers](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html). Using this portal, teachers can upload learning material in any format and convert it to PDF using PDF Services API. Students can then preview these PDFs using PDF Embed API.
+This hands-on tutorial reviewed how to use PDF Services API and PDF Embed API to create a learning portal, facilitating effective [collaboration between students and teachers](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html). Using this portal, teachers can upload learning material in any format and convert it to PDF using PDF Services API. Students can then preview these PDFs using PDF Embed API.
 
 Now that you know how to annotate PDF reports, archive the annotations, and track the use of PDF reports, you can start implementing these solutions in your own projects.
 

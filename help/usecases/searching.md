@@ -10,13 +10,23 @@ kt: 8095
 
 # Searching and indexing with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseSearchingHero.jpg)
+
 Organizations must often digitize their hard copy documents and scanned files. Consider this [scenario](https://docs.google.com/document/d/11jZdVQAw-3fyE3Y-sIqFFTlZ4m02LsCC/edit). A law firm has thousands of legal contracts they have scanned to create digital files. They want to determine if any of those legal contracts have a particular clause or supplement they must revise. Accuracy is necessary for compliance purposes. The solution is taking inventory of the digital documents, making the text searchable, and creating an index to find this information.
 
 The challenge of creating digital archives to retrieve information for editing or downstream operations is a nightmare for most organizations.
 
-This tutorial explores how Adobe Document Services APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating Document Services APIs for archiving, digitization, and document transformation.
+# What you can learn
 
-To follow, you need [Node.js](https://nodejs.org/) installed and a basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp). You can access the complete code for this application on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
+This hands-on tutorial explores how Adobe Document Services APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating Document Services APIs for archiving, digitization, and document transformation.
+
+To follow, you need [Node.js](https://nodejs.org/) installed and a basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp).
+
+## Relevant APIs and resources
+
+* [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+
+* [Project code](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git)
 
 ## Project setup
 
@@ -405,7 +415,7 @@ res.download(download.link);
  
 ## Next steps
 
-You integrated Document Services APIs into a Node.js application and also used the API to implement a document transformation that converts files to PDF. You added an OCR feature that makes pictures and scanned files searchable. Then, you saved the files to a folder so they can be downloaded.
+In this hands-on tutorial, you integrated Document Services APIs into a Node.js application and also used the API to implement a document transformation that converts files to PDF. You added an OCR feature that makes pictures and scanned files searchable. Then, you saved the files to a folder so they can be downloaded.
 
 Next, you added a search feature to search the documents converted to text by OCR. Finally, you implemented a download function to enable easy downloading of those files. Your completed application makes it much easier for a legal company to locate and process specific text.
 

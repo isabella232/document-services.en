@@ -9,18 +9,31 @@ kt: 8099
 ---
 # Managing sales proposals and contracts with Adobe Document Services APIs
 
+![Use Case Hero Banner](assets/UseCaseSalesHero.jpg)
+
 Sales proposals are the first step in a business’s journey towards customer acquisition. As with everything, first impressions last. So, your first interaction with customers set their expectations for your business. Your proposal must be concise, accurate, and convenient.
 
 Contracts and proposals contain different types of data within their document structure. They contain both dynamic data (client name, quote amount, and so on) and static data (boilerplate text such as firm capabilities, team profiles, and standard SOW terms). Creating template documents, such as sales proposals, often involves monotonous tasks, like manually replacing project details in a boilerplate template. In this tutorial, you use dynamic data and workflows to build an efficient process for [creating sales proposals](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
 
-You implement dynamic data and workflows using several tools, the most important of which are Adobe Document Services APIs. These APIs are used to make sales proposals and contracts more convenient for you and your business. This tutorial demonstrates hands-on techniques to show how to create, merge, and display PDF documents automatically. Performing these tasks manually is time-consuming and tedious. By taking advantage of Document Services APIs, you can shorten the time spent on these tasks.
+## What you can learn
 
-## Pre-requisites
+In this hands-on tutorial, learn how to implement dynamic data and workflows using several tools, the most important of which are Adobe Document Services APIs. These APIs are used to make sales proposals and contracts more convenient for you and your business. This tutorial demonstrates hands-on techniques to show how to create, merge, and display PDF documents automatically. Performing these tasks manually is time-consuming and tedious. By taking advantage of Document Services APIs, you can shorten the time spent on these tasks.
+
+## Relevant APIs and resources
 
 * [Microsoft Word](https://www.office.com/)
+
 * [Node.js](https://nodejs.org/en/)
+
 * [npm](https://www.npmjs.com/get-npm)
+
 * [Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/)
+
+* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+
+* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+
+* [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
 ## Solving the problem
 
@@ -124,4 +137,4 @@ You started out with an inefficient, tedious process that needed automation. You
 
 Using Microsoft Forms, you got critical data from your clients that would go in their unique proposals. You created a sales proposal template in Microsoft Word to provide the static text that you didn’t want to recreate each time. You then used Document Services APIs to merge data from the form and the template to create a sales proposal PDF for your clients in a more efficient manner.
 
-This tutorial is only a glimpse of what is possible with these APIs. To discover more solutions, visit the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) APIs page. Use all these tools are for free for six months. Then, pay just $0.05 per document transaction on the [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) plan, so you only pay as your team adds more prospects to your sales pipeline.
+This hands-on tutorial is only a glimpse of what is possible with these APIs. To discover more solutions, visit the [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) APIs page. Use all these tools are for free for six months. Then, pay just $0.05 per document transaction on the [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) plan, so you only pay as your team adds more prospects to your sales pipeline.
