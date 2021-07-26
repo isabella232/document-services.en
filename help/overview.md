@@ -39,7 +39,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
   </td>
   <td>
    <a href="pdfembed/overview-embed.md">
-      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFEmbed_1280.jpg" />
+      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFEmbed_1280.png" />
    </a>
     <div>
    <a href="pdfembed/overview-embed.md"><strong>PDF Embed API</strong></a>
