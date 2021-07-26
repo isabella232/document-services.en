@@ -74,7 +74,7 @@ Next, get the context to process the PDF documents. Here are the actions you can
 
 * Optimize the PDF documents for delivery on networks
 
-All these samples are available in the [GitHub samples](https://github.com/adobe/pdftools-java-sdk-samples/tree/master/src/main/java/com/adobe/platform/operation/samples) repository.
+All these samples are available in the [GitHub samples]https://github.com/adobe/pdfservices-java-sdk-samples/tree/master/src/main/java/com/adobe/pdfservices/operation/samples) repository.
 
 Next, in Spring Boot, you can get a file using the String path or the Stream where the file is being uploaded. Every operation you perform must be initialized and an input file path must be set. For this tutorial, you use the publicly available PDF reports from [Blackrock](https://www.blackrock.com/us/individual/products/investment-funds). You can use any other source including your own reports.
 
