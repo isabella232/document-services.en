@@ -30,7 +30,7 @@ Use the getting started tutorials below to create your API credentials, download
 
 ## Run the OCR example provided in the sample files
 
-Our OCR operation allows for English locale by default, but also provides support for German, French, Danish, and [other languages](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/options/ocr/OCRSupportedLocale.html). The default is en-us locale.
+Our OCR operation allows for English locale by default, but also provides support for German, French, Danish, and [other languages](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#ocr-with-explicit-language). The default is en-us locale.
 
 When you pass in options with OCR operation including specific locale, the method also accepts the ‘type’ parameter which has two options:
 

@@ -46,7 +46,7 @@ Now, let us explore how to publish the reports.
 
 To keep it simple, only use the file system-based uploading and processing here. In Express.js, you can use the fs module to list all the available files under a directory.
 
-On the same page, enable the admin to upload report files to the server for customers to see. These files can be in many different formats, like Microsoft Word, Microsoft Excel, HTML, and [other data formats](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) including graphics files. The admin page looks like this:
+On the same page, enable the admin to upload report files to the server for customers to see. These files can be in many different formats, like Microsoft Word, Microsoft Excel, HTML, and [other data formats]https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) including graphics files. The admin page looks like this:
 
 ![Screenshot of Admin capability](assets/report_2.png)
 

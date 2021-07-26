@@ -190,7 +190,7 @@ Now, install Adobe PDF Services Node SDK by running the ```npm install \--save @
 
 ## Creating a PDF document
 
-Document Services APIs support the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https:/opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Document Service APIs.
+Document Services APIs support the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Document Service APIs.
 
 Adobe Document Generation API enables conversion to a Word file or PDF. For example, you can use a Word template to generate a contract, including redlining to mark edited text. Then, convert it to a PDF and use PDF Services API to protect the document with a password, send it for signature, and more.
 
