@@ -12,7 +12,7 @@ kt: 8094
 
 ![Use Case Hero Banner](assets/UseCaseReviewsHero.jpg)
 
-Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) presents a series of challenges for teams and cross-functional resources.
+Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) presents a series of challenges for teams and cross-functional resources.
 
 These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. Adobe Document Services APIs are designed to enable application developers to solve these challenges for their users.
 
@@ -439,7 +439,7 @@ Finally, add a link in the main index.html web page to this /finalize endpoint. 
 
 ## Next steps
 
-This hands-on tutorial showed how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/reviews-and-approvals.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
+This hands-on tutorial showed how Document Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
 
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe’s APIs.
 

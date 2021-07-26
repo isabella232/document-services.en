@@ -74,11 +74,11 @@ Next, get the context to process the PDF documents. Here are the actions you can
 
 * Optimize the PDF documents for delivery on networks
 
-All these samples are available in the [GitHub samples](https://github.com/adobe/pdftools-java-sdk-samples/tree/master/src/main/java/com/adobe/platform/operation/samples) repository.
+All these samples are available in the [GitHub samples](https://github.com/adobe/pdfservices-java-sdk-samples/tree/master/src/main/java/com/adobe/pdfservices/operation/samples) repository.
 
 Next, in Spring Boot, you can get a file using the String path or the Stream where the file is being uploaded. Every operation you perform must be initialized and an input file path must be set. For this tutorial, you use the publicly available PDF reports from [Blackrock](https://www.blackrock.com/us/individual/products/investment-funds). You can use any other source including your own reports.
 
-Start by capturing the [FileRef](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/io/FileRef.html) object from the file. For simplicity, focus on the files by String path. Below, you create an operation to convert a file in your path from PDF to Excel:
+Start by capturing the [FileRef](https://opensource.adobe.com/pdfservices-java-sdk-samples/apidocs/latest/com/adobe/pdfservices/operation/io/FileRef.html) object from the file. For simplicity, focus on the files by String path. Below, you create an operation to convert a file in your path from PDF to Excel:
 
 ```
 ExecutionContext executionContext = ExecutionContext.create(credentials);
@@ -136,7 +136,7 @@ try {
 
 This code generates a PDF document from the report in Excel format.
 
-Before delivering this PDF to your customers, you can protect it with a password. Create another operation that handles this protection for you, [ProtectPDFOperation](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/options/protectpdf/ProtectPDFOptions.html) to add the password to the document.
+Before delivering this PDF to your customers, you can protect it with a password. Create another operation that handles this protection for you, [ProtectPDFOperation](https://opensource.adobe.com/pdfservices-java-sdk-samples/apidocs/latest/com/adobe/pdfservices/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/options/protectpdf/ProtectPDFOptions.html) to add the password to the document.
 
 ```
 ProtectPDFOptions options = ProtectPDFOptions.passwordProtectOptionsBuilder()

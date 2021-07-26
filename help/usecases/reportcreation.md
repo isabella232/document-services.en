@@ -14,7 +14,7 @@ kt: 8093
 
 Finance, education, marketing, and other industries use PDFs to share data with their customers and stakeholders. PDFs make it easy to share rich documents, with tables, graphics, and interactive content, in a format everyone can view. Adobe Document Services APIs help these companies generate shareable PDF reports from Microsoft Word, Microsoft Excel, graphics, and other diverse document formats.
 
-Say you [run a social media tracking company](https://www.adobe.io/apis/documentcloud/dcsdk/report-creation-and-editing.html). Your customers log in to a password-protected part of your site to view their campaign analytics. Often, they want to share these statistics with their executives, shareholders, donors, or other stakeholders. Downloadable PDF documents are a great way for your customers to share numbers, graphs, and more.
+Say you [run a social media tracking company](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html). Your customers log in to a password-protected part of your site to view their campaign analytics. Often, they want to share these statistics with their executives, shareholders, donors, or other stakeholders. Downloadable PDF documents are a great way for your customers to share numbers, graphs, and more.
 
 By incorporating [PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) into your website, you can generate PDF reports on the go for each customer. You can create PDFs then combine them into a single, handy report for your customers to download and pass along to their stakeholders.
 
@@ -46,7 +46,7 @@ Now, let us explore how to publish the reports.
 
 To keep it simple, only use the file system-based uploading and processing here. In Express.js, you can use the fs module to list all the available files under a directory.
 
-On the same page, enable the admin to upload report files to the server for customers to see. These files can be in many different formats, like Microsoft Word, Microsoft Excel, HTML, and [other data formats](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) including graphics files. The admin page looks like this:
+On the same page, enable the admin to upload report files to the server for customers to see. These files can be in many different formats, like Microsoft Word, Microsoft Excel, HTML, and [other data formats]https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) including graphics files. The admin page looks like this:
 
 ![Screenshot of Admin capability](assets/report_2.png)
 
@@ -212,6 +212,6 @@ Now, your social media dashboard customers can select relevant reports from thei
 
 This hands=on tutorial walked through how to use PDF Services API to help customers download relevant reports as easy-to-share PDFs. You created a Node.js application to showcase the power of PDF Services API for PDF reporting and reading services. The application demonstrated how your customers to download a single report document or combine and merge multiple documents into a single PDF report.
 
-This Adobe-powered application helps your [social media dashboard customers](https://www.adobe.io/apis/documentcloud/dcsdk/report-creation-and-editing.html) get and share the reports they need, without worrying if the recipients all have Microsoft Office or other software installed on their device. You can use the same techniques in your own application to help your users view, combine, and download documents. Or, check out Adobe’s many other APIs to add and track signatures and much more.
+This Adobe-powered application helps your [social media dashboard customers](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html) get and share the reports they need, without worrying if the recipients all have Microsoft Office or other software installed on their device. You can use the same techniques in your own application to help your users view, combine, and download documents. Or, check out Adobe’s many other APIs to add and track signatures and much more.
 
 To get started, claim your free [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account, then create engaging reporting experiences for your employees and customers. Enjoy your account free for six months then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) as your marketing efforts expand, just \$0.05 per document transaction.

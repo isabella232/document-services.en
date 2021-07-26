@@ -4,7 +4,7 @@ description: In this hands-on tutorial, you'll learn how to use the Adobe PDF Em
 type: Tutorial
 role: Developer
 level: Intermediate
-thumbnail: KT-7487
+thumbnail: KT-7487.jpg
 kt: 7487
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
 ---

@@ -138,7 +138,7 @@ Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/doc
 
 ## Creating a PDF
 
-Document Services supports the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-java-sdk-samples/apidocs/latest/com/adobe/platform/operation/pdfops/CreatePDFOperation.SupportedSourceFormat.html) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
+Document Services supports the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
 
 To create PDF documents from the supported file formats, use this form to upload the documents. You can access the HTML and CSS files for the form on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 

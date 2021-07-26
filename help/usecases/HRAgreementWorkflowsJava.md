@@ -585,7 +585,7 @@ System.out.println("Agreement sent, ID: " + agreementCreationResponse.getId());
 
 After running this code, you receive an email (to the address specified in the code as `<email_address>)` with the agreement signature request. The email contains the hyperlink, which directs recipients to the Adobe Sign portal to perform signing. You see the document in your Adobe Sign Developer Portal (see figure below) and you can also track the signature process programmatically using the [getAgreementInfo](https://github.com/adobe-sign/AdobeSignJavaSdk/blob/master/docs/AgreementsApi.md#getAgreementInfo) method.
 
-Finally, you can also password-protect your PDF using PDF Services API as shown in these [examples](https://github.com/adobe/pdftools-java-sdk-samples/tree/master/src/main/java/com/adobe/platform/operation/samples/protectpdf).
+Finally, you can also password-protect your PDF using PDF Services API as shown in these [examples](https://github.com/adobe/pdfservices-java-sdk-samples/tree/master/src/main/java/com/adobe/pdfservices/operation/samples/protectpdf).
 
 ![Screenshot of contract details](assets/HRWJ_9.png)
 

@@ -105,6 +105,6 @@ PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
 
 * Related articles:
-  [New PDF Services API offers even more features for document workflows](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fdocument-cloud-sdk%2Fnew-pdf-tools-api-brings-more-capabilities-for-document-services%2Fm-p%2F11294170%3Fpage%3D1&data=02%7C01%7Cedvorak%40adobe.com%7Cf4dd34b607124879d27608d83a4aee8f%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637323440792713225&sdata=%2Fy1OCDf3CPUHLzYCK59hzDUDw8tR5G4rk581UrwdmTI%3D&reserved=0)
+  [New PDF Services API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
-  [July Release of Adobe Document Services: PDF Embed and PDF Services](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmedium.com%2Fadobetech%2Fjuly-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d%250aTarget%2520audience%2520-%2520IT%2520Decision%2520Makers%2520and%2520Product%2520ownerss&data=02%7C01%7Cedvorak%40adobe.com%7Cf4dd34b607124879d27608d83a4aee8f%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637323440792703228&sdata=LizFmn%2BSJBgeWQI3Z3r2f3Yow1u7jiMxYpylevoLN30%3D&reserved=0)
+  [July Release of Adobe Document Services: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
