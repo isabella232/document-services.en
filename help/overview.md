@@ -19,7 +19,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
 <tr>
  <td>
    <a href="pdfservices/overview-pdfservices.md">
-      <img alt="PDF Services API" src="assets/PDFServicesAPI_thumb.jpg" />
+      <img alt="PDF Services API" src="assets/PDFServices_1280.png" />
    </a>
     <div>
    <a href="pdfservices/overview-pdfservices.md"><strong>PDF Services API</strong></a>
@@ -29,7 +29,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
   </td>
   <td>
    <a href="docgen/overview-docgen.md">
-      <img alt="Document Generation API" src="assets/DocGenAPI_thumb.jpg" />
+      <img alt="Document Generation API" src="assets/DocGen_1280.png" />
    </a>
     <div>
    <a href="docgen/overview-docgen.md""><strong>Document Generation API</strong></a>
@@ -39,7 +39,7 @@ Adobe Document Services, an Adobe Document Cloud solution, offers four APIs: the
   </td>
   <td>
    <a href="pdfembed/overview-embed.md">
-      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFEmbedAPI_thumb.jpg" />
+      <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/PDFEmbed_1280.png" />
    </a>
     <div>
    <a href="pdfembed/overview-embed.md"><strong>PDF Embed API</strong></a>
