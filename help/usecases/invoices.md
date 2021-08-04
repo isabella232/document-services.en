@@ -34,7 +34,7 @@ The complete code for this project is [available on GitHub](https://github.com/a
 
 * [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
 
-* [Project code]((https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation))
+* [Project code](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
 
 ## Preparing the data
 
