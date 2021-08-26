@@ -136,7 +136,7 @@ try {
 
 This code generates a PDF document from the report in Excel format.
 
-Before delivering this PDF to your customers, you can protect it with a password. Create another operation that handles this protection for you, [ProtectPDFOperation](https://opensource.adobe.com/pdfservices-java-sdk-samples/apidocs/latest/com/adobe/pdfservices/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://www.adobe.com/devnet-docs/dcsdk_io/servicesSDK/javadoc/com/adobe/platform/operation/pdfops/options/protectpdf/ProtectPDFOptions.html) to add the password to the document.
+Before delivering this PDF to your customers, you can protect it with a password. Create another operation that handles this protection for you, [ProtectPDFOperation](https://opensource.adobe.com/pdfservices-java-sdk-samples/apidocs/latest/com/adobe/pdfservices/operation/pdfops/ProtectPDFOperation.html), then use [ProtectPDFOptions](https://opensource.adobe.com/pdfservices-java-sdk-samples/apidocs/latest/com/adobe/pdfservices/operation/pdfops/options/protectpdf/package-summary.html) to add the password to the document.
 
 ```
 ProtectPDFOptions options = ProtectPDFOptions.passwordProtectOptionsBuilder()
