@@ -1,13 +1,13 @@
 ---
-title:  Reviews and Approvals with Adobe Document Services APIs
+title: Reviews and Approvals with Adobe Document Services APIs
 description: Learn how to build a document review and approval workflow for cross-team collaboration
 type: Tutorial
 role: Developer
 level: Intermediate
 thumbnail: KT-8094.jpg
 kt: 8094
+exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
 ---
-
 # Reviews and approvals with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseReviewsHero.jpg)

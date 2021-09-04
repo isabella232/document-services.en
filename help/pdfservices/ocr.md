@@ -7,9 +7,8 @@ level: Beginner
 thumbnail: KT-6677.jpg
 kt: 6677
 keywords: Hero
-exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245,e971e8cf-fe71-42c7-89ea-079bef7a7fba
+exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
 ---
-
 # Using Adobe PDF Services API to OCR PDF files
 
 ![Create PDF Hero Image](assets/OCR_hero.jpg)

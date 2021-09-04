@@ -6,8 +6,8 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-8097.jpg
 kt: 8097
+exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
 ---
-
 # Managing legal contracts with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseLegalHero.jpg)

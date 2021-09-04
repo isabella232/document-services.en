@@ -6,8 +6,8 @@ role: Developer
 skill: Beginner, Intermediate, Experienced
 thumbnail: KT-8117.jpg
 kt: 8117
+exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
 ---
-
 # Adobe PDF Embed API tutorials
 
 ![PDF Embed API Banner](../assets/PDFEmbedAPIHero.jpg)

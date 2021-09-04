@@ -6,8 +6,8 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-8095.jpg
 kt: 8095
+exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
 ---
-
 # Searching and indexing with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseSearchingHero.jpg)

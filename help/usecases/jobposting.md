@@ -6,8 +6,8 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-8092.jpg
 kt: 8092
+exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
 ---
-
 # Job posting with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseJobHero.jpg)

@@ -6,8 +6,8 @@ role: Developer
 skill: Beginner, Intermediate, Experienced
 thumbnail: KT-8115.jpg
 kt: 8115
+exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
 ---
-
 # Adobe Document Services API use cases
 
 ![Document Services API Use Case Banner](../assets/UseCaseHero.jpg)

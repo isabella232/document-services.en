@@ -6,8 +6,8 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-8096.jpg
 kt: 8096
+exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
 ---
-
 # Managing employee offer letters with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseOfferHero.jpg)

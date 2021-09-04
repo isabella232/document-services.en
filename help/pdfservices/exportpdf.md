@@ -6,9 +6,8 @@ role: Developer
 level: Beginner
 thumbnail: KT-6674.jpg
 kt: 6674
-exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8,f16f6964-23f4-4205-b4e9-c724551ca529
+exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
 ---
-
 # Leveraging PDF Services API to export PDF to Word, PowerPoint, and more
 
 ![Create PDF Hero Image](assets/ExportPDF_hero.jpg)

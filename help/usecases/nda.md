@@ -6,8 +6,8 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-8098.jpg
 kt: 8098
+exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
 ---
-
 # Creating an NDA with Adobe Document Services APIs
 
 ![Use Case Hero Banner](assets/UseCaseNDAHero.jpg)
