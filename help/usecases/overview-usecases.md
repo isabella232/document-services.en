@@ -176,7 +176,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
 </tr>
 </table>
 
-  ### PDF Embed API
+### PDF Embed API
 
 <table style="table-layout:fixed">
 <tr>
@@ -203,7 +203,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
 </tr>
 </table>
 
-  ### Adobe Sign API
+### Adobe Sign API
 
 <table style="table-layout:fixed">
 <tr>
