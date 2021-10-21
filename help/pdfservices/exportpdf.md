@@ -1,5 +1,5 @@
 ---
-title: Leveraging PDF Services API to export PDF to Word, PowerPoint, and more
+title: Using PDF Services API to export PDF to Word, PowerPoint, and more
 description: Learn how to run the PDF Services API export operation using sample files for Node.js, Java, and .Net languages
 type: Tutorial
 role: Developer
@@ -8,7 +8,7 @@ thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
 ---
-# Leveraging PDF Services API to export PDF to Word, PowerPoint, and more
+# Using PDF Services API to export PDF to Word, PowerPoint, and more
 
 ![Create PDF Hero Image](assets/ExportPDF_hero.jpg)
 

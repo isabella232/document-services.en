@@ -26,7 +26,7 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
   </td>
   <td>
    <a href="exportpdf.md">
-      <img alt="Leveraging PDF Services API to export PDF to Word, PowerPoint, and more" src="assets/PDFServices_ExportPDF_thumb.jpg" />
+      <img alt="Using PDF Services API to export PDF to Word, PowerPoint, and more" src="assets/PDFServices_ExportPDF_thumb.jpg" />
    </a>
     <div>
    <a href="exportpdf.md"><strong>Leveraging PDF Services API to export PDF to Word, PowerPoint, and more</strong></a>
