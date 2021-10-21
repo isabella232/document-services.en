@@ -28,7 +28,7 @@ The PDF Embed API is a free JavaScript API to embed high-fidelity PDFs, enable c
   </td>
   <td>
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html">
-      <img alt="Wrangle PDFs on the web like a pro" src="assets/Wrnagle_1280.png" />
+      <img alt="Wrangle PDFs on the web like a pro" src="assets/Wrangle_1280.png" />
    </a>
     <div>
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html"><strong>Wrangle PDFs on the web like a pro</strong></a>
