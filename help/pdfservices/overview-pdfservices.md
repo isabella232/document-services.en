@@ -15,6 +15,16 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
 <table style="table-layout:fixed">
 <tr>
  <td>
+   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-services-api.html">
+      <img alt="Introduction to PDF Services API" src="assets/introduction_1280.png" />
+   </a>
+    <div>
+   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-services-api.html"><strong>Introduction to PDF Services API</strong></a>
+    </div>
+    <em>Adobe’s PDF Services API lets developers create, combine, export, and extract data from PDFs through powerful and flexible cloud-based APIs</em>
+    <br>
+  </td>
+  <td>
    <a href="createpdffromhtml.md">
       <img alt="Create a PDF from HTML or MS Office in a few minutes with PDF Services API and Node.js" src="assets/PDFServices_GettingStartedNode_thumb.jpg" />
    </a>
@@ -34,7 +44,9 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
     <em>Learn how to run the PDF Services API export operation using sample files for Node.js, Java, and .Net languages</em>
     <br>
   </td>
-  <td>
+</tr>
+<tr>
+ <td>
    <a href="gettingstartedjava.md">
       <img alt="Getting started with Adobe PDF Services API and Java" src="assets/PDFServices_GettingStartedJAVA_thumb.jpg" />
    </a>
@@ -44,9 +56,7 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
     <em>Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services</em>
     <br>
   </td>
-</tr>
-<tr>
- <td>
+  <td>
    <a href="gettingstartednet.md">
       <img alt="Getting started with Adobe PDF Services API and .Net" src="assets/PDFServices_GettingStartedNET_thumb.jpg" />
    </a>
@@ -64,11 +74,6 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
    <a href="ocr.md"><strong>Using Adobe PDF Services API to OCR PDF files</strong></a>
     </div>
     <em>With OCR (Optical Character Recognition), you can unlock scanned PDFs to extract text and create searchable files</em>
-    <br>
-  </td>
-  <td>
-    <img alt="Spacer" src="../assets/GrayBanner_Placeholder.png" />
-    <div>
     <br>
   </td>
 </tr>

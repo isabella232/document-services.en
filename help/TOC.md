@@ -24,6 +24,8 @@ solution: Document Cloud, Document Services
     + [Adding tables and list tags](docgen/taggertables.md)
     + [Setting numerical calculation tags](docgen/taggercalculations.md)
     + [Setting conditional content](docgen/taggerconditional.md)
++ PDF Extract API {#pdfextract}
+    + [Overview](pdfextract/overview-extract.md)
 + PDF Embed API {#pdfembed}
   + [Overview](pdfembed/overview-embed.md)
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
