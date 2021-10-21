@@ -164,12 +164,12 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
@@ -191,12 +191,12 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
@@ -218,12 +218,12 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
   <td>
-    <img alt="Spacer" src="assets/WhiteBanner_Placeholder.png" />
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
   </td>
