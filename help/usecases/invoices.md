@@ -16,7 +16,7 @@ It’s great when business is booming but productivity suffers when it comes tim
 
 Think of Danielle, for example, working in the [accounting department](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [of a medical supply company](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). It’s the end of the month, so she’s pulling information from several different systems, double-checking its accuracy, and formatting the invoices. After all that work, she’s finally ready to convert the documents to PDFs (so anyone can view them without purchasing specific software) and send each customer their personalized invoice.
 
-Even when the monthly invoicing is complete, Danielle just can’t escape those invoices. Some customers have non-monthly billing cycles, so she’s always creating an invoice for someone. Occassionally, a customer edits their invoice and underpays. Danielle then spends time troubleshooting this invoice mismatch. At this rate, she needs to hire an assistant to keep up with all the work!
+Even when the monthly invoicing is complete, Danielle just can’t escape those invoices. Some customers have non-monthly billing cycles, so she’s always creating an invoice for someone. Occasionally, a customer edits their invoice and underpays. Danielle then spends time troubleshooting this invoice mismatch. At this rate, she needs to hire an assistant to keep up with all the work!
 
 What Danielle needs is a way to generate invoices quickly and accurately, both in batch at the end of the month and ad hoc at other times. Ideally, if she could protect these invoices from edits, she wouldn’t have to worry about troubleshooting mismatched amounts.
 
