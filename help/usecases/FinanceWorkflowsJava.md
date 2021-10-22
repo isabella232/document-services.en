@@ -1,5 +1,5 @@
 ---
-title: Managing Financial Document Workflows with Adobe Document Services APIs in Java
+title: Managing Financial Document Workflows in Java
 description: Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents
 type: Tutorial
 role: Developer
@@ -8,7 +8,7 @@ thumbnail: KT-7482.jpg
 kt: 7482
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
 ---
-# Managing financial document workflows with Adobe Document Services APIs in Java
+# Managing financial document workflows in Java
 
 ![Use Case Hero Banner](assets/UseCaseFinancialHero.jpg)
 

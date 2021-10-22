@@ -1,5 +1,5 @@
 ---
-title: Managing Sales Proposals and Contracts with Adobe Document Services APIs
+title: Managing Sales Proposals and Contracts
 description: Learn how to build an efficient workflow to automate and simplify sales proposals
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8099.jpg
 kt: 8099
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 ---
-# Managing sales proposals and contracts with Adobe Document Services APIs
+# Managing sales proposals and contracts
 
 ![Use Case Hero Banner](assets/UseCaseSalesHero.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Report Creation and Editing with Adobe Document Services APIs
+title: Report Creation and Editing
 description: Learn how to generate PDF reports on your website for customers
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8093.jpg
 kt: 8093
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
 ---
-# Report creation and editing with Adobe Document Services APIs
+# Report creation and editing
 
 ![Use Case Hero Banner](assets/UseCaseReportHero.jpg)
 

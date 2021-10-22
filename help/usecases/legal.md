@@ -1,5 +1,5 @@
 ---
-title: Managing Legal Contracts with Adobe Document Services APIs
+title: Managing Legal Contracts
 description: Learn how to automatically generate and protect legal documents with custom data input
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8097.jpg
 kt: 8097
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
 ---
-# Managing legal contracts with Adobe Document Services APIs
+# Managing legal contracts
 
 ![Use Case Hero Banner](assets/UseCaseLegalHero.jpg)
 
