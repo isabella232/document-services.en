@@ -1,5 +1,5 @@
 ---
-title: Managing Employee Offer Letters with Adobe Document Services APIs
+title: Managing Employee Offer Letters
 description: Learn how to generate an offer letter that can be delivered to a new employee for their signature
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8096.jpg
 kt: 8096
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
 ---
-# Managing employee offer letters with Adobe Document Services APIs
+# Managing employee offer letters
 
 ![Use Case Hero Banner](assets/UseCaseOfferHero.jpg)
 

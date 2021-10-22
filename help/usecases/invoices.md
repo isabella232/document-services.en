@@ -1,5 +1,5 @@
 ---
-title: Handling Invoices with Adobe Document Generation API
+title: Handling Invoices
 description: Learn how to automatically generate, password-protect, and deliver customer invoices
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8145.jpg
 kt: 8145
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
 ---
-# Handling invoices with Adobe Document Generation API
+# Handling invoices
 
 ![Use Case Hero Banner](assets/UseCaseInvoicesHero.jpg)
 

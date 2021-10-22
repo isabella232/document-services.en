@@ -1,5 +1,5 @@
 ---
-title: Digital Document Publishing with Adobe PDF Embed API
+title: Digital Document Publishing
 description: Learn how to display embedded PDF documents inside web pages using Adobe PDF Embed API
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8090.jpg
 kt: 8090
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
 ---
-# Digital document publishing with Adobe PDF Embed API
+# Digital document publishing
 
 ![Use Case Hero Banner](assets/UseCaseDigitalHero.jpg)
 

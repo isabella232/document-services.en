@@ -38,7 +38,7 @@ solution: Document Cloud, Document Services
   + [Searching and indexing](usecases/searching.md)
   + [Reviews and approvals](usecases/reviews.md)
   + [Report creation and editing](usecases/reportcreation.md)
-  + [Job posting with](usecases/jobposting.md)
+  + [Job posting](usecases/jobposting.md)
   + [Student-Teacher collaboration](usecases/educationcollab.md)
   + [Agreement workflows in Node.js](usecases/AgreementWorkflowsNodejs.md)
   + [HR document workflows in Java](usecases/HRAgreementWorkflowsJava.md)

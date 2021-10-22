@@ -1,5 +1,5 @@
 ---
-title: Creating an NDA with Adobe Document Services APIs
+title: Creating an NDA
 description: Learn how to create a dynamic NDA PDF for collaboration
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8098.jpg
 kt: 8098
 exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
 ---
-# Creating an NDA with Adobe Document Services APIs
+# Creating an NDA
 
 ![Use Case Hero Banner](assets/UseCaseNDAHero.jpg)
 

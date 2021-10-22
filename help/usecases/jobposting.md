@@ -1,5 +1,5 @@
 ---
-title: Job Posting with Adobe Document Services APIs
+title: Job Posting
 description: Learn how to develop a smooth and consistent web experience for job applicants and employers
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8092.jpg
 kt: 8092
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
 ---
-# Job posting with Adobe Document Services APIs
+# Job posting
 
 ![Use Case Hero Banner](assets/UseCaseJobHero.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Searching and Indexing with Adobe Document Services APIs
+title: Searching and Indexing
 description: Learn how to create searchable PDF files from scanned documents
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8095.jpg
 kt: 8095
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
 ---
-# Searching and indexing with Adobe Document Services APIs
+# Searching and indexing
 
 ![Use Case Hero Banner](assets/UseCaseSearchingHero.jpg)
 

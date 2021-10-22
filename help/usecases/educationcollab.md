@@ -1,5 +1,5 @@
 ---
-title: Student-Teacher Collaboration with Adobe Document Services APIs
+title: Student-Teacher Collaboration
 description: Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF
 role: Developer
 level: Intermediate
@@ -8,7 +8,7 @@ thumbnail: KT-8091.jpg
 kt: 8091
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
 ---
-# Student-Teacher collaboration with Adobe Document Services APIs
+# Student-Teacher collaboration
 
 ![Use Case Hero Banner](assets/UseCaseStudentHero.jpg)
 
