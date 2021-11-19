@@ -6,6 +6,7 @@ role: Developer
 skill: Beginner, Intermediate, Experienced
 thumbnail: KT-9247.jpg
 kt: 9247
+exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
 ---
 # Adobe PDF Extract API tutorials
 
