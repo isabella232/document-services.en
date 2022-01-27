@@ -1,5 +1,5 @@
 ---
-cloud: Experience Platform
+cloud: Document Cloud
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/document-services.en
 index: yes
