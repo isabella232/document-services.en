@@ -11,7 +11,7 @@ kt: 10222
 
 ![Use Case Hero Banner](assets/UseCaseAccelerateSalesHero.jpg)
 
-From whitepapers to contracts and agreements, numerous documents are necessary throughout a purchasing journey. In this tutorial, learn how[Adobe Document Services](https://developer.adobe.com/document-services/) can integrate document experiences throughout this journey to help accelerate sales.
+From whitepapers to contracts and agreements, numerous documents are necessary throughout a purchasing journey. In this tutorial, learn how [Adobe Document Services](https://developer.adobe.com/document-services/) can integrate document experiences throughout this journey to help accelerate sales.
 
 ## Generate agreements and sales orders from data
 
@@ -135,7 +135,7 @@ Next, navigate to the Document Generation Tagger panel to place tags into the do
     }
     ```
 
-    Repeat these actions for some of the additional tags in the document, such as STREET ADDRESS, CITY, STATE, ZIP, and so forth.
+Repeat these actions for some of the additional tags in the document, such as STREET ADDRESS, CITY, STATE, ZIP, and so forth.
 
 ## Preview your generated document
 
@@ -153,9 +153,9 @@ Directly within Microsoft Word, you can preview your generated document based on
 
     ![Screenshot of document in browser window](assets/accsales_8.png)
 
-    You can see the tags in the document that were replaced with the data from the original sample data.
+You can see the tags in the document that were replaced with the data from the original sample data.
 
-    ![Screenshot of tags replaced with data](assets/accsales_9.png)
+![Screenshot of tags replaced with data](assets/accsales_9.png)
 
 ## Add a table to template
 
@@ -170,7 +170,7 @@ In this next scenario, add a list of products to a table in the document.
 
     ![Screenshot of inserting table](assets/accsales_10.png)
 
-    Edit the table to adjust for styles, sizes, and other parameters as you would any other table in Microsoft Word.
+Edit the table to adjust for styles, sizes, and other parameters as you would any other table in Microsoft Word.
 
 ## Add numerical calculation
 
@@ -186,30 +186,14 @@ Numerical calculations allow you to calculate sums and other calculations based 
 
 This process inserts a calculation tag which provides the sum of values. More advanced calculations can be made using JSONata calculations. For example:
 
-* Subtotal
+*   Subtotal: `${{expr($sum(referencesOrder.totalPaymentDue.price))}}`
+    Calculates the sum of referencesOrder.totalPaymentDue.price.
 
-```
-${{expr($sum(referencesOrder.totalPaymentDue.price))}}
-```
+*   Sales Tax: `${{expr($sum(referencesOrder.totalPaymentDue.price)*0.08)}}`
+    Calculates the price and multiplies by 8% to calculate tax.
 
-Calculates the sum of referencesOrder.totalPaymentDue.price.
-
-* Sales Tax
-
-```
-${{expr($sum(referencesOrder.totalPaymentDue.price)*0.08)}}
-```
-
-Calculates the price and multiplies by 8% to calculate tax.
-
-* Total Due
-
-```
-${{expr($sum(referencesOrder.totalPaymentDue.price)*1.08)}}
-
-```
-
-Calculates the price and multiples by 1.08 to calculate the subtotal + tax.
+*   Total Due: `${{expr($sum(referencesOrder.totalPaymentDue.price)*1.08)}}`
+    Calculates the price and multiples by 1.08 to calculate the subtotal + tax.
 
 ## Add conditional terms
 
@@ -251,14 +235,9 @@ However, you want to set the image dynamically on an image that already is in th
 
     ![Screenshot of placeholder image](assets/accsales_13.png)
 
-1.    Select **Edit Alt Text**.
+1.  Select **Edit Alt Text**.
 1.  In the panel, copy the text that looks like this:
-
-```
-{ "location-path": "logo", "image-props": { "alt-text": "Logo" }}
-
-```
-
+    `{ "location-path": "logo", "image-props": { "alt-text": "Logo" }}`
 1.  Select a different image in your document you want to be dynamic.
 
     ![Screenshot of new image in document](assets/accsales_14.png)
