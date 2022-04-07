@@ -278,7 +278,7 @@ Adobe Acrobat Sign allows you to capture electronic signatures on your documents
 1.  In the *Specify number of recipient* field, set the number of recipients (in this example it is one).
 1.  In the *Recipients* field, select **Signer-1**.
 1.  In the *Field* type, select **Signature**.
-1.	Select **Insert Adobe Sign Text Tag**. 
+1.  Select **Insert Adobe Sign Text Tag**. 
 
 A tag is inserted into the document.
 
@@ -349,8 +349,8 @@ documentMergeOperation.execute(executionContext)
 });
 ```
 
-1.  Replace <INSERT JSON FILE> with the name of the JSON file in /resources.
-1.  Replace <INSERT DOCX> with the name of the DOCX file.
+1.  Replace `<INSERT JSON FILE>` with the name of the JSON file in /resources.
+1.  Replace `<INSERT DOCX>` with the name of the DOCX file.
 1.  To run, use Terminal to execute node generate-salesOrder.js.
 
 The output file should be in the /output folder with the document generated correctly.
@@ -380,5 +380,5 @@ Interested in learning more? Have a look at some additional ways to use Adobe Do
 *   Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
 *   See more tutorials on Adobe Experience League
 *   Use the sample scripts in the /src folder to see how you can leverage PDF 
-*   Follow [Adobe Tech Blog[(https://medium.com/adobetech/tagged/adobe-document-cloud)] for latest tips and tricks
+*   Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
 *   Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using Adobe Document Services
