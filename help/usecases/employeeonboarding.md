@@ -188,7 +188,7 @@ In the final stop of the onboarding process, the employee must sign an agreement
 
 First, design the document that includes the form that needs signing. There are multiple ways of doing this, including a visual designed in the Adobe Sign user dashboard. Another option is to use the Document Generation Word add-in to insert the tags for you. This example requests a signature and date.
 
-![Screenshot of document with Sign Tags](assets/onboarding10.png)
+![Screenshot of document with Sign Tags](assets/onboarding_10.png)
 
 This document can be saved as a PDF, and using the same method described above, joined with all the documents together. This process creates one cohesive package that contains a personalized greeting, standard corporate documentation, and a final page fit for signing.
 
