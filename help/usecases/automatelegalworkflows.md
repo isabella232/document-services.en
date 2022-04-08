@@ -433,7 +433,7 @@ Since the Authorization token is added from the previous steps, you need to uplo
 
 1. In *File* field, upload the PDF document that was generated in previous steps.
 
-   ![Screenshot of where to upload PDF](assets/automatelegal_36.png)
+   ![Screenshot of where to upload PDF](assets/automatelegal_37.png)
 
 1. Select **Try it out!**.
 1. In **Response Body**, copy the *transientDocumentId* value.
