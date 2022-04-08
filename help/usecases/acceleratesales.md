@@ -6,6 +6,7 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-10222.jpg
 kt: 10222
+exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
 ---
 # Accelerate your sales process
 
