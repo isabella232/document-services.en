@@ -151,18 +151,20 @@ Directly within Microsoft Word, you can preview your generated document based on
    ![Screenshot of View document button](assets/automatelegal_11.png)
 
 1. A browser window opens, allowing you to preview the document results.
+   
+   ![Screenshot of state-specific text](assets/automatelegal_12.png)
 
 ## Add conditional terms for each state
 
 In this next section, you set only certain sections to be included based on certain input data criteria. In the sample document, sections 4 and 5 only pertain to a specific state. For this scenario, only the state-specific terms should be included when a customer resides in that state. Also, the numbering in Microsoft Word should not include that section if it is removed. Use Document Generation API’s Conditional content feature to tag this.
 
-![Screenshot of state-specific text](assets/automatelegal_12.png)
-
 ![Screenshot of state-specific text](assets/automatelegal_13.png)
 
-1. In the document, select the California Disclosure section and all the subbullets.
+![Screenshot of selecting the California Disclosure section](assets/automatelegal_14.png)
 
-   ![Screenshot of selecting theCalifornia Disclosure section](assets/automatelegal_14.png)
+1. In the document, select the California Disclosure section and all the subbullets.
+  
+   ![Screenshot of the Conditional-section tag](assets/automatelegal_15.png)
 
 1. In *Document Generation Tagger*, select **Advanced**.
 1. Expand **Conditional content**.
@@ -173,11 +175,11 @@ In this next section, you set only certain sections to be included based on cert
 
 The section is now wrapped with some tags called conditional-section tags. When you added the tags, it may have added the conditional-section tag as a numbered line. You can remove this by backspacing before the tag, otherwise it will number items as if the tag wasn’t there when the document is generated. The section that is conditional ends with the `{% end-section %}` tag.
 
-![Screenshot of the Conditional-section tag](assets/automatelegal_15.png)
+![Screenshot of the Conditional-section tag](assets/automatelegal_16.png)
 
 **Repeat steps 1-7** for the *Washington Disclosure* section, replacing the *CA* value with *WA* to represent that the section is only shown if the customer’s state is Washington.
 
-![Screenshot of the Conditional-section tag for WA](assets/automatelegal_16.png)
+![Screenshot of the Conditional-section tag for WA](assets/automatelegal_17.png)
 
 ## Testing with conditional sections
 
@@ -185,30 +187,30 @@ Once your conditional sections are in place, you can preview your document by se
 
 When you generate your document, notice that the section that is included is only the one that meets the data criteria. In the example below, because the state was equal to CA, only the California section is included.
 
-![Screenshot of California Disclosure information](assets/automatelegal_17.png)
+![Screenshot of California Disclosure information](assets/automatelegal_18.png)
 
 One other notable change is that the numbering for the subsequent section, Use of Services and Software, has the number 5. This means that when the Washington section is omitted, the numbering continues.
 
-![Screenshot of continued numbering](assets/automatelegal_18.png)
+![Screenshot of continued numbering](assets/automatelegal_19.png)
 
 To test whether the template behaves correctly when the customer is in the state of Washington rather than California, change the sample data for the template:
 
 1. In *Document Generation Tagger*, select **Edit input data**.
 
-   ![Screenshot of Document Generation Tagger](assets/automatelegal_19.png)
+   ![Screenshot of Document Generation Tagger](assets/automatelegal_20.png)
 
 1. Select **Edit**.
 
 1. In the JSON data, change *CA* to *WA*.
 
-   ![Screenshot of JSON data](assets/automatelegal_20.png)
+   ![Screenshot of JSON data](assets/automatelegal_21.png)
 
 1. Select **Generate Tags**.
 1. Select **Generate document** to regenerate the document.
 
 Notice that the document only includes the Washington state section.
 
-![Screenshot of document that only includes the Wasington state section](assets/automatelegal_21.png)
+![Screenshot of document that only includes the Wasington state section](assets/automatelegal_22.png)
 
 ## Adding a conditional sentence
 
@@ -225,7 +227,7 @@ Like conditional sections, you can also have specific sentences that are include
 
 While the name of the tag is the same, the main difference between Phrase and Section is that a phrase has the section not include new lines. The condition-section tag and the -end-section tag must be in the same paragraph.
 
-![Screenshot of phrase tag](assets/automatelegal_22.png)
+![Screenshot of phrase tag](assets/automatelegal_23.png)
 
 ## Add tags for Acrobat Sign
 
@@ -234,7 +236,7 @@ Acrobat Sign allows you to send agreements for signature or embed into web exper
 1. Navigate to where the customer must sign.
 1. Place your cursor where the signature needs to go.
 
-   ![Screenshot of where the signature need to go](assets/automatelegal_23.png)
+   ![Screenshot of where the signature need to go](assets/automatelegal_24.png)
 
 1. In *Document Generation Tagger*, select **Adobe Sign**.
 1. In *Specify number of recipient* field, set the number of recipients (this example uses 2).
@@ -242,7 +244,7 @@ Acrobat Sign allows you to send agreements for signature or embed into web exper
 1. In *Field* type, select **Signature**.
 1. Select **Insert Adobe Sign Text Tag**.
 
-   ![Screenshot of Insert Adobe Sign Text Tag in Document Generation Tagger](assets/automatelegal_24.png)
+   ![Screenshot of Insert Adobe Sign Text Tag in Document Generation Tagger](assets/automatelegal_25.png)
 
 >[!NOTE]
 >
@@ -250,13 +252,13 @@ Acrobat Sign allows you to send agreements for signature or embed into web exper
 
 This places a signature field where the first signer needs to sign.
 
-![Screenshot of signature text tag](assets/automatelegal_25.png)
+![Screenshot of signature text tag](assets/automatelegal_26.png)
 
 Next, place a data field for the signer who that auto-populates when they sign.
 
 1. Move your cursor where the date should be placed.
 
-   ![Screenshot of where the date should be located](assets/automatelegal_26.png)
+   ![Screenshot of where the date should be located](assets/automatelegal_27.png)
 
 1. Set Field type to Date.
 1. Select **Insert Adobe Sign Text Tag**.
@@ -364,11 +366,11 @@ If you do not have an Acrobat Sign account, sign up for a developer account and 
 
 1. Select **Send** from the navigation bar.
 
-   ![Screenshot of Send tab in Acrobat Sign](assets/automatelegal_27.png)
+   ![Screenshot of Send tab in Acrobat Sign](assets/automatelegal_28.png)
 
 1. In *Recipients* field, specify two email addresses. It is best practice to use an email address that is not associated with your Acrobat Sign account.
 
-   ![Screenshot of Recipients fields](assets/automatelegal_28.png)
+   ![Screenshot of Recipients fields](assets/automatelegal_29.png)
 
 1. Set an **Agreement Name** and **Message**.
 1. Select **Add Files** and upload the generated file from your computer.
@@ -376,35 +378,35 @@ If you do not have an Acrobat Sign account, sign up for a developer account and 
 1. Select **Next**.
 1. When scrolling down to the signature page, you can see the placed signature fields based on the tags.
 
-   ![Screenshot of signature fields](assets/automatelegal_29.png)
+   ![Screenshot of signature fields](assets/automatelegal_30.png)
 
 1. Select **Send**.
 1. In your email, a message with a link to view and sign appears.
 
-   ![Screenshot of email message](assets/automatelegal_30.png)
+   ![Screenshot of email message](assets/automatelegal_31.png)
 
 1. Select **Review and sign**.
 1. Select **Continue** to accept terms of use.
 1. Select **Start** to jump to where you need to sign.
 
-   ![Screenshot of start tag](assets/automatelegal_31.png)
+   ![Screenshot of start tag](assets/automatelegal_32.png)
 
 1. Select **Click here to sign**.
 
-   ![Screenshot of Click here to sign](assets/automatelegal_32.png)
+   ![Screenshot of Click here to sign](assets/automatelegal_33.png)
 
 1. Type your signature.
 
-   ![Screenshot of typing signature](assets/automatelegal_33.png)
+   ![Screenshot of typing signature](assets/automatelegal_34.png)
 
 1. Select **Apply**.
 1. Select **Click to Sign**.
 
 An email is sent to the next signer. Repeat steps 9-16 to view and sign for the second signer.
 
-Once the agreement is completed, a signed copy of the agreement is sent via email to each of the parties. In addition, a signed agreement can be retrieved from the Acrobat Sign web user interface in the **Manage** page.
+Once the agreement is completed, a signed copy of the agreement is sent via email to each of the parties. In addition, a signed agreement can be retrieved from the Acrobat Sign web interface in the **Manage** page.
 
-![Screenshot of Manage tab in Acrobat Sign](assets/automatelegal_34.png)
+![Screenshot of Manage tab in Acrobat Sign](assets/automatelegal_35.png)
 
 Next, learn how to do the same scenario via REST API documentation.
 
@@ -414,7 +416,7 @@ Next, learn how to do the same scenario via REST API documentation.
 1. Expand *transientDocuments* and the [POST /transientDocuments](https://benprojecteddemo.na1.adobesign.com/public/docs/restapi/v6#!/transientDocuments/createTransientDocument).
 1. Select **OAUTH ACCESS-TOKEN**.
    
-   ![Screenshot of where to select OAUTH ACCESS-TOKEN](assets/automatelegal_35.png)
+   ![Screenshot of where to select OAUTH ACCESS-TOKEN](assets/automatelegal_36.png)
 
 1. Check the OAUTH permissions for *agreement_write*, *agreement_sign*, *widget_write*, and *library_write*. 
 1. Select **Authorize**.
