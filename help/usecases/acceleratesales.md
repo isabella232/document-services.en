@@ -1,5 +1,5 @@
 ---
-title: Accelerate your sales process
+title: Accelerate your Sales Process
 description: Learn how to accelerate sales by integrating document experiences with Adobe Document Services
 role: Developer
 level: Intermediate
