@@ -11,7 +11,7 @@ kt: 10203
 
 ![Use Case Hero Banner](assets/usecaseemployeeonboardinghero.jpg)
 
-In a large organization, employee onboarding can be a large, and slow, process. Typically there is a mix of customized documentation along with boilerplate material that must be presented and signed by a new employee. This mix of customized and boilerplate material requires multiple steps--taking valuable time away from people involved in the process. Adobe Document Services and Acrobat Sign can modernize and automate this approach, freeing up your HR personal for more important tasks. Let's look at how this is achieved. 
+In a large organization, employee onboarding can be a large, and slow, process. Typically there is a mix of customized documentation along with boilerplate material that must be presented and signed by a new employee. This mix of customized and boilerplate material requires multiple steps--taking valuable time away from people involved in the process. Adobe Document Services and Acrobat Sign can modernize and automate this approach, freeing up your HR personal for more important tasks. Let's look at how this is achieved.
 
 ## What are Adobe Document Services?
 

@@ -31,6 +31,7 @@ solution: Document Services
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
 + Use Cases {#usecases}
   + [Overview](usecases/overview-usecases.md)
+  + [Modernizing employee onboarding](usecases/employeeonboarding.md)
   + [Accelerate your sales process](usecases/acceleratesales.md)
   + [Managing sales proposals and contracts](usecases/sales.md)
   + [Creating an NDA](usecases/nda.md)
