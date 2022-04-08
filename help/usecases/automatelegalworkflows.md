@@ -6,6 +6,7 @@ level: Intermediate
 type: Tutorial
 thumbnail: KT-10202.jpg
 kt: 10202
+exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
 ---
 # Automate legal workflows
 
@@ -584,4 +585,3 @@ Interested in learning more? Have a look at some additional ways to use Adobe Do
 * Use the sample scripts in the /src folder to see how you can use PDF 
 * Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
 * Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using Adobe Document Services.
-
