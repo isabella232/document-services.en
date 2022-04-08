@@ -1,5 +1,5 @@
 ---
-title: Accelerate your sales process
+title: Accelerate your Sales Process
 description: Learn how to accelerate sales by integrating document experiences with Adobe Document Services
 role: Developer
 level: Intermediate
@@ -339,9 +339,9 @@ The output file should be in the /output folder with the document generated corr
 
 Once your document is generated, you can take additional actions such as:
 
-*   Secure document with a password
-*   Compress PDF if there are large images
-*   Capture electronic signatures on the document
+* Secure document with a password
+* Compress PDF if there are large images
+* Capture electronic signatures on the document
 
 To learn more about some of the other actions that are available, look at the scripts in the /src folder in the sample files. You can also learn more by reviewing documentation of the different actions.
 
@@ -349,14 +349,20 @@ To learn more about some of the other actions that are available, look at the sc
 
 Adobe Document Services can help streamline many parts of a sales cycle with digital document workflows:
 
-*   Use Adobe PDF Embed API to embed whitepapers and other content on websites while also measure and gather analytics on viewership
-*   Use Acrobat Sign to capture e-signatures on your generated agreements 
-*   Extract agreement data from your PDF documents using Adobe PDF Extract API
+* Use Adobe PDF Embed API to embed whitepapers and other content on websites while also measure and gather analytics on viewership
+* Use Acrobat Sign to capture e-signatures on your generated agreements 
+* Extract agreement data from your PDF documents using Adobe PDF Extract API
 
 ## Further learning
 
 Interested in learning more? Have a look at some additional ways to use Adobe Document Services:
 
+* Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
+* See more tutorials on Adobe Experience League
+* Use the sample scripts in the /src folder to see how you can leverage PDF 
+* Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
+* Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using Adobe Document Services.
+=======
 *   Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
 *   See more tutorials on Adobe Experience League
 *   Use the sample scripts in the /src folder to see how you can leverage PDF 

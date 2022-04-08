@@ -21,6 +21,26 @@ Learn how the Adobe Document Services APIs can change your business with these h
 <table style="table-layout:fixed">
 <tr>
    <td>
+    <a href="automatelegalworkflows.md">
+      <img alt="Automate legal workflows" src="assets/automatelegal_thumb.jpg" />
+    </a>
+    <div>
+    <a href="automatelegalworkflows.md"><strong>Automate legal workflows</strong></a>
+    </div>
+    <em>Learn how to automate legal workflows with conditional content</em>
+    <br>
+  </td>
+ <td>
+    <a href="employeeonboarding.md">
+      <img alt="Modernizing employee onboarding" src="assets/employee_thumb.jpg" />
+    </a>
+    <div>
+    <a href="employeeonboarding.md"><strong>Modernizing employee onboarding</strong></a>
+    </div>
+    <em>Learn how to modernize employee onboarding</em>
+    <br>
+  </td>
+ <td>
     <a href="acceleratesales.md">
       <img alt="Accelerate your sales process" src="assets/accsales_thumb.jpg" />
     </a>
@@ -30,6 +50,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to accelerate sales by integrating document experiences</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
     <a href="sales.md">
       <img alt="Managing sales proposals and contracts" src="assets/sales_thumb.jpg" />
@@ -50,9 +72,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to create a dynamic NDA PDF for collaboration</em>
     <br>
   </td>
-</tr>
-<tr>
-    <td>
+  <td>
     <a href="legal.md">
       <img alt="Managing legal contracts" src="assets/legal_thumb.jpg" />
     </a>
@@ -62,6 +82,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to automatically generate and protect legal documents with custom data input</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
     <a href="offer.md">
       <img alt="Managing employee offer letters" src="assets/offer_thumb.jpg" />
@@ -72,7 +94,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to generate an offer letter that can be delivered to a new employee for their signature</em>
     <br>
   </td>
-   <td>
+  <td>
     <a href="searching.md">
       <img alt="Searching and indexing" src="assets/searching_thumb.jpg" />
     </a>
@@ -82,9 +104,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to create searchable PDF files from scanned documents</em>
     <br>
   </td>
-</tr>
-<tr>
-   <td>
+  <td>
     <a href="reviews.md">
       <img alt="Reviews and approvals" src="assets/reviews_thumb.jpg" />
     </a>
@@ -94,6 +114,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to build a document review and approval workflow for cross-team collaboration</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
     <a href="reportcreation.md">
       <img alt="Report creation and editing" src="assets/report_thumb.jpg" />
@@ -114,9 +136,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to develop a smooth and consistent web experience for job applicants and employers</em>
     <br>
   </td>
-</tr>
-<tr>
-   <td>
+  <td>
     <a href="educationcollab.md">
       <img alt="Student-Teacher Collaboration" src="assets/edu_thumb.jpg" />
     </a>
@@ -126,6 +146,8 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF</em>
     <br>
   </td>
+</tr>
+<tr>
   <td>
     <a href="AgreementWorkflowsNodejs.md">
       <img alt="Agreement workflows in Node.js" src="assets/AWNjs_thumb.png" />
@@ -146,9 +168,7 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <em>Adobe Document Services APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
-</tr>
-<tr>
-   <td>
+  <td>
     <a href="FinanceWorkflowsJava.md">
       <img alt="Managing financial document workflows in Java" src="assets/FAWJ_thumb.jpg" />
     </a>
@@ -156,16 +176,6 @@ Learn how the Adobe Document Services APIs can change your business with these h
     <a href="FinanceWorkflowsJava.md"><strong>Managing financial document workflows in Java</strong></a>
     </div>
     <em>Adobe Document Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
-    <br>
-  </td>
-  <td>
-    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
-    <div>
-    <br>
-  </td>
-  <td>
-    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
-    <div>
     <br>
   </td>
 </tr>
