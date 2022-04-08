@@ -85,7 +85,7 @@ This scenario uses a Terms and Conditions document, which can be downloaded [her
 1. Select **Get Started**.
 1. Copy the JSON sample data written above into the JSON Data field.
 
-![Screenshot of document and JSON data](assets/automatelegal_4.png)
+   ![Screenshot of document and JSON data](assets/automatelegal_4.png)
 
 Navigate to the *Document Generation Tagger* panel to place tags in the document.
 
@@ -278,52 +278,52 @@ Open the pdfservices-node-sdk-samples-master file that you downloaded when regis
 1. Copy the Word template that you created into the *resources* folder.
 1. Create a new file in the root directory of the samples folder called *generate-salesOrder.js*.
 
-```
-const PDFServicesSdk = require('@adobe/pdfservices-node-sdk').
-const fs = require('fs');
-const path = require('path');
+   ```
+   const PDFServicesSdk = require('@adobe/pdfservices-node-sdk').
+   const fs = require('fs');
+   const path = require('path');
 
-var dataFileName = path.join('resources', '<INSERT JSON FILE');
-var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".pdf");
-var inputFileName = path.join('resources', '<INSERT DOCX>');
+   var dataFileName = path.join('resources', '<INSERT JSON FILE');
+   var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".pdf");
+   var inputFileName = path.join('resources', '<INSERT DOCX>');
 
-//Loads credentials from the file that you created.
-const credentials =  PDFServicesSdk.Credentials
-    .serviceAccountCredentialsBuilder()
-    .fromFile("pdfservices-api-credentials.json")
-    .build();
+   //Loads credentials from the file that you created.
+   const credentials =  PDFServicesSdk.Credentials
+      .serviceAccountCredentialsBuilder()
+      .fromFile("pdfservices-api-credentials.json")
+      .build();
 
-// Setup input data for the document merge process
-const jsonString = fs.readFileSync(dataFileName),
-jsonDataForMerge = JSON.parse(jsonString);
+   // Setup input data for the document merge process
+   const jsonString = fs.readFileSync(dataFileName),
+   jsonDataForMerge = JSON.parse(jsonString);
 
-// Create an ExecutionContext using credentials
-const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
+   // Create an ExecutionContext using credentials
+   const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
 
-// Create a new DocumentMerge options instance
-const documentMerge = PDFServicesSdk.DocumentMerge,
-documentMergeOptions = documentMerge.options,
-options = new documentMergeOptions.DocumentMergeOptions(jsonDataForMerge, documentMergeOptions.OutputFormat.PDF);
+   // Create a new DocumentMerge options instance
+   const documentMerge = PDFServicesSdk.DocumentMerge,
+   documentMergeOptions = documentMerge.options,
+   options = new documentMergeOptions.DocumentMergeOptions(jsonDataForMerge, documentMergeOptions.OutputFormat.PDF);
 
-// Create a new operation instance using the options instance
-const documentMergeOperation = documentMerge.Operation.createNew(options)
+   // Create a new operation instance using the options instance
+   const documentMergeOperation = documentMerge.Operation.createNew(options)
 
-// Set operation input document template from a source file.
-const input = PDFServicesSdk.FileRef.createFromLocalFile(inputFileName);
-documentMergeOperation.setInput(input);
+   // Set operation input document template from a source file.
+   const input = PDFServicesSdk.FileRef.createFromLocalFile(inputFileName);
+   documentMergeOperation.setInput(input);
 
-// Execute the operation and Save the result to the specified location.
-documentMergeOperation.execute(executionContext)
-.then(result => result.saveAsFile(outputFileName))
-.catch(err => {
-    if(err instanceof PDFServicesSdk.Error.ServiceApiError
-        || err instanceof PDFServicesSdk.Error.ServiceUsageError) {
-        console.log('Exception encountered while executing operation', err);
-    } else {
-        console.log('Exception encountered while executing operation', err);
-    }
-});
-```
+   // Execute the operation and Save the result to the specified location.
+   documentMergeOperation.execute(executionContext)
+   .then(result => result.saveAsFile(outputFileName))
+   .catch(err => {
+      if(err instanceof PDFServicesSdk.Error.ServiceApiError
+         || err instanceof PDFServicesSdk.Error.ServiceUsageError) {
+         console.log('Exception encountered while executing operation', err);
+      } else {
+         console.log('Exception encountered while executing operation', err);
+      }
+   });
+   ```
 
 1. Replace `<JSON FILE>` with the name of the JSON file in /resources.
 1. Replace `<INSERT DOCX>` with the name of the DOCX file.
@@ -447,38 +447,38 @@ Once a document is uploaded, you need to send the agreement for signature.
 1. Expand out the agreement section and POST agreement sections.
 1. In the *AgreementInfo* field, populate it with the following JSON:
 
-```
-{
-  "fileInfos": [
-    {
-      "transientDocumentId": "3AAABLblqZhAJeoswpyslef8_toTGT1WgBLk3TlhfJXy_uSLlKyre2hjF0-J1meBDn0PlShk0uQy6JghlqEoqXNnskq7YawteF6QWtHefP9wN2CW_Xbt0O9kq1tkpznG0a5-mEm4bYAV1FGOnD1mt_ooYdzKxm7KzTB11DLX2-81Zbe2Z1suy7oXiWNR3VSb-zMfIb5D4oIxF8BiNfN0q08RwT108FcB1bx4lekkATGld3nRbf8ApVPhB72VNrAIF0F1rAFBWTtfgvBKZaxrYSyZq73R_neMdvZEtxWTk5fii_bLVe7VdNZMcO55sofH61eQC_QIIsoYswZP4rw6dsTa68ZRgKUNs"
-    }
-  ],
-  "name": "Terms and Conditions",
-  "participantSetsInfo": [
-    {
-      "memberInfos": [
-        {
-          "email": "adobesigndemo+customer@outlook.com"
-        }
-      ],
-      "order": 1,
-      "role": "SIGNER"
-    },
-    {
-        "memberInfos": [
-          {
-            "email": "adobesigndemo+company@outlook.com"
-          }
-        ],
-        "order": 1,
-        "role": "SIGNER"
+   ```
+   {
+   "fileInfos": [
+      {
+         "transientDocumentId": "3AAABLblqZhAJeoswpyslef8_toTGT1WgBLk3TlhfJXy_uSLlKyre2hjF0-J1meBDn0PlShk0uQy6JghlqEoqXNnskq7YawteF6QWtHefP9wN2CW_Xbt0O9kq1tkpznG0a5-mEm4bYAV1FGOnD1mt_ooYdzKxm7KzTB11DLX2-81Zbe2Z1suy7oXiWNR3VSb-zMfIb5D4oIxF8BiNfN0q08RwT108FcB1bx4lekkATGld3nRbf8ApVPhB72VNrAIF0F1rAFBWTtfgvBKZaxrYSyZq73R_neMdvZEtxWTk5fii_bLVe7VdNZMcO55sofH61eQC_QIIsoYswZP4rw6dsTa68ZRgKUNs"
       }
-  ],
-  "signatureType": "ESIGN",
-  "state": "IN_PROCESS"
-}
-```
+   ],
+   "name": "Terms and Conditions",
+   "participantSetsInfo": [
+      {
+         "memberInfos": [
+         {
+            "email": "adobesigndemo+customer@outlook.com"
+         }
+         ],
+         "order": 1,
+         "role": "SIGNER"
+      },
+      {
+         "memberInfos": [
+            {
+               "email": "adobesigndemo+company@outlook.com"
+            }
+         ],
+         "order": 1,
+         "role": "SIGNER"
+         }
+   ],
+   "signatureType": "ESIGN",
+   "state": "IN_PROCESS"
+   }
+   ```
 
 1. Select **Try it out!**.
 
