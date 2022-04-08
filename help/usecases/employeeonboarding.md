@@ -48,39 +48,39 @@ Adobe's [Document Generation](https://developer.adobe.com/document-services/apis
 
 Let's begin with a Word document that has hard-coded values. The document can be styled any way you want, include graphics, tables, and so forth. Here's the initial document.
 
-![Screenshot of initial document](assets/automatelegal_1.png)
+![Screenshot of initial document](assets/onboarding_1.png)
 
 Document Generation works by adding "tokens" to a Word document that are replaced with your data. While these tokens can be entered manually, there is a [Microsoft Word add-in](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin/) that makes this easier to do. Opening it up provides a tool for authors to define tags, or sets of data, that can be used in your document. 
 
-![Screenshot of Document Tagger](assets/automatelegal_2.png)
+![Screenshot of Document Tagger](assets/onboarding_2.png)
 
 You can either upload JSON information from a local file, copy in JSON text, or select to continue with initial data. Doing so lets you define your tags in an ad hoc manner based on your particular needs. In this example, only a tag for name, role, salary, and location is needed. This is done by using the **Create Tag** button:
 
-![Screenshot of defining a tag](assets/automatelegal_3.png)
+![Screenshot of defining a tag](assets/onboarding_3.png)
 
 After defining the first tag, you can continue to define as many as you need:
 
-![Screenshot of defined tags](assets/automatelegal_4.png)
+![Screenshot of defined tags](assets/onboarding_4.png)
 
 With the tags defined, you select the text in your document and replace it with the tags where appropriate. In this example, tags are added for name, role, and salary.
 
-![Screenshot of Tags](assets/automatelegal_5.png)
+![Screenshot of Tags](assets/onboarding_5.png)
 
 Document Generation doesn't just support simple tags but logical expressions as well. The second paragraph of the document has text that only applies to people in Louisiana. You can add a conditional expression by going into the Advanced tab of the Document Tagger and defining a condition. Here is how you define a simple equality condition, but note that numerical comparisons and other comparison types are supported as well.
 
-![Screenshot of Condition](assets/automatelegal_6.png)
+![Screenshot of Condition](assets/onboarding_6.png)
 
 This can then be inserted and wrapped around the paragraph:
 
-![Screenshot of Condition in doc](assets/automatelegal_7.png)
+![Screenshot of Condition in doc](assets/onboarding_7.png)
 
 To test how this works, select **Generate document**. The first time you do this, you must sign in with an Adobe ID. After signing in, default JSON is presented that can be manually edited. 
 
-![Screenshot of Data](assets/automatelegal_8.png)
+![Screenshot of Data](assets/onboarding_8.png)
 
 A PDF is generated that can then be viewed or downloaded.
 
-![Screenshot of Generated PDF](assets/automatelegal_9.png)
+![Screenshot of Generated PDF](assets/onboarding_9.png)
 
 While the Document Tagger lets you quickly design and test, once done and in production, you can use one of the SDKs to automate this process. While actual code differs based on specific needs, here's an example of how this code looks in Node.js:
 
@@ -188,13 +188,13 @@ In the final stop of the onboarding process, the employee must sign an agreement
 
 First, design the document that includes the form that needs signing. There are multiple ways of doing this, including a visual designed in the Adobe Sign user dashboard. Another option is to use the Document Generation Word add-in to insert the tags for you. This example requests a signature and date.
 
-![Screenshot of document with Sign Tags](assets/automatelegal_10.png)
+![Screenshot of document with Sign Tags](assets/onboarding10.png)
 
 This document can be saved as a PDF, and using the same method described above, joined with all the documents together. This process creates one cohesive package that contains a personalized greeting, standard corporate documentation, and a final page fit for signing.
 
 The template can be uploaded to the Acrobat Sign dashboard and then used for new agreements. By using the REST API, this document can then be sent to the prospective employee to request their signature.
 
-![Screenshot of signed doc](assets/automatelegal_11.png)
+![Screenshot of signed doc](assets/onboarding_11.png)
 
 ## Experience it yourself
 
